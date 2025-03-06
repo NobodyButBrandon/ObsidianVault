@@ -6,4 +6,4 @@
 1. [[Atomic Habits_ Tiny Changes, Re - James Clear.pdf]]
 ---
 # Notes
-Adio mi amorcito
+Hola
