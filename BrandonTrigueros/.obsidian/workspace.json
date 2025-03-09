@@ -4,49 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "07efb9e01cbf8955",
+        "id": "fa6670435c40fa12",
         "type": "tabs",
         "children": [
           {
-            "id": "b5cf5da2e8242d1d",
+            "id": "2f1c0064c67cce11",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2 - Source Material/Atomic Habits - James Clear.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Atomic Habits - James Clear"
-            }
-          }
-        ]
-      },
-      {
-        "id": "6109c12559e39a3c",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "66c6484dff72a7b9",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "6 - Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Atomic Habits_ Tiny Changes, Re - James Clear"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
         ]
@@ -190,11 +158,22 @@
       "audio-recorder:Start/stop recording": false
     }
   },
-  "active": "b5cf5da2e8242d1d",
+  "active": "ca09d4a150f72f35",
   "lastOpenFiles": [
-    "6 - Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
+    "Other/Certify.md",
+    "1 - Rough Notes/Current action course.md",
+    "4 - Templates/4.1 - Templates.md",
+    "Other/Que se sabe.md",
+    "Untitled.md",
+    "Other",
     "2 - Source Material/Atomic Habits - James Clear.md",
-    "6 - Attachments/Chaos Making a New Science (20th Anni... (Z-Library).pdf",
+    "2 - Source Material/Books/2025 Books.md",
+    "4 - Templates/Main Note.md",
+    "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
+    "Attachments/Chaos Making a New Science (20th Anni... (Z-Library).pdf",
+    "C.md",
+    "6 - Attachments/C how to program whit an introduction to C++ .pdf",
+    "Que se sabe.md",
     "2 - Source Material/Untitled.md",
     "2 - Source Material/Papers",
     "2 - Source Material/Books",
@@ -203,12 +182,8 @@
     "BrandonTriguerosObsidian",
     "6 - Attachments/Untitled.md",
     "4 - Templates/Source Material Note.md",
-    "4 - Templates/Main Note.md",
-    "Untitled.md",
     "6 - Attachments/Atomic Habits An Easy  Proven Way to Build Good Habits  Break Bad Ones by James Clear (z-lib.org).epub",
     "4 - Templates/PDF-EPUB attachment.md",
-    "6 - Attachments/Atomic Habits An Easy  Proven Way to Build Good Habits  Break Bad Ones by James Clear (z-lib.org) 1.epub",
-    "6 - Attachments",
     "2 - Source Material/Atomic Habits - Carl Newportman.md",
     "5 - Main Notes/Untitled.md",
     "Hábitos Atómicos.md",
