@@ -3,5 +3,9 @@
   "newFileFolderPath": "Other",
   "showInlineTitle": false,
   "attachmentFolderPath": "6 - Attachments",
-  "promptDelete": false
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "strictLineBreaks": false,
+  "showLineNumber": false
 }
