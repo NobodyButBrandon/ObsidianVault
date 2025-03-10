@@ -15,7 +15,7 @@ Go to https://youglish.com/pronounce/Certify/english for pronunciation and furth
 Certificar
 ___
 ![[Recording 20250309193451.m4a]]
-<!--SR:!2025-03-10,1,230!2025-03-11,2,248-->
+<!--SR:!2025-03-13,3,250!2025-03-11,2,248-->
 +++
 
 #englishcards
