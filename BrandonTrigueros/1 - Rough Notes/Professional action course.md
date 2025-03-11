@@ -29,7 +29,7 @@ This consist in approving all my courses from 1-2025 semester. Which includes:
 - Numerical analysis
 - Advanced databases
 - Experiment design
-- Theatre Appreciation
+- Theatre [[Appreciation]]
 
 It also includes comply with my hours at the CAP. I believe that if I [[diligently]] do all 6 weekly hours we (me and Milton) can finish the system by the end of the semester.
 

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "e2956f6de5885189",
+        "id": "94b288870693aeae",
         "type": "tabs",
         "children": [
           {
-            "id": "fe7171b24ab66b15",
+            "id": "c3f213c4980d6a92",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "4 - Templates/English Flashcard Note.md",
+                "file": "1 - Rough Notes/Professional action course.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,21 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "English Flashcard Note"
+              "title": "Professional action course"
+            }
+          },
+          {
+            "id": "9bfbc03ce0eaa29d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Graph view"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -183,13 +194,17 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
-      "obsidian-youglish-plugin:Youglish Plugin": false
+      "obsidian-youglish-plugin:Youglish Plugin": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "fe7171b24ab66b15",
+  "active": "9bfbc03ce0eaa29d",
   "lastOpenFiles": [
+    "4 - Templates/English Flashcard Note.md",
+    "Other/Appreciation.md",
     "1 - Rough Notes/Professional action course.md",
+    "Other/diligently.md",
+    "Other/Advanced databases.md",
     "Other/personal.md",
     "2 - Source Material/Atomic Habits - James Clear.md",
     "4 - Templates/Main Note.md",
@@ -206,14 +221,12 @@
     "Other/Certify.md",
     "Other/Neural networks.md",
     "Attachments/Artificial-Intelligence-A-Modern-Approach-4th.pdf",
-    "Other/diligently.md",
     "6 - Attachments/Recording 20250309193451.m4a",
     "6 - Attachments/Recording 20250309193428.m4a",
     "6 - Attachments/Recording 20250309193333.m4a",
     "6 - Attachments/Recording 20250309193359.m4a",
     "6 - Attachments/Recording 20250309193254.m4a",
     "6 - Attachments/Recording 20250309173123.m4a",
-    "4 - Templates/English Flashcard Note.md",
     "Other/responsibilities.md",
     "Other/courses.md",
     "4 - Templates/4.1 - Templates.md",
@@ -223,8 +236,6 @@
     "Untitled.md",
     "2 - Source Material/Books/2025 Books.md",
     "C.md",
-    "Que se sabe.md",
-    "2 - Source Material/Untitled.md",
     "Untitled.canvas"
   ]
 }

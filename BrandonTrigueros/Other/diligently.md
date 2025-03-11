@@ -4,6 +4,7 @@ ___
 ??
 
 diligentemente
+<!--SR:!2000-01-01,1,250!2025-03-15,4,270-->
 +++
 
 #englishcards

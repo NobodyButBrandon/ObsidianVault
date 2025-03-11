@@ -10,12 +10,12 @@ ___
 - It'll also <u>certify</u> that you're employed, which can further [[assuage]] any concerns
 ___
 Go to https://youglish.com/pronounce/Certify/english for pronunciation and further information
-??
+?
 
 Certificar
 ___
 ![[Recording 20250309193451.m4a]]
-<!--SR:!2025-03-13,3,250!2025-03-11,2,248-->
+<!--SR:!2025-03-13,3,250-->
 +++
 
 #englishcards
