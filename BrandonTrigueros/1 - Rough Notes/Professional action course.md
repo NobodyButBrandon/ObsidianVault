@@ -52,7 +52,7 @@ For problem solving skills I recommend grinding Leetcode. Here's the [roadmap](h
 ___
 **English**
 For English my plan is to practice every day as much as I can and I am doing flashcards but that's not enough to get certified.
-#TODO -> Find a way to step up my english and get certified.
+#TODO -> Define a structured English preparation plan.
 ___
 # The System
 In the making...

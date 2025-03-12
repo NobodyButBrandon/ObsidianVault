@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other/Home.md",
+                "file": "1 - Rough Notes/Professional action course.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Professional action course"
             }
           }
         ]
@@ -182,19 +182,21 @@
       "audio-recorder:Start/stop recording": false,
       "obsidian-youglish-plugin:Youglish Plugin": false,
       "homepage:Open homepage": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "obsidian-google-tasks:Google Tasks": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "1 - Rough Notes/Advanced databases.md",
+    "Other/AI UCR course assignments.md",
+    "1 - Rough Notes/Professional action course.md",
     "Other/Home.md",
+    "1 - Rough Notes/Advanced databases.md",
     "Other/assuage.md",
     "Other/Mathematics books.md",
     "Other/Certify.md",
     "Other/Artificial Intelligence books.md",
     "Other/AI cool projects ideas.md",
-    "Other/AI UCR course assignments.md",
     "Attachments/Think Python.pdf",
     "Attachments/Cracking the Coding Interview.pdf",
     "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
@@ -204,7 +206,6 @@
     "4 - Templates/English Flashcard Note.md",
     "2 - Source Material/Books/2025 Books.md",
     "2 - Source Material/Books",
-    "1 - Rough Notes/Professional action course.md",
     "2 - Source Material/Untitled.md",
     "Certify.md",
     "Other/diligently.md",

@@ -1,3 +1,3 @@
-# Brandon Trigueross Vault
+# Brandon Trigueros Vault
 
 [[Professional action course]]
