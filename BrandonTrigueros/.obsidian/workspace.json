@@ -30,57 +30,8 @@
               "icon": "lucide-file",
               "title": "Home"
             }
-          },
-          {
-            "id": "3c59679fbbfb9fff",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough Notes/Professional action course.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Professional action course"
-            }
-          },
-          {
-            "id": "7765a8876a1c47b9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "1 - Rough Notes/Advanced databases.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Advanced databases"
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -153,12 +104,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Other/AI UCR course assignments.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from AI UCR course assignments"
+              "title": "Outgoing links"
             }
           },
           {
@@ -168,9 +118,7 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
+                "useHierarchy": true
               },
               "icon": "lucide-tags",
               "title": "Tags"
@@ -204,19 +152,9 @@
               "icon": "links-coming-in",
               "title": "Backlinks for Chaos Making a New Science (20th Anni... (Z-Library)"
             }
-          },
-          {
-            "id": "5aed9362e6996d94",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -232,48 +170,43 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
-      "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-youglish-plugin:Youglish Plugin": false,
       "homepage:Open homepage": false
     }
   },
-  "active": "7765a8876a1c47b9",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "1 - Rough Notes/Professional action course.md",
-    "Other/Home.md",
-    "1 - Rough Notes/Advanced databases.md",
-    "4 - Templates/English Flashcard Note.md",
-    "Other/Appreciation.md",
-    "Other/diligently.md",
-    "Other/Advanced databases.md",
-    "Other/personal.md",
-    "2 - Source Material/Atomic Habits - James Clear.md",
-    "4 - Templates/Main Note.md",
-    "4 - Templates/Source Material Note.md",
+    "Other/assuage.md",
     "Other/Mathematics books.md",
-    "6 - Attachments/Matemáticas - Shortcut.lnk",
-    "Attachments/Cracking the Coding Interview.pdf",
-    "Attachments/Think Python.pdf",
+    "Other/Certify.md",
     "Other/Artificial Intelligence books.md",
     "Other/AI cool projects ideas.md",
     "Other/AI UCR course assignments.md",
-    "Other/Artificial Intelligence.md",
-    "Other/assuage.md",
-    "Other/Certify.md",
-    "Other/Neural networks.md",
+    "Attachments/Think Python.pdf",
+    "Attachments/Cracking the Coding Interview.pdf",
+    "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
     "Attachments/Artificial-Intelligence-A-Modern-Approach-4th.pdf",
     "6 - Attachments/Recording 20250309193451.m4a",
-    "6 - Attachments/Recording 20250309193428.m4a",
-    "6 - Attachments/Recording 20250309193333.m4a",
-    "6 - Attachments/Recording 20250309193359.m4a",
-    "6 - Attachments/Recording 20250309193254.m4a",
-    "6 - Attachments/Recording 20250309173123.m4a",
-    "Other/responsibilities.md",
-    "Other/courses.md",
-    "4 - Templates/4.1 - Templates.md",
-    "Other/temporal.md",
-    "Other/temp.md",
-    "Other/Que se sabe.md",
+    "6 - Attachments/Recording 20250309175538.m4a",
+    "4 - Templates/English Flashcard Note.md",
+    "2 - Source Material/Books/2025 Books.md",
+    "2 - Source Material/Books",
+    "1 - Rough Notes/Professional action course.md",
+    "2 - Source Material/Untitled.md",
+    "1 - Rough Notes/Advanced databases.md",
+    "Certify.md",
+    "Other/Home.md",
+    "Other/diligently.md",
+    "Other/Appreciation.md",
+    "Other/Advanced databases.md",
+    "Other/personal.md",
+    "2 - Source Material/Atomic Habits - James Clear.md",
+    "6 - Attachments/Chaos Making a New Science (20th Anni... (Z-Library).pdf",
+    "2 - Source Material/Papers",
+    "2 - Source Material/Podcasts",
+    "6 - Attachments/Untitled.md",
+    "4 - Templates/Source Material Note.md",
+    "4 - Templates/Main Note.md",
     "Untitled.md",
     "Untitled.canvas"
   ]
