@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other/Home.md",
+                "file": "1 - Rough Notes/Advanced databases.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Advanced databases"
             }
           }
         ]
@@ -152,9 +152,19 @@
               "icon": "links-coming-in",
               "title": "Backlinks for Chaos Making a New Science (20th Anni... (Z-Library)"
             }
+          },
+          {
+            "id": "f5b27a6f428d5d4d",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -171,11 +181,13 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-youglish-plugin:Youglish Plugin": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Other/Home.md",
     "Other/assuage.md",
     "Other/Mathematics books.md",
     "Other/Certify.md",
@@ -195,7 +207,6 @@
     "2 - Source Material/Untitled.md",
     "1 - Rough Notes/Advanced databases.md",
     "Certify.md",
-    "Other/Home.md",
     "Other/diligently.md",
     "Other/Appreciation.md",
     "Other/Advanced databases.md",
