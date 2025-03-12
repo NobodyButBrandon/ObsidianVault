@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "0e391839c571fc34",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "b48e82925b628604",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Home"
             }
+          },
+          {
+            "id": "cf4ce8ab25ebb3b6",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough Notes/Course of Action.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Course of Action"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -88,7 +113,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 265.5110321044922,
+    "collapsed": true
   },
   "right": {
     "id": "58dbf07b0817e697",
@@ -159,12 +185,12 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -181,29 +207,35 @@
       "command-palette:Open command palette": false,
       "audio-recorder:Start/stop recording": false,
       "obsidian-youglish-plugin:Youglish Plugin": false,
-      "homepage:Open homepage": false
+      "homepage:Open homepage": false,
+      "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "ca09d4a150f72f35",
+  "active": "cf4ce8ab25ebb3b6",
   "lastOpenFiles": [
-    "Other/assuage.md",
+    "Other/Home.md",
+    "1 - Rough Notes/Course of Action.md",
+    "Other/AI UCR course assignments.md",
     "Other/Mathematics books.md",
-    "Other/Certify.md",
+    "Attachments/Artificial Intelligence A Modern Approach.pdf",
+    "Attachments/Matemática Booleana.pdf",
+    "Attachments/Mathematics for Machine Learning.pdf",
+    "Attachments/Ecuaciones Diferenciales.pdf",
+    "Other/Matemáticas - Shortcut.lnk.md",
     "Other/Artificial Intelligence books.md",
+    "Attachments/Pasted image 20250312123048.png",
+    "1 - Rough Notes/Advanced databases.md",
+    "Other/assuage.md",
+    "Other/Certify.md",
     "Other/AI cool projects ideas.md",
     "Attachments/Cracking the Coding Interview.pdf",
     "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
-    "Attachments/Artificial-Intelligence-A-Modern-Approach-4th.pdf",
-    "6 - Attachments/Recording 20250309193451.m4a",
+    "Attachments/Recording 20250309193451.m4a",
     "4 - Templates/English Flashcard Note.md",
     "2 - Source Material/Books/2025 Books.md",
     "2 - Source Material/Books",
-    "1 - Rough Notes/Professional action course.md",
-    "Other/AI UCR course assignments.md",
-    "Other/Home.md",
-    "1 - Rough Notes/Advanced databases.md",
     "Attachments/Think Python.pdf",
-    "6 - Attachments/Recording 20250309175538.m4a",
+    "Attachments/Recording 20250309175538.m4a",
     "2 - Source Material/Untitled.md",
     "Certify.md",
     "Other/diligently.md",
@@ -211,9 +243,6 @@
     "Other/Advanced databases.md",
     "Other/personal.md",
     "2 - Source Material/Atomic Habits - James Clear.md",
-    "6 - Attachments/Chaos Making a New Science (20th Anni... (Z-Library).pdf",
-    "2 - Source Material/Papers",
-    "2 - Source Material/Podcasts",
     "6 - Attachments/Untitled.md",
     "4 - Templates/Source Material Note.md",
     "4 - Templates/Main Note.md",
