@@ -58,12 +58,11 @@ ___
 # The System
 **Core Principles**: Time-blocking + Prioritization (Eisenhower Matrix) + Consistency (Atomic Habits)
 ## Weekly Structure
-**Available time**: 83 hrs/week
 
 ### 1. University Responsibilities
-**Time**: 66 hrs/week
+**Time**: 55 hrs/week
 - Classes: 25 hrs (5 courses × 5 hrs each)
-- Study work: 23 hrs (4 courses × 5.75 hrs each).
+- Study work: 15 hrs (5 courses × 3 hrs each).
 - Cap System Work: 6 hrs (2 sessions × 3 hrs each with Milton - Track in [Jira](https://brandontrg.atlassian.net/jira/software/projects/KAN/boards/1))
 - CEA Work: 12 hrs (8 hours in-place - 4 hours from home)
 
