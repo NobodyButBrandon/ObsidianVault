@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "0e391839c571fc34",
+        "id": "57d23e469293625f",
         "type": "tabs",
         "children": [
           {
-            "id": "b48e82925b628604",
+            "id": "1d390fc8eaf0e018",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "cf4ce8ab25ebb3b6",
+            "id": "fa1ccf4ebe9ac5b0",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -53,6 +53,18 @@
               },
               "icon": "lucide-file",
               "title": "Course of Action"
+            }
+          },
+          {
+            "id": "c11921c0018d13a2",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/Introduction to Algorithms.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Introduction to Algorithms"
             }
           }
         ],
@@ -113,8 +125,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922,
-    "collapsed": true
+    "width": 265.5110321044922
   },
   "right": {
     "id": "58dbf07b0817e697",
@@ -211,10 +222,15 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "cf4ce8ab25ebb3b6",
+  "active": "fa1ccf4ebe9ac5b0",
   "lastOpenFiles": [
     "Other/Home.md",
+    "Attachments/Introduction to Algorithms.pdf",
     "1 - Rough Notes/Course of Action.md",
+    "Attachments/Introduction to algorithms [solutions... (Z-Library).pdf",
+    "Other/AI cool projects ideas.md",
+    "Attachments/Pasted image 20250312175001.png",
+    "Attachments/Pasted image 20250312123048.png",
     "Other/AI UCR course assignments.md",
     "Other/Mathematics books.md",
     "Attachments/Artificial Intelligence A Modern Approach.pdf",
@@ -223,19 +239,15 @@
     "Attachments/Ecuaciones Diferenciales.pdf",
     "Other/Matemáticas - Shortcut.lnk.md",
     "Other/Artificial Intelligence books.md",
-    "Attachments/Pasted image 20250312123048.png",
     "1 - Rough Notes/Advanced databases.md",
     "Other/assuage.md",
     "Other/Certify.md",
-    "Other/AI cool projects ideas.md",
     "Attachments/Cracking the Coding Interview.pdf",
     "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
     "Attachments/Recording 20250309193451.m4a",
     "4 - Templates/English Flashcard Note.md",
     "2 - Source Material/Books/2025 Books.md",
     "2 - Source Material/Books",
-    "Attachments/Think Python.pdf",
-    "Attachments/Recording 20250309175538.m4a",
     "2 - Source Material/Untitled.md",
     "Certify.md",
     "Other/diligently.md",
