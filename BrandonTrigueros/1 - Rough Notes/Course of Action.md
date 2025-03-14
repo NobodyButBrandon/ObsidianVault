@@ -7,19 +7,18 @@ ___
 # Goals
 1. Pass all my courses (5)
 2. Finish CAP system
-3. Comply with CEA hours
 
-4. Read AI book
-5. Do AI course assignments
-6. Understand background mathematics
-7. Read Python book / learn Python
-8. Do AI personal cool project
-9. Build portfolio
+3. Read AI book
+4. Do AI course assignments
+5. Understand background mathematics
+6. Read Python book / learn Python
+7. Do AI personal cool project
+8. Build portfolio
 
-10. Master data structures and algorithms
-11. Grind Leetcode
-12. ~~[[Certify]] in English~~ <- **Postpone**
-13. Land a tech job
+9. Master data structures and algorithms
+10. Grind Leetcode
+11. ~~[[Certify]] in English~~ <- **Postpone**
+12. Land a tech job
 ___
 #  Courses of action
 From my goals list I identify the following 3 main courses of action:
@@ -31,6 +30,7 @@ This consist in approving all my courses from 1-2025 semester. Which includes:
 - [[Advanced databases]]
 - Experiment design
 - Theatre appreciation
+- National Reality Seminar
 
 It also includes comply with my hours at the CAP. I believe that if I [[diligently]] do all 6 weekly hours we (me and Milton) can finish the system by the end of the semester. In addition to this I acquired another 12 additional hours at the CEA so I have to also comply with those.
 
@@ -58,83 +58,79 @@ ___
 # The System
 **Core Principles**: Time-blocking + Prioritization (Eisenhower Matrix) + Consistency (Atomic Habits)
 ## Weekly Structure
-
+**Sleep schedule**: 22:00 to 5:00 every day
 ### 1. University Responsibilities
-**Time**: 55 hrs/week
-- Classes: 25 hrs (5 courses × 5 hrs each)
-- Study work: 15 hrs (5 courses × 3 hrs each).
+**Time**: 46 hrs/week
+___
+- Classes: 25 hrs (5 courses × 5 hrs each, Mon to Fri).
+- Study work: 15 hrs (3 courses × 5 hrs each).
+	-> Seminar and Artistic count as 1 course.
 - Cap System Work: 6 hrs (2 sessions × 3 hrs each with Milton - Track in [Jira](https://brandontrg.atlassian.net/jira/software/projects/KAN/boards/1))
-- CEA Work: 12 hrs (8 hours in-place - 4 hours from home)
 
-**Action**:
+**Actions**:
 1. Block CAP work as non-negotiable sessions.
-	Session 1: Saturday 13:00 to 16:00
-	Session 2: Saturday 16:30 to 19:30
+	Session 1: Saturday 8:30 to 11:30
+	Session 2: Saturday 13:00 to 16:00
 	
-2. Block CEA work as non-negotiable sessions.
-	Session 1 (on-site): Wednesday 8:00 to 17:00
-	Session 2 (from home): Saturday 8:00 to 12:00
-	
-3. Use work days afternoons to do assignments and as study time. My main goal is to learn so i **commit** to study hard every hour i have.
-	![[Pasted image 20250312175001.png]]
+2. Use workdays afternoons to do assignments and as study time. My main goal is to learn so i **commit** to study hard every hour i have.
+	![[Pasted image 20250314081728.png]]
 
 ### 2. Career (AI) Projects
-**Time**: 17 hrs/week
+**Time**: 18 hrs/week
 ___
-**Phase 1: Foundations (Weeks 1-6)**
-- **AI Book & Math**: 8 hrs/week
-	- Read 2 chapters/week + notes using [AI book](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FArtificial%20Intelligence%20A%20Modern%20Approach.pdf)
-	- Study linear algebra/probability (3 hrs/week) using [Mathematics for ML](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FMathematics%20for%20Machine%20Learning.pdf)
+#### Phase 1: Foundations (Weeks 1-6)
+- **AI Book & Math**: 9 hrs/week
+	- Study 2 chapters/week + notes using [AI book](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FArtificial%20Intelligence%20A%20Modern%20Approach.pdf)
+	- Study linear algebra (3 hrs/week) using [Mathematics for ML](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FMathematics%20for%20Machine%20Learning.pdf)
+	- Build an algorithm/week with the new knowledge.
 
-- **Python Basics**: 4 hrs/week
-	- Complete Think Python exercises (track progress here) <- #TODO: create GitHub repository and link readme here.
+- **Python Basics**: 3 hrs/week
+	- Do some [[Think Python.pdf]] exercises (track progress here) <- #TODO: create GitHub repository and link readme here.
 	
-- **AI Course Assignments**: 5 hrs/week
-	- Repurpose old assignments into portfolio snippets.
-___
-**Phase 2: Build (Weeks 7-12)**
+- **AI Course Assignments**: 6 hrs/week
+	- Repurpose old assignments into portfolio snippets. See [[AI UCR course assignments]]
+#### Phase 2: Build (Weeks 7-12)
 - **Cool Project**: 15 hrs/week
-	- Start project (use [[AI cool projects ideas]]).
+	- Start 1 deployable project (use [[AI cool projects ideas]]).
 	- Use Python + libraries (NumPy, TensorFlow).
-	- Research and develop.
+	- Research & develop.
 	
-- **Portfolio**: 2 hrs/week
+- **Portfolio**: 3 hrs/week
 	- Build GitHub.
 	- Document projects.
-___
-**Phase 3: Polish (Weeks 13-16)**
+#### Phase 3: Polish (Weeks 13-16)
 - Refine projects, write case studies, and network on LinkedIn.
-___
+
 ### 3. Problem Solving & Job Prep
-- **Time**: 9 hrs/week
-
-**Data Structures & Algorithms**
-- **Study**: 6 hrs/week (use [CLRS](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FIntroduction%20to%20Algorithms.pdf) + spaced repetition).
-- **Leetcode**: 3 hrs/week (follow [Neetcode Roadmap](https://neetcode.io/roadmap)).
-
-**English Level step-up**
+- **Time**: 10 hrs/week
+___
+#### Data Structures & Algorithms
+- **Study**: 4 hrs/week (use [CLRS](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FIntroduction%20to%20Algorithms.pdf) + spaced repetition).
+- **Leetcode**: 6 hrs/week (follow [Neetcode Roadmap](https://neetcode.io/roadmap)).
+#### English Level step-up
 ~~- **TOEFL Prep**:~~ <- **Postpone**
 - Flashcards in Obsidian.
-- Passive Practice (Videos, notetaking in english and in job interviews).
-
-**Job Applications**
-- **Weeks 8–16**: Apply to 5 jobs/week (tailor resume/portfolio).
-- Practice behavioral interviews (use Cracking the Coding Interview).
+- Passive Practice (YouTube videos, notetaking in english and job interviews).
+#### Job Applications
+- **Weeks 4–16**: Apply to 5 jobs/week (tailor resume/portfolio).
+- Practice behavioral interviews (use [[Cracking the Coding Interview.pdf]]).
 
 ## Tools, Tracking & Techniques
 
+### Tools
 1. [**Jira**](https://brandontrg.atlassian.net/jira/software/projects/KAN/boards/1):
 	- CAP project milestones.
 2. [**Google Calendar**](https://calendar.google.com/calendar/u/0/r/week): 
-	- Time-block study sessions. 
-	- Track deadlines.
+	- Time-block study sessions.
+	- Track university deadlines.
 3. [**Obsidian**](https://github.com/BrandonTrigueros/ObsidianVault):
 	- Flashcards for English vocabulary.
-	- University courses notetaking. 
+	- University courses notetaking and tasks tracking.
 	- Artificial Intelligence and DSA notetaking.
-	- DSA examples & Leetcode and progress #TODO <- Create DSA examples & Leetcode progress table note (incorporate spaced repetition).
+	- DSA examples & Leetcode progress #TODO <- Create DSA examples & Leetcode progress table note (incorporate spaced repetition).
 4. [**GitHub**](https://github.com/):
 	- Version control for CAP system.
+	- University Repositories.
 	- Portfolio for AI projects.
 	- Think Python Exercises and notes.
 
@@ -148,8 +144,8 @@ ___
 2. What needs more time?
 3. List 3 small victories.
 4. List next week objetives.
-#TODO <- Make weekly note template to review on Sunday night.
+#TODO <- Make weekly note template to review on Sunday nights.
 
 ---
 
-**Next Step**: Draft a 4-month calendar with key milestones (e.g., CAP launch by Week 10, Leetcode 150 problems by Week 16). Let’s prioritize ruthlessly – cut non-essentials!
+**Next Step**: Draft a 4-month calendar with key milestones (e.g., CAP launch by Week 10, Leetcode 150 problems by Week 16).
