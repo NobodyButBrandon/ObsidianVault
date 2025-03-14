@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "de4fe78a35084831",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "60e368dbbe71a492",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,8 +30,81 @@
               "icon": "lucide-file",
               "title": "Course of Action"
             }
+          },
+          {
+            "id": "aa5e285a70402087",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other/Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
+          },
+          {
+            "id": "78b7932833ebc2c3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "1 - Rough Notes/Advanced databases.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Advanced databases"
+            }
+          },
+          {
+            "id": "34299367de81a8a7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other/Lecture 14-Mar-2025.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Lecture 14-Mar-2025"
+            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -185,8 +258,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "60e368dbbe71a492",
+  "active": "34299367de81a8a7",
   "lastOpenFiles": [
+    "Other/Lecture 14-Mar-2025.md",
+    "1 - Rough Notes/Advanced databases.md",
     "Other/Home.md",
     "1 - Rough Notes/Course of Action.md",
     "Attachments/Pasted image 20250314081728.png",
@@ -216,7 +291,6 @@
     "Attachments/Ecuaciones Diferenciales.pdf",
     "Other/Matemáticas - Shortcut.lnk.md",
     "Other/Artificial Intelligence books.md",
-    "1 - Rough Notes/Advanced databases.md",
     "Other/Flashcards/assuage.md",
     "Other/Flashcards/Certify.md",
     "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
