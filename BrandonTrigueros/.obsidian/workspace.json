@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1 - Rough Notes/Course of Action.md",
+                "file": "Other/Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Course of Action"
+              "title": "Home"
+            }
+          },
+          {
+            "id": "11a1944d6ce5356b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other/Numerical Analysis.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Numerical Analysis"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -185,43 +210,50 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "11a1944d6ce5356b",
   "lastOpenFiles": [
-    "Attachments/Cracking the Coding Interview.pdf",
-    "1 - Rough Notes/Course of Action.md",
+    "Other/Numerical Analysis.md",
     "Other/Home.md",
+    "Other/Lecture 14-Mar-2025.md",
+    "1 - Rough Notes/Advanced databases.md",
+    "1 - Rough Notes/Course of Action.md",
+    "Attachments/Pasted image 20250314081728.png",
+    "Attachments/Pasted image 20250313220628.png",
+    "Other/Cracking the Coding Interview.pdf.md",
+    "Attachments/Cracking the Coding Interview.pdf",
+    "Attachments/Pasted image 20250313214201.png",
+    "Attachments/Artificial Intelligence A Modern Approach.pdf",
+    "4 - Templates/Main Note.md",
+    "Other/Hola.md",
+    "4 - Templates/4.1 - Templates.md",
+    "Attachments/Mathematics for Machine Learning.pdf",
+    "4 - Templates/Source Material Note.md",
+    "4 - Templates/English Flashcard Note.md",
+    "Attachments/Pasted image 20250313201840.png",
+    "Attachments/Pasted image 20250312175001.png",
+    "Other/Flashcards/diligently.md",
+    "Other/Flashcards",
+    "Attachments/Cracking the Coding Interview.pdf",
     "Attachments/Introduction to Algorithms.pdf",
     "Attachments/Introduction to algorithms [solutions... (Z-Library).pdf",
     "Other/AI cool projects ideas.md",
-    "Attachments/Pasted image 20250312175001.png",
     "Attachments/Pasted image 20250312123048.png",
     "Other/AI UCR course assignments.md",
     "Other/Mathematics books.md",
-    "Attachments/Artificial Intelligence A Modern Approach.pdf",
     "Attachments/Matemática Booleana.pdf",
-    "Attachments/Mathematics for Machine Learning.pdf",
     "Attachments/Ecuaciones Diferenciales.pdf",
     "Other/Matemáticas - Shortcut.lnk.md",
     "Other/Artificial Intelligence books.md",
-    "1 - Rough Notes/Advanced databases.md",
-    "Other/assuage.md",
-    "Other/Certify.md",
+    "Other/Flashcards/assuage.md",
+    "Other/Flashcards/Certify.md",
     "Attachments/Atomic Habits_ Tiny Changes, Re - James Clear.pdf",
-    "Attachments/Recording 20250309193451.m4a",
-    "4 - Templates/English Flashcard Note.md",
     "2 - Source Material/Books/2025 Books.md",
-    "2 - Source Material/Books",
     "2 - Source Material/Untitled.md",
     "Certify.md",
-    "Other/diligently.md",
     "Other/Appreciation.md",
     "Other/Advanced databases.md",
     "Other/personal.md",
     "2 - Source Material/Atomic Habits - James Clear.md",
-    "6 - Attachments/Untitled.md",
-    "4 - Templates/Source Material Note.md",
-    "4 - Templates/Main Note.md",
-    "Untitled.md",
     "Untitled.canvas"
   ]
 }
