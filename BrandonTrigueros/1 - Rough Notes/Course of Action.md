@@ -32,7 +32,7 @@ This consist in approving all my courses from 1-2025 semester. Which includes:
 - Theatre appreciation
 - National Reality Seminar
 
-It also includes comply with my hours at the CAP. I believe that if I [[diligently]] do all 6 weekly hours we (me and Milton) can finish the system by the end of the semester. In addition to this I acquired another 12 additional hours at the CEA so I have to also comply with those.
+It also includes comply with my hours at the CAP. I believe that if I [[diligently]] do all 6 weekly hours we (me and Milton) can finish the system by the end of the semester.
 
 ## 2. Career Interest (AI) projects
 I want to build a career as a artificial intelligence or machine learning engineer. To do so I need to learn about classical artificial intelligence, neural networks, machine learning, AI mathematics and more. One way to start is by studying [[Artificial Intelligence A Modern Approach.pdf]]. I also need to understand the underlying mathematics of this topics. Do this by studying [[Mathematics for Machine Learning.pdf]].
