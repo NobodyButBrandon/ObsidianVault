@@ -5,7 +5,7 @@ ___
 **Total**: Aprox. 4 months, 15 weeks, 105 days
 ___
 # Goals
-1. Pass all my courses (5)
+1. Pass all my courses (6)
 2. Finish CAP system
 
 3. Read AI book
