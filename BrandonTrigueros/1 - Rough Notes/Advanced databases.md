@@ -1,6 +1,5 @@
 # Course information
 
-
 # Materials
 
 # Lectures
