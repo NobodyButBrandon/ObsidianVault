@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8404f0c5f615cd99",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +32,7 @@
             }
           },
           {
-            "id": "1464d16d156e8c12",
+            "id": "365306026401fbf6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -56,26 +56,7 @@
             }
           },
           {
-            "id": "97caa863df844cf6",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Attachments/Computer Organization and Architecture.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Computer Organization and Architecture"
-            }
-          }
-        ],
-        "currentTab": 2
-      },
-      {
-        "id": "08c8483eba165110",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "aeee7312c9790b8a",
+            "id": "421460fc06b2cd7c",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -96,6 +77,79 @@
               },
               "icon": "lucide-file",
               "title": "Computer Organization and Architecture - William Stallings"
+            }
+          },
+          {
+            "id": "946cccff90323e8b",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Attachments/Computer Organization and Architecture.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "Computer Organization and Architecture"
+            }
+          }
+        ],
+        "currentTab": 3
+      },
+      {
+        "id": "eb07a41b385eeae5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64692baaf5acdc97",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other/CH1 - Computer Organization and Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CH1 - Computer Organization and Architecture"
+            }
+          }
+        ]
+      },
+      {
+        "id": "c7b8161b73e976b6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b72f61edcd50c0d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Other/CH1 - Computer Organization and Architecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "CH1 - Computer Organization and Architecture"
             }
           }
         ]
@@ -155,7 +209,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 265.5110321044922
+    "width": 214.5,
+    "collapsed": true
   },
   "right": {
     "id": "58dbf07b0817e697",
@@ -252,13 +307,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "aeee7312c9790b8a",
+  "active": "2b72f61edcd50c0d",
   "lastOpenFiles": [
     "Attachments/Computer Organization and Architecture.pdf",
+    "Other/CH1 - Computer Organization and Architecture.md",
     "Other/Computer Organization and Architecture - William Stallings.md",
-    "Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "Other/Computer architecture.md",
     "Other/Home.md",
+    "Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "Attachments/Modern Computer Architecture and Organizationpdf.pdf",
     "1 - Rough Notes/Advanced databases.md",
     "Other/Computer Architecture.md",
@@ -294,7 +350,6 @@
     "Other/Flashcards/assuage.md",
     "Other/Flashcards/Certify.md",
     "2 - Source Material/Books/2025 Books.md",
-    "2 - Source Material/Untitled.md",
     "Untitled.canvas"
   ]
 }

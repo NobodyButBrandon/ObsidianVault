@@ -16,5 +16,13 @@
       ],
       "key": "Y"
     }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Shift"
+      ],
+      "key": "F22"
+    }
   ]
 }
