@@ -25,7 +25,7 @@ From my goals list I identify the following 3 main courses of action:
 
 ## 1. University responsibilities
 This consist in approving all my courses from 1-2025 semester. Which includes:
-- Computer architecture
+- [[Computer architecture]]
 - Numerical analysis
 - [[Advanced databases]]
 - Experiment design
