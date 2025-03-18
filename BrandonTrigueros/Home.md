@@ -5,4 +5,4 @@
 
 ## UCR 1-2025
 [[Advanced databases]]
-[[Computer architecture]]
+[[7 - Other/Computer architecture|Computer architecture]]
