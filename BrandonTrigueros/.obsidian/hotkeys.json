@@ -20,7 +20,7 @@
   "workspace:split-vertical": [
     {
       "modifiers": [
-        "Shift"
+        "Mod"
       ],
       "key": "F22"
     }

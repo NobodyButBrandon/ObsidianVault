@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4f67cb5d822096cd",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "a07e3d99fde696d8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other/Home.md",
+                "file": "1 - Rough Notes/Advanced databases.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,11 +28,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Advanced databases"
             }
           },
           {
-            "id": "365306026401fbf6",
+            "id": "828db140839590c5",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -54,102 +54,28 @@
               "icon": "lucide-file",
               "title": "Computer architecture"
             }
-          },
+          }
+        ],
+        "currentTab": 1
+      },
+      {
+        "id": "11237227aa121593",
+        "type": "tabs",
+        "children": [
           {
-            "id": "421460fc06b2cd7c",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other/Computer Organization and Architecture - William Stallings.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Computer Organization and Architecture - William Stallings"
-            }
-          },
-          {
-            "id": "946cccff90323e8b",
+            "id": "d8a568782f08a4e9",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Attachments/Computer Organization and Architecture.pdf"
+                "file": "Attachments/Introduction to Algorithms.pdf",
+                "page": 9,
+                "left": -21,
+                "top": 652,
+                "zoom": 0.7181818181818183
               },
               "icon": "lucide-file-text",
-              "title": "Computer Organization and Architecture"
-            }
-          }
-        ],
-        "currentTab": 3
-      },
-      {
-        "id": "eb07a41b385eeae5",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "64692baaf5acdc97",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other/CH1 - Computer Organization and Architecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CH1 - Computer Organization and Architecture"
-            }
-          }
-        ]
-      },
-      {
-        "id": "c7b8161b73e976b6",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "2b72f61edcd50c0d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Other/CH1 - Computer Organization and Architecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "CH1 - Computer Organization and Architecture"
+              "title": "Introduction to Algorithms"
             }
           }
         ]
@@ -209,8 +135,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5,
-    "collapsed": true
+    "width": 214.5
   },
   "right": {
     "id": "58dbf07b0817e697",
@@ -304,19 +229,24 @@
       "audio-recorder:Start/stop recording": false,
       "obsidian-youglish-plugin:Youglish Plugin": false,
       "homepage:Open homepage": false,
-      "obsidian-spaced-repetition:Review flashcards": false
+      "obsidian-spaced-repetition:Review flashcards": false,
+      "pdf-plus:PDF++: Toggle auto-copy": false,
+      "pdf-plus:PDF++: Toggle auto-focus": false,
+      "pdf-plus:PDF++: Toggle auto-paste": false
     }
   },
-  "active": "2b72f61edcd50c0d",
+  "active": "d8a568782f08a4e9",
   "lastOpenFiles": [
-    "Attachments/Computer Organization and Architecture.pdf",
-    "Other/CH1 - Computer Organization and Architecture.md",
-    "Other/Computer Organization and Architecture - William Stallings.md",
     "Other/Computer architecture.md",
-    "Other/Home.md",
+    "Other/Computer Organization and Architecture - William Stallings.md",
+    "Attachments/Introduction to Algorithms.pdf",
+    "Attachments/Recording 20250309193451.m4a",
+    "1 - Rough Notes/Advanced databases.md",
+    "Home.md",
+    "Other/CH1 - Computer Organization and Architecture.md",
+    "Attachments/Computer Organization and Architecture.pdf",
     "Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "Attachments/Modern Computer Architecture and Organizationpdf.pdf",
-    "1 - Rough Notes/Advanced databases.md",
     "Other/Computer Architecture.md",
     "1 - Rough Notes/Course of Action.md",
     "Other/Numerical Analysis.md",
@@ -338,13 +268,11 @@
     "Other/Flashcards/diligently.md",
     "Other/Flashcards",
     "Attachments/Cracking the Coding Interview.pdf",
-    "Attachments/Introduction to Algorithms.pdf",
     "Attachments/Introduction to algorithms [solutions... (Z-Library).pdf",
     "Other/AI cool projects ideas.md",
     "Attachments/Pasted image 20250312123048.png",
     "Other/AI UCR course assignments.md",
     "Other/Mathematics books.md",
-    "Attachments/Matemática Booleana.pdf",
     "Other/Matemáticas - Shortcut.lnk.md",
     "Other/Artificial Intelligence books.md",
     "Other/Flashcards/assuage.md",
