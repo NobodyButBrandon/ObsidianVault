@@ -29,7 +29,7 @@ Short tests & Lab works -> One every 2 or 3 weeks
 | Homeworks         | 10%        |
 
 # Lecture notes
-
+[[18-Mar-2025]]
 
 # Materials
 [[ACID]]
