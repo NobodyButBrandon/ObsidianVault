@@ -105,7 +105,7 @@ ___
 - **Time**: 10 hrs/week
 ___
 #### Data Structures & Algorithms
-- **Study**: 4 hrs/week (use [CLRS](obsidian://open?vault=BrandonTrigueros&file=Attachments%2FIntroduction%20to%20Algorithms.pdf) + spaced repetition).
+- **Study**: 4 hrs/week (use [[Introduction to Algorithms.pdf]] + spaced repetition).
 - **Leetcode**: 6 hrs/week (follow [Neetcode Roadmap](https://neetcode.io/roadmap)).
 #### English Level step-up
 ~~- **TOEFL Prep**:~~ <- **Postpone**

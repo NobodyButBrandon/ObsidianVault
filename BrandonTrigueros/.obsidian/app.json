@@ -8,5 +8,6 @@
   "readableLineLength": true,
   "strictLineBreaks": false,
   "showLineNumber": false,
-  "spellcheck": true
+  "spellcheck": true,
+  "livePreview": true
 }

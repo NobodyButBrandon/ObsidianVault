@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4f67cb5d822096cd",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a07e3d99fde696d8",
+            "id": "1ec23d4440ebcbfb",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "828db140839590c5",
+            "id": "0cc488c7dbcdc658",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Other/Computer architecture.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -52,30 +52,26 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Computer architecture"
+              "title": "Home"
             }
           }
         ],
         "currentTab": 1
       },
       {
-        "id": "11237227aa121593",
+        "id": "519cde5bb63f340e",
         "type": "tabs",
         "children": [
           {
-            "id": "d8a568782f08a4e9",
+            "id": "61e1cd39f1e96d5c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Attachments/Introduction to Algorithms.pdf",
-                "page": 9,
-                "left": -21,
-                "top": 652,
-                "zoom": 0.7181818181818183
+                "file": "Attachments/Course_Program_CI0141.pdf"
               },
               "icon": "lucide-file-text",
-              "title": "Introduction to Algorithms"
+              "title": "Course_Program_CI0141"
             }
           }
         ]
@@ -135,7 +131,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 214.5
+    "width": 214.5,
+    "collapsed": true
   },
   "right": {
     "id": "58dbf07b0817e697",
@@ -209,14 +206,23 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "092507cc8cf3ab1a",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {},
+              "icon": "spreadsheet",
+              "title": "Advanced Tables"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -230,26 +236,32 @@
       "obsidian-youglish-plugin:Youglish Plugin": false,
       "homepage:Open homepage": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "pdf-plus:PDF++: Toggle auto-copy": false,
-      "pdf-plus:PDF++: Toggle auto-focus": false,
-      "pdf-plus:PDF++: Toggle auto-paste": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d8a568782f08a4e9",
+  "active": "0cc488c7dbcdc658",
   "lastOpenFiles": [
-    "Other/Computer architecture.md",
-    "Other/Computer Organization and Architecture - William Stallings.md",
-    "Attachments/Introduction to Algorithms.pdf",
-    "Attachments/Recording 20250309193451.m4a",
     "1 - Rough Notes/Advanced databases.md",
     "Home.md",
+    "4 - Templates/Class Lecture Note.md",
+    "4 - Templates/Source Material Note.md",
+    "4 - Templates/Main Note.md",
+    "4 - Templates/English Flashcard Note.md",
+    "Attachments/Course_Program_CI0141.pdf",
+    "Other/bichillo.md",
+    "Attachments/Matemática Booleana.pdf",
+    "1 - Rough Notes/Course of Action.md",
+    "Attachments/Ecuaciones Diferenciales.pdf",
+    "Other/Numerical Analysis.md",
+    "Other/Computer architecture.md",
+    "Attachments/Introduction to Algorithms.pdf",
+    "Other/Computer Organization and Architecture - William Stallings.md",
+    "Attachments/Recording 20250309193451.m4a",
     "Other/CH1 - Computer Organization and Architecture.md",
     "Attachments/Computer Organization and Architecture.pdf",
     "Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "Attachments/Modern Computer Architecture and Organizationpdf.pdf",
     "Other/Computer Architecture.md",
-    "1 - Rough Notes/Course of Action.md",
-    "Other/Numerical Analysis.md",
     "Other/Lecture 14-Mar-2025.md",
     "Attachments/Pasted image 20250314081728.png",
     "Attachments/Pasted image 20250313220628.png",
@@ -257,18 +269,12 @@
     "Attachments/Cracking the Coding Interview.pdf",
     "Attachments/Pasted image 20250313214201.png",
     "Attachments/Artificial Intelligence A Modern Approach.pdf",
-    "4 - Templates/Main Note.md",
     "Other/Hola.md",
     "4 - Templates/4.1 - Templates.md",
     "Attachments/Mathematics for Machine Learning.pdf",
-    "4 - Templates/Source Material Note.md",
-    "4 - Templates/English Flashcard Note.md",
     "Attachments/Pasted image 20250313201840.png",
     "Attachments/Pasted image 20250312175001.png",
     "Other/Flashcards/diligently.md",
-    "Other/Flashcards",
-    "Attachments/Cracking the Coding Interview.pdf",
-    "Attachments/Introduction to algorithms [solutions... (Z-Library).pdf",
     "Other/AI cool projects ideas.md",
     "Attachments/Pasted image 20250312123048.png",
     "Other/AI UCR course assignments.md",
@@ -277,7 +283,6 @@
     "Other/Artificial Intelligence books.md",
     "Other/Flashcards/assuage.md",
     "Other/Flashcards/Certify.md",
-    "2 - Source Material/Books/2025 Books.md",
     "Untitled.canvas"
   ]
 }
