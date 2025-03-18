@@ -1,4 +1,5 @@
 {{date}} {{time}}
+Course:
 Tags:
 # {{Title}}
 

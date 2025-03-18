@@ -31,4 +31,5 @@ Short tests & Lab works -> One every 2 or 3 weeks
 # Lecture notes
 
 # Materials
+[[ACID]]
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
