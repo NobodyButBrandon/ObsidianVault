@@ -73,7 +73,7 @@ ___
 	Session 2: Saturday 13:00 to 16:00
 	
 2. Use workdays afternoons to do assignments and as study time. My main goal is to learn so i **commit** to study hard every hour i have.
-	![[Pasted image 20250314081728.png]]
+	![[Pasted image 20250318091810.png]]
 
 ### 2. Career (AI) Projects
 **Time**: 18 hrs/week

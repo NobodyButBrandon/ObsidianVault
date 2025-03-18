@@ -12,7 +12,7 @@ ___
 [[Ch1 - Introduction]]
 
 #### Chapter 2
-#UNI_TODO <- Read chapter 2 as refresher for previous course.
+#UNI_TODO <- Read chapter 2 as refresher of previous course.
 
 #### Chapter 3
 [[Ch3 - Data Warehouse Concepts]]
