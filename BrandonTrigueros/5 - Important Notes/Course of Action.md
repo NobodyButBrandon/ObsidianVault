@@ -1,8 +1,8 @@
 #complete_later
 ___
-**Start date**: March 17th
-**End date**: July 12th
-**Total**: Aprox. 4 months, 15 weeks, 105 days
+**Start date**: March 24th
+**End date**: July 27th
+**Total**: 4 months, 16 weeks
 ___
 # Goals
 1. Pass all my courses (6)

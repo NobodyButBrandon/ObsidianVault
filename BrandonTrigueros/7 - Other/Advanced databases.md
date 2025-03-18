@@ -15,8 +15,8 @@ Email: luis.esquivel@ucr.ac.cr
 Office: Annex building 4-4 (Consultations on tuesday 13:00 to 15:30)
 
 **Deadlines**
-First project advance -> 8th course week
-Second project advance -> 8th course week
+First project advance -> 8th course week (29-Apr-2025)
+Second project advance -> 16th course week (24-Jun-2025)
 Short tests & Lab works -> One every 2 or 3 weeks
 
 **Evaluation**
@@ -29,8 +29,11 @@ Short tests & Lab works -> One every 2 or 3 weeks
 | Homeworks         | 10%        |
 
 # Lecture notes
-[[18-Mar-2025]]
+[[18-Mar-2025]] #UNI_TODO:  Do this and the other lectures.
 
 # Materials
 [[ACID]]
+
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
+
+[Business Intelligence: Multidimensional Analysis](https://www.youtube.com/watch?v=IhFkNmVmwn4)

@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "5f99bf5d6f803ff7",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "8ed1872499ad8c9c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Advanced databases.md",
+                "file": "7 - Other/National Reality Seminar II.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced databases"
-            }
-          },
-          {
-            "id": "0e891455050c3846",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/18-Mar-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "18-Mar-2025"
+              "title": "National Reality Seminar II"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,7 +88,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 218.5
   },
   "right": {
     "id": "ab400e4e217ca578",
@@ -225,30 +200,43 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "0e891455050c3846",
+  "active": "8ed1872499ad8c9c",
   "lastOpenFiles": [
-    "7 - Other/18-Mar-2025.md",
+    "6 - Attachments/Autorización de uso de imagen.pdf",
+    "6 - Attachments/Rúbrica del Trabajo Grupal.pdf",
+    "6 - Attachments/Guía del Trabajo Grupal.pdf",
     "7 - Other/Advanced databases.md",
     "Home.md",
+    "7 - Other/National Reality Seminar II.md",
+    "7 - Other/Computer architecture.md",
+    "4 - Templates/English Flashcard Note.md",
+    "7 - Other/Flashcards/Vocabulary.md",
+    "7 - Other/Flashcards/Midterm.md",
+    "7 - Other/Flashcards/lesser.md",
+    "7 - Other/Flashcards/Forums.md",
+    "7 - Other/Flashcards/Fieldwork.md",
+    "7 - Other/Flashcards/essay.md",
+    "7 - Other/Flashcards/diligently.md",
+    "7 - Other/Flashcards/comprises.md",
+    "7 - Other/Flashcards/comprehensive.md",
+    "7 - Other/Flashcards/Certify.md",
+    "7 - Other/Flashcards/assuage.md",
+    "6 - Attachments/Course_Program_SR-0011.pdf",
+    "3 - Tags/human rights.md",
+    "6 - Attachments/Course_Program_CI0141.pdf",
     "5 - Important Notes/Course of Action.md",
+    "7 - Other/ACID.md",
+    "7 - Other/18-Mar-2025.md",
+    "4 - Templates/Main Material Note.md",
     "6 - Attachments/Cracking the Coding Interview.pdf",
     "6 - Attachments/Pasted image 20250318091810.png",
-    "7 - Other/Certify.md",
     "7 - Other/Pasted image 20250314081728.png.md",
-    "7 - Other/Flashcards/assuage.md",
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "6 - Attachments/Pasted image 20250318090530.png",
     "6 - Attachments/Pasted image 20250318090416.png",
     "6 - Attachments/Pasted image 20250318085945.png",
     "6 - Attachments/Data Warehouse Systems.pdf",
-    "7 - Other/Ch1 - Introduction.md",
-    "4 - Templates/4.1 - Templates.md",
-    "7 - Other/Cracking the Coding Interview.pdf.md",
-    "7 - Other/Flashcards/Vocabulary.md",
-    "7 - Other/lesser.md",
-    "4 - Templates/Main Material Note.md",
-    "7 - Other/ACID.md",
-    "7 - Other/comprehensive.md"
+    "7 - Other/Ch1 - Introduction.md"
   ]
 }

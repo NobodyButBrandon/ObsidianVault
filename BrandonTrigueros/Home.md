@@ -6,3 +6,4 @@
 ## UCR 1-2025
 [[Advanced databases]]
 [[7 - Other/Computer architecture|Computer architecture]]
+[[National Reality Seminar II]]
