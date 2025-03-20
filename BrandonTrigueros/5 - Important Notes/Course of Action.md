@@ -48,7 +48,7 @@ I can't afford to be left behind in getting a job quickly and accumulate work ex
 For DS & Algorithms I recommend studying them as I did in my UCR previous course and practice them with spaced repetition. I think is just good to know these as a CS engineer.
 ___
 **Problem solving**
-For problem solving skills I recommend grinding Leetcode. Here's the [roadmap](https://neetcode.io/roadmap) and also can use [[Cracking the Coding Interview.pdf]]
+For problem solving skills I recommend grinding Leetcode. Here's the [roadmap](https://neetcode.io/roadmap).
 **Note**: It is good to understand common interviews questions by practicing Leetcode regularly as this will get you through the door but remember that the projects will get you to the door.
 ___
 **English**
