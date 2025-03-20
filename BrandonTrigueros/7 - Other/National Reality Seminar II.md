@@ -19,10 +19,9 @@ Movie Analysis -> 29-Apr-2025
 Forum 2 -> 13-May-2025
 Forum 3 -> 03-Jun-2025
 Forum 4 -> 10-Jun-2025
+Research presentation -> 10-Jun-2025
 Forum 5 -> 24-Jun-2025
 Final Essay -> 08-Jul-2025
-
-Research presentation -> From 10-May-2025 to 17Jun-2025
 
 **Evaluation**
 

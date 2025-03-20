@@ -7,3 +7,4 @@
 [[Advanced databases]]
 [[7 - Other/Computer architecture|Computer architecture]]
 [[National Reality Seminar II]]
+[[Numerical analysis]]

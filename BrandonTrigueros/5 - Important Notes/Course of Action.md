@@ -25,12 +25,12 @@ From my goals list I identify the following 3 main courses of action:
 
 ## 1. University responsibilities
 This consist in approving all my courses from 1-2025 semester. Which includes:
-- [[7 - Other/Computer architecture]]
-- Numerical analysis
+- [[7 - Other/Computer architecture|Computer architecture]]
+- [[Numerical analysis]]
 - [[Advanced databases]]
 - Experiment design
 - Theatre appreciation
-- National Reality Seminar
+- [[National Reality Seminar II]]
 
 It also includes comply with my hours at the CAP. I believe that if I [[diligently]] do all 6 weekly hours we (me and Milton) can finish the system by the end of the semester.
 
