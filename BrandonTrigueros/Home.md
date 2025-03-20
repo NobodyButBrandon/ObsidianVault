@@ -9,4 +9,4 @@
 [[National Reality Seminar II]]
 [[Numerical analysis]]
 
-Que se sabe, di no mucho
+Que se sabe, di no mucho, dele
