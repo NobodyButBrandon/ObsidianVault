@@ -1,4 +1,3 @@
-#complete_later
 ___
 **Start date**: March 24th
 **End date**: July 27th
@@ -25,12 +24,12 @@ From my goals list I identify the following 3 main courses of action:
 
 ## 1. University responsibilities
 This consist in approving all my courses from 1-2025 semester. Which includes:
-- [[7 - Other/Computer architecture|Computer architecture]]
-- [[Numerical analysis]]
-- [[Advanced databases]]
-- Experiment design
-- Theatre appreciation
-- [[National Reality Seminar II]]
+- [[Computer architecture - UCR|Computer architecture - UCR]]
+- [[Numerical analysis - UCR]]
+- [[Advanced databases - UCR]]
+- [[Experiment design - UCR]]
+- [[Theatre appreciation - UCR]]
+- [[National reality seminar II - UCR]]
 
 It also includes comply with my hours at the CAP. I believe that if I [[diligently]] do all 6 weekly hours we (me and Milton) can finish the system by the end of the semester.
 
@@ -113,7 +112,7 @@ ___
 - Passive Practice (YouTube videos, notetaking in english and job interviews).
 #### Job Applications
 - **Weeks 4–16**: Apply to 5 jobs/week (tailor resume/portfolio).
-- Practice behavioral interviews (use [[Cracking the Coding Interview.pdf]]).
+- Practice behavioral interviews.
 
 ## Tools, Tracking & Techniques
 

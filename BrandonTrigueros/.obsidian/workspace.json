@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4ddd72702c50430b",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "c71b7139682ee31d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/UCR 1-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "UCR 1-2025"
             }
           }
         ]
@@ -63,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "advance",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -200,41 +200,42 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "c71b7139682ee31d",
   "lastOpenFiles": [
+    "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/UCR 1-2025.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/AdvancedDB 11-Mar-2025 Lecture.md",
+    "4 - Templates/Class lecture Note.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "6 - Attachments/Course_Program_CI0141.pdf",
+    "7 - Other/ACID.md",
+    "7 - Other/BASE.md",
     "Home.md",
+    "4 - Templates/New uni course Note.md",
+    "4 - Templates/English flashcard Note.md",
+    "4 - Templates/Uni book chapter Note.md",
+    "4 - Templates/Uni book Note.md",
+    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "6 - Attachments/Course_Program_CI-0120.pdf",
+    "7 - Other/18-Mar-2025.md",
     "5 - Important Notes/Course of Action.md",
-    "7 - Other/National Reality Seminar II.md",
-    "7 - Other/Numerical analysis.md",
+    "7 - Other/Niveles de aislamiento.md",
+    "3 - Tags/research techniques.md",
     "6 - Attachments/Course_Program_MA1006.pdf",
     "3 - Tags/numerical methods.md",
     "3 - Tags/MATLAB.md",
     "6 - Attachments/Autorización de uso de imagen.pdf",
     "6 - Attachments/Rúbrica del Trabajo Grupal.pdf",
     "6 - Attachments/Guía del Trabajo Grupal.pdf",
-    "7 - Other/Advanced databases.md",
-    "7 - Other/Computer architecture.md",
-    "4 - Templates/English Flashcard Note.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/Flashcards/Midterm.md",
-    "7 - Other/Flashcards/lesser.md",
-    "7 - Other/Flashcards/Forums.md",
-    "7 - Other/Flashcards/Fieldwork.md",
-    "7 - Other/Flashcards/essay.md",
-    "7 - Other/Flashcards/diligently.md",
-    "7 - Other/Flashcards/comprises.md",
-    "7 - Other/Flashcards/comprehensive.md",
-    "7 - Other/Flashcards/Certify.md",
-    "7 - Other/Flashcards/assuage.md",
     "6 - Attachments/Course_Program_SR-0011.pdf",
-    "3 - Tags/human rights.md",
-    "6 - Attachments/Course_Program_CI0141.pdf",
-    "7 - Other/ACID.md",
-    "7 - Other/18-Mar-2025.md",
-    "4 - Templates/Main Material Note.md",
     "6 - Attachments/Cracking the Coding Interview.pdf",
     "6 - Attachments/Pasted image 20250318091810.png",
-    "7 - Other/Pasted image 20250314081728.png.md",
     "6 - Attachments/Pasted image 20250318090530.png",
     "6 - Attachments/Pasted image 20250318090416.png",
     "6 - Attachments/Pasted image 20250318085945.png",

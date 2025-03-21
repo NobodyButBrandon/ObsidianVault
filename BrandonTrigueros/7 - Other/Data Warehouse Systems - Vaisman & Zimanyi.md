@@ -1,5 +1,5 @@
 17-Mar-2025 21:58
-Course: [[Advanced databases]]
+Course: [[Advanced databases - UCR]]
 Tags: [[databases]] [[warehouse systems]]
 
 # Data Warehouse Systems - Vaisman & Zimanyi

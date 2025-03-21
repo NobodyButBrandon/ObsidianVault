@@ -29,11 +29,11 @@ Short tests & Lab works -> One every 2 or 3 weeks
 | Homeworks         | 10%        |
 
 # Lecture notes
-[[18-Mar-2025]] #UNI_TODO:  Do this and the other lectures.
+[[AdvancedDB 11-Mar-2025 Lecture]]
+[[AdvancedDB 14-Mar-2025 Lecture]] #UNI_TODO 
+[[AdvancedDB 18-Mar-2025 Lecture]] #UNI_TODO 
 
 # Materials
 [[ACID]]
-
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
-
 [Business Intelligence: Multidimensional Analysis](https://www.youtube.com/watch?v=IhFkNmVmwn4)
