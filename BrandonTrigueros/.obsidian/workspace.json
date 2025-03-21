@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "4ddd72702c50430b",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "c71b7139682ee31d",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -29,6 +29,30 @@
               },
               "icon": "lucide-file",
               "title": "UCR 1-2025"
+            }
+          },
+          {
+            "id": "f61ca91272b67160",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/Experiment design - UCR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Experiment design - UCR"
             }
           }
         ]
@@ -63,7 +87,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "advance",
+                "query": "uni_todo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -84,7 +108,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,21 +225,21 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "c71b7139682ee31d",
+  "active": "86c3730989c9eeac",
   "lastOpenFiles": [
-    "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/Experiment design - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "7 - Other/Numerical analysis - UCR.md",
+    "Home.md",
+    "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 11-Mar-2025 Lecture.md",
     "4 - Templates/Class lecture Note.md",
     "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Experiment design - UCR.md",
     "7 - Other/Computer architecture - UCR.md",
     "6 - Attachments/Course_Program_CI0141.pdf",
     "7 - Other/ACID.md",
     "7 - Other/BASE.md",
-    "Home.md",
     "4 - Templates/New uni course Note.md",
     "4 - Templates/English flashcard Note.md",
     "4 - Templates/Uni book chapter Note.md",
