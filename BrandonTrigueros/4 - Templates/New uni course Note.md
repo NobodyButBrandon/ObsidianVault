@@ -15,7 +15,7 @@ Email: ->
 Office: -> (Consultations on ->)
 
 **Deadlines**
-->
+- ->
 
 **Evaluation**
 

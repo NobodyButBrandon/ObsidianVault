@@ -14,14 +14,14 @@ Email: monica.matasoto@ucr.ac.cr
 Office: PROIN (Consultations on Friday 14:00 to 15:00)
 
 **Deadlines**
-Forum 1 -> 08-Apr-2025
-Movie Analysis -> 29-Apr-2025
-Forum 2 -> 13-May-2025
-Forum 3 -> 03-Jun-2025
-Forum 4 -> 10-Jun-2025
-Research presentation -> 10-Jun-2025
-Forum 5 -> 24-Jun-2025
-Final Essay -> 08-Jul-2025
+- Forum 1 -> _08-Apr-2025_
+- Movie Analysis -> _29-Apr-2025_
+- Forum 2 -> _13-May-2025_
+- Forum 3 -> _03-Jun-2025_
+- Forum 4 -> _10-Jun-2025_
+- Research presentation -> _10-Jun-2025_
+- Forum 5 -> _24-Jun-2025_
+- Final Essay -> _08-Jul-2025_
 
 **Evaluation**
 

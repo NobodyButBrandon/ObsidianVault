@@ -17,14 +17,6 @@
       "key": "Y"
     }
   ],
-  "workspace:split-vertical": [
-    {
-      "modifiers": [
-        "Mod"
-      ],
-      "key": "F22"
-    }
-  ],
   "editor:toggle-source": [
     {
       "modifiers": [
@@ -73,6 +65,15 @@
         "Alt"
       ],
       "key": "ArrowUp"
+    }
+  ],
+  "workspace:split-vertical": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "ArrowRight"
     }
   ]
 }

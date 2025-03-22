@@ -15,10 +15,10 @@ Email: ricardo.gang@ucr.ac.cr
 Office: 3-25 (Consultations on Wednesday 13:30 to 16:00)
 
 **Deadlines**
-Research project. Phase 1-> May 25th
-Research project. Phase 2-> June 26th
-[[Midterm]] Exam -> May 5th
-Final exam -> June 30th
+- [[Midterm]] Exam -> _5-May-2025_
+- Research project. Phase 1-> _25-May-2025_
+- Research project. Phase 2-> _26-Jun-2025_
+- Final exam -> _30-Jun-2025_
 
 **Evaluation**
 
@@ -26,7 +26,7 @@ Final exam -> June 30th
 | ----------------- | ---------- |
 | Research Project  | 20%        |
 | Homeworks         | 20%        |
-| Short Tests        | 20%        |
+| Short Tests       | 20%        |
 | Midterm Exam      | 20%        |
 | Final Exam        | 20%        |
 # Lecture notes

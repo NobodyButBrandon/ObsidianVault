@@ -15,9 +15,9 @@ Email: luis.esquivel@ucr.ac.cr
 Office: Annex building 4-4 (Consultations on tuesday 13:00 to 15:30)
 
 **Deadlines**
-First project advance -> 8th course week (29-Apr-2025)
-Second project advance -> 16th course week (24-Jun-2025)
-Short tests & Lab works -> One every 2 or 3 weeks
+- First project advance -> 8th course week (_29-Apr-2025_)
+- Second project advance -> 16th course week (_24-Jun-2025_)
+- Short tests & Lab works -> One every 2 or 3 weeks
 
 **Evaluation**
 
@@ -32,6 +32,7 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 11-Mar-2025 Lecture]]
 [[AdvancedDB 14-Mar-2025 Lecture]] #UNI_TODO 
 [[AdvancedDB 18-Mar-2025 Lecture]] #UNI_TODO 
+[[AdvancedDB 21-Mar-2025 Lecture]]
 
 # Materials
 [[ACID]]
