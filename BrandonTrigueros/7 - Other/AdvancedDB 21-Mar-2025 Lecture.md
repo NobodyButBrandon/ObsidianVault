@@ -40,6 +40,6 @@ La modificación y eliminación de datos no está permitido.
 #### Teacher notes:
 - Vimos el vídeo de hostigamiento sexual.
 - Va a haber _quiz_ el próximo viernes 28-Mar-2025 sobre capítulo 3. Repasar este capítulo #UNI_TODO 
-- La primera tarea va a ser undata martIr investigando algún conjunto de datos. No puede ser solo una base de datos, semi-estructurados,  #UNI_TODO 
+- La primera tarea va a ser un data mart investigando algún conjunto de datos. No puede ser solo una base de datos, semi-estructurados,  #UNI_TODO 
 
 #### Mental notes:

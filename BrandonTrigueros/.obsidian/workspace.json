@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "001e6185b5b2e5f0",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "7a2dd6b759b78eab",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Advanced databases - UCR.md",
+                "file": "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,35 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced databases - UCR"
+              "title": "AdvancedDB 21-Mar-2025 Lecture"
+            }
+          },
+          {
+            "id": "43b2baf74971581f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AdvancedDB 21-Mar-2025 Lecture"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -200,14 +225,14 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "7a2dd6b759b78eab",
+  "active": "43b2baf74971581f",
   "lastOpenFiles": [
+    "Home.md",
     "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
     "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/AdvancedDB 11-Mar-2025 Lecture.md",
     "7 - Other/AdvancedDB 14-Mar-2025 Lecture.md",
-    "Home.md",
     "7 - Other/UCR 1-2025.md",
+    "7 - Other/AdvancedDB 11-Mar-2025 Lecture.md",
     "7 - Other/ACID.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/National reality seminar II - UCR.md",
