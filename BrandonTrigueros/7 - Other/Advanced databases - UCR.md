@@ -30,7 +30,7 @@ Office: Annex building 4-4 (Consultations on tuesday 13:00 to 15:30)
 
 # Lecture notes
 [[AdvancedDB 11-Mar-2025 Lecture]]
-[[AdvancedDB 14-Mar-2025 Lecture]] #UNI_TODO 
+[[AdvancedDB 14-Mar-2025 Lecture]]
 [[AdvancedDB 18-Mar-2025 Lecture]] #UNI_TODO 
 [[AdvancedDB 21-Mar-2025 Lecture]]
 
