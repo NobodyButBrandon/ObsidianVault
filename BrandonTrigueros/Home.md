@@ -3,7 +3,7 @@
 ## Course of Action
 [[Course of Action]]
 
-## University actualizo
+## University
 
 ```query
 tag:#UNI_TODO
