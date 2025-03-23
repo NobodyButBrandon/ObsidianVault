@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Advanced databases - UCR.md",
+                "file": "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced databases - UCR"
+              "title": "AdvancedDB 18-Mar-2025 Lecture"
             }
           }
         ]
@@ -176,6 +176,7 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/Advanced databases - UCR.md",
     "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md",
     "Excalidraw",
     "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
