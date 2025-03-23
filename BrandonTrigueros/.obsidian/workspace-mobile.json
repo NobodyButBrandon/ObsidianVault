@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Drawing 2025-03-22 20.43.36.excalidraw"
+              "title": "Home"
             }
           }
         ]
@@ -162,6 +162,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:New drawing": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -176,9 +177,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md",
     "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
     "7 - Other/Advanced databases - UCR.md",
-    "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md",
     "Excalidraw",
     "7 - Other/UCR 1-2025.md",
     "Home.md",

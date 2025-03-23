@@ -4,7 +4,6 @@ ___
 ?
 
 Mesa redonda, mesa de diálogo
-<!--SR:!2025-03-26,4,270-->
 +++
 
 #englishcards

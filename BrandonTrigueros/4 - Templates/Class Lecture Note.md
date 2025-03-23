@@ -3,10 +3,10 @@
 {{date}} {{time}}
 Course:
 ___
-#### **Lecture contents:**
+#### Lecture contents:
 
-#### **Homeworks:**
+#### Homeworks:
 
-#### **Teacher notes:**
+#### Teacher notes:
 
-#### **Mental notes:**
+#### Mental notes:
