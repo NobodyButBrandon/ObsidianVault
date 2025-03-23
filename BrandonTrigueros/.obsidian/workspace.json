@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f94cbcaf4383e900",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,19 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AdvancedDB 18-Mar-2025 Lecture"
-            }
-          },
-          {
-            "id": "c16b33a0a500bd26",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md"
-              },
-              "icon": "excalidraw-icon",
-              "title": "Drawing 2025-03-22 20.43.36.excalidraw"
+              "title": "Home"
             }
           }
         ]
@@ -213,10 +201,10 @@
       "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "f94cbcaf4383e900",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md",
     "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
+    "Excalidraw/Drawing 2025-03-22 20.43.36.excalidraw.md",
     "6 - Attachments/Pasted image 20250322211647.png",
     "7 - Other/Advanced databases - UCR.md",
     "Excalidraw/Drawing 2025-03-22 20.34.13.excalidraw.md",
