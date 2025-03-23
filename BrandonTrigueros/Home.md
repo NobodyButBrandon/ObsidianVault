@@ -3,8 +3,7 @@
 ## Course of Action
 [[Course of Action]]
 
-## University
-[[UCR 1-2025]]
+## University actualizo
 
 ```query
 tag:#UNI_TODO

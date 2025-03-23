@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AdvancedDB 21-Mar-2025 Lecture"
-            }
-          },
-          {
-            "id": "43b2baf74971581f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AdvancedDB 21-Mar-2025 Lecture"
+              "title": "Home"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -225,10 +200,10 @@
       "obsidian-spaced-repetition:Review flashcards": false
     }
   },
-  "active": "43b2baf74971581f",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
+    "Home.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 14-Mar-2025 Lecture.md",
     "7 - Other/UCR 1-2025.md",
