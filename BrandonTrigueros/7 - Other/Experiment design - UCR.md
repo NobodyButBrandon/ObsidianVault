@@ -32,3 +32,5 @@ Office: Annex Building 6-5 (Consultations on Monday 8:00 to 10:00, Thursday 8:00
 # Lecture notes
 
 # Materials
+[Experiment Design](<file:///C:\Users\brand\OneDrive - Universidad de Costa Rica\UCR\2025 - 1 - UCR\Experiment Design>)
+[[Design and analysis of experiments.pdf]]

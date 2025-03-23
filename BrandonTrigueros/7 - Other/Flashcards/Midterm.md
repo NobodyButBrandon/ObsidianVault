@@ -4,6 +4,7 @@ ___
 ?
 
 a mitad de curso
+<!--SR:!2025-03-25,3,250-->
 +++
 
 #englishcards

@@ -1,5 +1,8 @@
 {
   "accentColor": "",
   "cssTheme": "Border",
-  "baseFontSize": 19
+  "baseFontSize": 20,
+  "baseFontSizeAction": false,
+  "showViewHeader": true,
+  "showRibbon": true
 }
