@@ -1,11 +1,11 @@
 [
-  "obsidian-latex-suite",
-  "language-translator",
   "obsidian-youglish-plugin",
   "obsidian-html-tags-autocomplete",
   "homepage",
   "obsidian-spaced-repetition",
   "obsidian-file-link",
   "table-editor-obsidian",
-  "obsidian-excalidraw-plugin"
+  "obsidian-excalidraw-plugin",
+  "obsidian-imgur-plugin",
+  "translate"
 ]

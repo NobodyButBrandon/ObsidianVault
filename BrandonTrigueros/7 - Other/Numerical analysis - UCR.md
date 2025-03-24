@@ -34,8 +34,36 @@ Office: CIMPA 319  (Consultations on Thursday 9:00 to 11:00)
 | Short tests       | 15%        |
 
 # Lecture notes
-[Ejercicios MATLAB\18 Mar 2025](<file:///C:\Users\brand\OneDrive - Universidad de Costa Rica\UCR\2025 - 1 - UCR\Numerical Analysis\Ejercicios MATLAB\18 Mar 2025>)
-
-[Ejercicios MATLAB\21 Mar 2025](<file:///C:\Users\brand\OneDrive - Universidad de Costa Rica\UCR\2025 - 1 - UCR\Numerical Analysis\Ejercicios MATLAB\21 Mar 2025>)
+[[MATLAB exercises - 18-Mar-2025]]
+[[MATLAB exercises - 21-Mar-2025]]
 
 # Materials
+**Filander Presentations**
+	[[P02_MATLAB.pdf]]
+	[[P03_Programacion.pdf]]
+	[[P04_Resolucion_Ecuaciones.pdf]]
+	[[P05_Resolucion_Sistemas_1.pdf]]
+	[[P06_Resolucion_Sistemas_2.pdf]]
+	[[P07_Interpolacion.pdf]]
+	[[P08_Integracion.pdf]]
+	[[P09_EDO.pdf]]
+___
+**Hugo Peña Presentations**
+	[[Punto_Flotante.pdf]]
+___
+**M de León Presentations**
+	[[P01.pdf]]
+	[[P02.pdf]]
+	[[P03.pdf]]
+	[[P04.pdf]]
+	[[Integracion.pdf]]
+___
+**Exercise Lists**
+	[[MA1006_LISTA_EJERCICIOS_1PARCIAL.pdf]]
+	[[MA1006_LISTA_EJERCICIOS_2PARCIAL.pdf]]
+	[[MA1006_LISTA_EJERCICIOS_3PARCIAL.pdf]]
+
+**Textbooks**
+	[[Métodos numéricos con Matlab.pdf]]
+	[[Mario de León folleto MA1006.pdf]]
+	[[ApuntesMatlab_Echeverria.pdf]]

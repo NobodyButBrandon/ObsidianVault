@@ -34,4 +34,6 @@ Office: 3-25 (Consultations on Wednesday 13:30 to 16:00)
 # Materials
 
 1. [[Computer Organization and Architecture - William Stallings]]
-2. [[Modern Computer Architecture and Organization - Jim Ledin]]
+2. [[Computer Organization and Design RISC-V Edition - Patterson & Hennessy]]
+3. [[Modern Computer Architecture and Organization - Jim Ledin]]
+4. [[Logisim-ITA.exe]]

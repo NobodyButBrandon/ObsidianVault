@@ -31,6 +31,17 @@ Office: Annex Building 6-5 (Consultations on Monday 8:00 to 10:00, Thursday 8:00
 
 # Lecture notes
 
+# Laboratories
+[[CI0131. Laboratorio RStudio Básico]]
+
 # Materials
-[Experiment Design](<file:///C:\Users\brand\OneDrive - Universidad de Costa Rica\UCR\2025 - 1 - UCR\Experiment Design>)
-[[Design and analysis of experiments.pdf]]
+
+__Presentations__
+[[1. CI0131 Capas del diseño de investigación 2025.pdf]]
+[[2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf]]
+___
+__Books__
+[[Design and analysis of experiments - Montgomery]]
+___
+__Other__
+[[Explicación de factores 2025.pdf]]

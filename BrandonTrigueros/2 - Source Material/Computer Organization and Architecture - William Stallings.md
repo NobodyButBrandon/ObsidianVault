@@ -7,6 +7,4 @@ Tags: [[3 - Tags/computer architecture|computer architecture]]
 ___
 # Syllabus
 #### Chapter 1
-[[Basic Concepts and Computer Evolution]]
-
-#UNI_TODO
+[[Basic Concepts and Computer Evolution]] #UNI_TODO 

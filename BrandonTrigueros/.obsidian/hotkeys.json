@@ -75,5 +75,14 @@
       ],
       "key": "ArrowRight"
     }
+  ],
+  "translate:translator-selection": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "R"
+    }
   ]
 }
