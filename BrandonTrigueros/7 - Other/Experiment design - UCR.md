@@ -30,6 +30,7 @@ Office: Annex Building 6-5 (Consultations on Monday 8:00 to 10:00, Thursday 8:00
 | Project Final Presentation                         | 20%        |
 
 # Lecture notes
+[[EDesign 24-Mar-2025 Lecture]]
 
 # Laboratories
 [[CI0131. Laboratorio RStudio Básico]]

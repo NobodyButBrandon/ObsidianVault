@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "a09778f2bf04e186",
+        "id": "78d42955c37468cc",
         "type": "tabs",
         "children": [
           {
-            "id": "947b4f77bfd585a3",
+            "id": "a9aac4ca3c0c22b8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/UCR 1-2025.md",
+                "file": "7 - Other/Experiment design - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,35 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "UCR 1-2025"
-            }
-          },
-          {
-            "id": "09f85a19578f3ec4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Theatre appreciation - UCR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Theatre appreciation - UCR"
+              "title": "Experiment design - UCR"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -228,11 +203,37 @@
       "translate:Open translation view": false
     }
   },
-  "active": "09f85a19578f3ec4",
+  "active": "a9aac4ca3c0c22b8",
   "lastOpenFiles": [
     "7 - Other/UCR 1-2025.md",
+    "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 10.06.33.excalidraw.md",
+    "7 - Other/EDesign 24-Mar-2025 Lecture.md",
+    "4 - Templates/Class Lecture Note.md",
+    "4 - Templates/English flashcard Note.md",
+    "7 - Other/Experiment design - UCR.md",
+    "6 - Attachments/Ch1_Computer Architecture 2025-03-23 21.38.42.excalidraw.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "7 - Other/Modern Computer Architecture and Organization - Jim Ledin.md",
+    "7 - Other/Ch1_Computer Architecture.md",
+    "7 - Other/Ch1_Computer Architecture 2025-03-24 00.42.15.excalidraw.md",
+    "6 - Attachments/Ch1_Computer Architecture 2025-03-24 00.42.15.excalidraw.md",
+    "6 - Attachments/Modern Computer Architecture and Organization.pdf",
+    "Home.md",
+    "5 - Important Notes/Course of Action (March24 - July5).md",
+    "6 - Attachments/Pasted image 20250318091810.png",
+    "7 - Other/AI cool projects ideas.md",
+    "7 - Other/Flashcards/Vocabulary.md",
+    "7 - Other/Flashcards/Certify.md",
+    "6 - Attachments/Ch1_Computer Architecture 2025-03-23 22.28.37.excalidraw.md",
+    "7 - Other/delve.md",
+    "7 - Other/whirlwind.md",
+    "7 - Other/ubiquitous.md",
+    "7 - Other/Computer Organization and Design RISC-V Edition - Patterson & Hennessy.md",
+    "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
+    "3 - Tags/MATLAB.md",
+    "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
     "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Numerical analysis - UCR.md",
+    "7 - Other/Theatre appreciation - UCR.md",
     "6 - Attachments/ApuntesMatlab_Echeverria.pdf",
     "6 - Attachments/Mario de León folleto MA1006.pdf",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
@@ -241,35 +242,9 @@
     "6 - Attachments/MA1006_LISTA_EJERCICIOS_1PARCIAL.pdf",
     "6 - Attachments/P06_Resolucion_Sistemas_2.pdf",
     "6 - Attachments/Integracion.pdf",
-    "6 - Attachments/P04.pdf",
-    "6 - Attachments/P03.pdf",
-    "7 - Other/MATLAB exercises - 21-Mar-2025.md",
-    "7 - Other/MATLAB exercises - 18-Mar-2025.md",
-    "7 - Other/Experiment design - UCR.md",
-    "7 - Other/CI0131. Laboratorio RStudio Básico.md",
-    "Home.md",
-    "5 - Important Notes/Course of Action.md",
-    "7 - Other/Lab 1 - Experiment design - UCR.md",
-    "7 - Other/Computer architecture - UCR.md",
-    "7 - Other/Lab 1 {{Title}}.md",
-    "6 - Attachments/Ch1 - Introduction to experimental design 2025-03-23 13.27.56.excalidraw.md",
-    "7 - Other/Modern Computer Architecture and Organization - Jim Ledin.md",
-    "7 - Other/Computer Organization and Design RISC-V Edition - Patterson & Hennessy.md",
-    "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
-    "7 - Other/Basic Concepts and Computer Evolution.md",
-    "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
-    "Excalidraw/Excalidraw ADB.md",
-    "Excalidraw/Drawing 2025-03-23 15.11.38.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-22 23.46.25.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-22 23.04.50.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-22 20.34.13.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-22 20.32.14.excalidraw.md",
-    "Excalidraw/Drawing 2025-03-22 20.31.43.excalidraw.md",
     "6 - Attachments/Pasted image 20250322211647.png",
     "6 - Attachments/Pasted image 20250322203131.png",
     "6 - Attachments/Pasted image 20250322201914.png",
-    "6 - Attachments/Pasted image 20250318091810.png",
     "6 - Attachments/Pasted image 20250318090530.png",
     "6 - Attachments/Pasted image 20250318090416.png",
     "6 - Attachments/Pasted image 20250318085945.png"

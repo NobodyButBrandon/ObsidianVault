@@ -7,4 +7,5 @@ Tags: [[computer architecture]]
 [[Modern Computer Architecture and Organization.pdf]]
 ___
 # Syllabus
+[[Ch1_Computer Architecture]]
 

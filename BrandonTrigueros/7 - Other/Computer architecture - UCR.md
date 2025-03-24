@@ -33,7 +33,12 @@ Office: 3-25 (Consultations on Wednesday 13:30 to 16:00)
 
 # Materials
 
+**Textbooks**
 1. [[Computer Organization and Architecture - William Stallings]]
 2. [[Computer Organization and Design RISC-V Edition - Patterson & Hennessy]]
 3. [[Modern Computer Architecture and Organization - Jim Ledin]]
+   
+**Logisim**
 4. [[Logisim-ITA.exe]]
+5. [Logisim Guide](https://cburch.com/logisim/docs/2.7/en/html/guide/index.html)
+6. [Logisim Library Reference](https://cburch.com/logisim/docs/2.7/en/html/libs/index.html)
