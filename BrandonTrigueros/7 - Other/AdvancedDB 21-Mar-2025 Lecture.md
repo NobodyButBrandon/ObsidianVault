@@ -39,10 +39,11 @@ Un DW es:
 En cuanto a la seguridad, existen datos que pueden parecer inocentes pero me permiten individualizar a las personas,  lo cual se presta para un montón de cosas. Por esto se sumariza en los DW.
 #### **Homeworks:**
 - _Próxima clase_ -> Leer capítulo 4 #UNI_TODO 
-- _24-Mar-2025_:
-	- Investigar que es un ODBC #UNI_TODO 
+- _25-Mar-2025_:
+	- Investigar que es un ODBC
 	- Averiguar cual driver y con qué versión se utilizaba para conectarse a la base de datos del PI de bases - inge. soft.
 	- Cual fue el connection string que se utilizó.
+[[Homework AdvancedDB 24-Mar-2025f]]
 - _28-Mar-2025_:
 	- Nombre de los integrantes del grupo para los proyectos
 	- Investigar un dataset interesante. Tienen que ser de datos no estructuradas, no solo de una base de datos y de más de un gigabyte.

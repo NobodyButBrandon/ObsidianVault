@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "78d42955c37468cc",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a9aac4ca3c0c22b8",
+            "id": "de01a46855d15e39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Experiment design - UCR.md",
+                "file": "7 - Other/Homework AdvancedDB 25-Mar-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Experiment design - UCR"
+              "title": "Homework AdvancedDB 25-Mar-2025"
             }
           }
         ]
@@ -203,22 +203,33 @@
       "translate:Open translation view": false
     }
   },
-  "active": "a9aac4ca3c0c22b8",
+  "active": "de01a46855d15e39",
   "lastOpenFiles": [
+    "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
+    "7 - Other/Homework AdvancedDB 25-Mar-2025.md",
+    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/UCR 1-2025.md",
-    "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 10.06.33.excalidraw.md",
-    "7 - Other/EDesign 24-Mar-2025 Lecture.md",
-    "4 - Templates/Class Lecture Note.md",
-    "4 - Templates/English flashcard Note.md",
-    "7 - Other/Experiment design - UCR.md",
-    "6 - Attachments/Ch1_Computer Architecture 2025-03-23 21.38.42.excalidraw.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "7 - Other/Ch1_Computer Architecture.md",
+    "7 - Other/Digital Design and Computer Architecture - Sara Harris.md",
+    "6 - Attachments/CompanionAsset_Lecture_Videos.pdf",
+    "6 - Attachments/Digital Design and Computer Architecture.pdf",
+    "Home.md",
+    "6 - Attachments/Ch1_Computer Architecture 2025-03-24 13.21.18.excalidraw.md",
+    "7 - Other/EDesign 24-Mar-2025 Lecture.md",
+    "6 - Attachments/Explicación de factores 2025.pdf",
+    "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 11.15.16.excalidraw.md",
+    "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 11.06.26.excalidraw.md",
+    "7 - Other/Experiment design - UCR.md",
+    "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
+    "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 10.06.33.excalidraw.md",
+    "4 - Templates/Class Lecture Note.md",
+    "4 - Templates/English flashcard Note.md",
+    "6 - Attachments/Ch1_Computer Architecture 2025-03-23 21.38.42.excalidraw.md",
     "7 - Other/Ch1_Computer Architecture 2025-03-24 00.42.15.excalidraw.md",
     "6 - Attachments/Ch1_Computer Architecture 2025-03-24 00.42.15.excalidraw.md",
     "6 - Attachments/Modern Computer Architecture and Organization.pdf",
-    "Home.md",
     "5 - Important Notes/Course of Action (March24 - July5).md",
     "6 - Attachments/Pasted image 20250318091810.png",
     "7 - Other/AI cool projects ideas.md",
@@ -226,22 +237,11 @@
     "7 - Other/Flashcards/Certify.md",
     "6 - Attachments/Ch1_Computer Architecture 2025-03-23 22.28.37.excalidraw.md",
     "7 - Other/delve.md",
-    "7 - Other/whirlwind.md",
-    "7 - Other/ubiquitous.md",
-    "7 - Other/Computer Organization and Design RISC-V Edition - Patterson & Hennessy.md",
-    "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
-    "3 - Tags/MATLAB.md",
-    "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
-    "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Theatre appreciation - UCR.md",
     "6 - Attachments/ApuntesMatlab_Echeverria.pdf",
     "6 - Attachments/Mario de León folleto MA1006.pdf",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
     "6 - Attachments/MA1006_LISTA_EJERCICIOS_3PARCIAL.pdf",
     "6 - Attachments/MA1006_LISTA_EJERCICIOS_2PARCIAL.pdf",
-    "6 - Attachments/MA1006_LISTA_EJERCICIOS_1PARCIAL.pdf",
-    "6 - Attachments/P06_Resolucion_Sistemas_2.pdf",
-    "6 - Attachments/Integracion.pdf",
     "6 - Attachments/Pasted image 20250322211647.png",
     "6 - Attachments/Pasted image 20250322203131.png",
     "6 - Attachments/Pasted image 20250322201914.png",
