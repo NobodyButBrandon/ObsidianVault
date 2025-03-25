@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "4909b8bab164c2a3",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "a024c7e27ffbf34e",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/CI0131. Laboratorio RStudio Básico.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CI0131. Laboratorio RStudio Básico"
             }
           }
         ]
@@ -86,73 +100,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "cdce1e1075ddfab1",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-coming-in",
-              "title": "Backlinks"
-            }
-          },
-          {
-            "id": "9702e1cb482368a3",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              },
-              "icon": "links-going-out",
-              "title": "Outgoing links"
-            }
-          },
-          {
-            "id": "803d1dfb5b5aa65b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
             "id": "e5acb9dd6b729e24",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
+                "file": "7 - Other/CI0131. Laboratorio RStudio Básico.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline"
-            }
-          },
-          {
-            "id": "889a3bde0994871f",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "title": "Outline of CI0131. Laboratorio RStudio Básico"
             }
           },
           {
@@ -165,13 +124,11 @@
               "title": "Advanced Tables"
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 261.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -189,15 +146,28 @@
       "translate:Open translation view": false
     }
   },
-  "active": "a024c7e27ffbf34e",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
+    "6 - Attachments/Design and analysis of experiments.pdf",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/UCR 1-2025.md",
+    "Home.md",
+    "7 - Other/CI0131. Laboratorio RStudio Básico.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "7 - Other/Niveles de aislamiento.md",
+    "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
+    "7 - Other/Basic Concepts and Computer Evolution.md",
+    "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
+    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "6 - Attachments/Course_Program_CI0141.pdf",
     "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
     "7 - Other/Homework AdvancedDB 25-Mar-2025.md",
     "7 - Other/Homework AdvancedDB 24-Mar-2025.md",
-    "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/UCR 1-2025.md",
-    "Home.md",
-    "7 - Other/Computer architecture - UCR.md",
     "7 - Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "7 - Other/Ch1_Computer Architecture.md",
     "7 - Other/Digital Design and Computer Architecture - Sara Harris.md",
@@ -208,26 +178,13 @@
     "6 - Attachments/Explicación de factores 2025.pdf",
     "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 11.15.16.excalidraw.md",
     "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 11.06.26.excalidraw.md",
-    "7 - Other/Experiment design - UCR.md",
     "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
     "6 - Attachments/EDesign 24-Mar-2025 Lecture 2025-03-24 10.06.33.excalidraw.md",
-    "4 - Templates/Class Lecture Note.md",
-    "4 - Templates/English flashcard Note.md",
-    "6 - Attachments/Ch1_Computer Architecture 2025-03-23 21.38.42.excalidraw.md",
-    "7 - Other/Ch1_Computer Architecture 2025-03-24 00.42.15.excalidraw.md",
-    "6 - Attachments/Ch1_Computer Architecture 2025-03-24 00.42.15.excalidraw.md",
     "6 - Attachments/Modern Computer Architecture and Organization.pdf",
-    "5 - Important Notes/Course of Action (March24 - July5).md",
     "6 - Attachments/Pasted image 20250318091810.png",
-    "7 - Other/AI cool projects ideas.md",
-    "7 - Other/Flashcards/Vocabulary.md",
-    "7 - Other/Flashcards/Certify.md",
-    "6 - Attachments/Ch1_Computer Architecture 2025-03-23 22.28.37.excalidraw.md",
     "6 - Attachments/ApuntesMatlab_Echeverria.pdf",
     "6 - Attachments/Mario de León folleto MA1006.pdf",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
-    "6 - Attachments/MA1006_LISTA_EJERCICIOS_3PARCIAL.pdf",
-    "6 - Attachments/MA1006_LISTA_EJERCICIOS_2PARCIAL.pdf",
     "6 - Attachments/Pasted image 20250322211647.png",
     "6 - Attachments/Pasted image 20250322203131.png",
     "6 - Attachments/Pasted image 20250322201914.png",

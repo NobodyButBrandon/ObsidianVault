@@ -1,3 +1,6 @@
+---
+startTime: 13:53:40
+---
 # Course information
 Tags: [[human rights]]
 
@@ -14,7 +17,7 @@ Email: monica.matasoto@ucr.ac.cr
 Office: PROIN (Consultations on Friday 14:00 to 15:00)
 
 **Deadlines**
-- Forum 1 -> _08-Apr-2025_
+- Forum 1 -> _8-Apr_2025
 - Movie Analysis -> _29-Apr-2025_
 - Forum 2 -> _13-May-2025_
 - Forum 3 -> _03-Jun-2025_

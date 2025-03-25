@@ -33,6 +33,7 @@ Office: Annex building 4-4 (Consultations on tuesday 13:00 to 15:30)
 [[AdvancedDB 14-Mar-2025 Lecture]]
 [[AdvancedDB 18-Mar-2025 Lecture]]
 [[AdvancedDB 21-Mar-2025 Lecture]]
+[[AdvancedDB 25-Mar-2025 Lecture]]
 
 # Materials
 [[ACID]]
