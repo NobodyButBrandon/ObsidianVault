@@ -43,7 +43,7 @@ En cuanto a la seguridad, existen datos que pueden parecer inocentes pero me per
 	- Investigar que es un ODBC
 	- Averiguar cual driver y con qué versión se utilizaba para conectarse a la base de datos del PI de bases - inge. soft.
 	- Cual fue el connection string que se utilizó.
-[[Homework AdvancedDB 24-Mar-2025f]]
+[[Homework AdvancedDB 25-Mar-2025]]
 - _28-Mar-2025_:
 	- Nombre de los integrantes del grupo para los proyectos
 	- Investigar un dataset interesante. Tienen que ser de datos no estructuradas, no solo de una base de datos y de más de un gigabyte.

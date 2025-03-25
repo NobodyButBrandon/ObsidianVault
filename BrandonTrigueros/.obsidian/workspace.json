@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "4909b8bab164c2a3",
         "type": "tabs",
         "children": [
           {
-            "id": "de01a46855d15e39",
+            "id": "a024c7e27ffbf34e",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Homework AdvancedDB 25-Mar-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Homework AdvancedDB 25-Mar-2025"
+              "title": "New tab"
             }
           }
         ]
@@ -203,19 +189,20 @@
       "translate:Open translation view": false
     }
   },
-  "active": "de01a46855d15e39",
+  "active": "a024c7e27ffbf34e",
   "lastOpenFiles": [
     "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
     "7 - Other/Homework AdvancedDB 25-Mar-2025.md",
+    "7 - Other/Homework AdvancedDB 24-Mar-2025.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/UCR 1-2025.md",
+    "Home.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/Modern Computer Architecture and Organization - Jim Ledin.md",
     "7 - Other/Ch1_Computer Architecture.md",
     "7 - Other/Digital Design and Computer Architecture - Sara Harris.md",
     "6 - Attachments/CompanionAsset_Lecture_Videos.pdf",
     "6 - Attachments/Digital Design and Computer Architecture.pdf",
-    "Home.md",
     "6 - Attachments/Ch1_Computer Architecture 2025-03-24 13.21.18.excalidraw.md",
     "7 - Other/EDesign 24-Mar-2025 Lecture.md",
     "6 - Attachments/Explicación de factores 2025.pdf",
@@ -236,7 +223,6 @@
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/Flashcards/Certify.md",
     "6 - Attachments/Ch1_Computer Architecture 2025-03-23 22.28.37.excalidraw.md",
-    "7 - Other/delve.md",
     "6 - Attachments/ApuntesMatlab_Echeverria.pdf",
     "6 - Attachments/Mario de León folleto MA1006.pdf",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
