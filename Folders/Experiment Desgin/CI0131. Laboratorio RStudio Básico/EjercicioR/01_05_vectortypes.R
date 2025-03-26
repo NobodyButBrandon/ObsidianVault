@@ -19,7 +19,7 @@ length(I.am.a.vector) == 6 # length is number of members, not length of string
 sum(nchar(I.am.a.vector)) == 29 # length of complete "string"
 
 # Vectors don't behave like strings. 
-I.am.also.a.vector <- c("did","gyre","and","gimble","in","the","wabes")
+I.am.also.a.vector <- c("did","gyre","and","gimble","in","the","wabes")D
 paste(I.am.a.vector,I.am.also.a.vector) # maybe not what you expected
 c(I.am.a.vector,I.am.also.a.vector) # end for end combination.
 

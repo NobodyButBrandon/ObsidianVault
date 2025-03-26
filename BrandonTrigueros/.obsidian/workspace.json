@@ -123,8 +123,67 @@
               "icon": "spreadsheet",
               "title": "Advanced Tables"
             }
+          },
+          {
+            "id": "60122be9af5b1bc2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "7 - Other/CI0131. Laboratorio RStudio Básico.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for CI0131. Laboratorio RStudio Básico"
+            }
+          },
+          {
+            "id": "9202ff4533810060",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "7 - Other/CI0131. Laboratorio RStudio Básico.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from CI0131. Laboratorio RStudio Básico"
+            }
+          },
+          {
+            "id": "6a0f08ed8a4f8a27",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "d304a7f04ad6ec6a",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -148,12 +207,12 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "7 - Other/Design and analysis of experiments - Montgomery.md",
-    "6 - Attachments/Design and analysis of experiments.pdf",
     "7 - Other/Experiment design - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
     "7 - Other/CI0131. Laboratorio RStudio Básico.md",
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
+    "6 - Attachments/Design and analysis of experiments.pdf",
     "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/Advanced databases - UCR.md",
