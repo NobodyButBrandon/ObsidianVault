@@ -21,5 +21,8 @@ ChickWeight$weight <- ifelse(ChickWeight$weight > medianWeight,"Larger","Smaller
 # You may have heard of attach() as a way of making dataframe references easier. DON'T DO IT!
 # instead, use with()
 medianTime <- median(ChickWeight$Time)
+medianTime
 ChickWeight$Time <- with(ChickWeight, ifelse(Time > medianTime,"Longer","Shorter"))
+
+help(dataframe)
 

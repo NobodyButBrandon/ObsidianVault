@@ -1,4 +1,4 @@
-# Copyright Mark Niemann-Ross, 2017
+222# Copyright Mark Niemann-Ross, 2017
 # Author: Mark Niemann-Ross. mark.niemannross@gmail.com
 # LinkedIn: https://www.linkedin.com/in/markniemannross/
 # Description: Example file for data frame
@@ -14,6 +14,7 @@ I.am.also.a.vector <- c("twas","brillig","and","the","slithey","toves")
 many.months <- month.abb[1:6] # e.g. jan, feb, mar, apr, may, jun
 
 I.am.a.dataframe <- data.frame(I.am.a.vector,I.am.also.a.vector,many.months)
+I.am.a.dataframe
 
 # vectors need to have identical lengths (lengths aka "observations")
 I.am.a.short.vector <- c(1:5)

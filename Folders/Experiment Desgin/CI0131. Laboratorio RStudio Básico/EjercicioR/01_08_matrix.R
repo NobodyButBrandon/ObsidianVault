@@ -5,7 +5,7 @@
 
 # Data Structures are * Vectors * Lists * MATRICE * Arrays * Data Frame * factors
 
-# Matrices are vectors with the attribute dim and optionally dimnames attached to the vector. 
+# Matrices are vectors with the attribute dim and optionally dimnames attached to the vector.
 
 # matrix is a vector or list with 2 dimensions
 # (Matrix is a 2-dimension Array. Array is like stacked matrices)
@@ -32,5 +32,6 @@ letter.matrix
 
 #transpose
 matrix.transposed <- t(I.am.a.matrix)
+matrix.transposed
 matrix.transposed[2,3] #oops
 matrix.transposed[3,2] #works because there are now 3 rows and 2 columns

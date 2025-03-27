@@ -34,10 +34,10 @@ Office: 3-25 (Consultations on Wednesday 13:30 to 16:00)
 # Materials
 
 **Textbooks**
-1. [[Computer Organization and Architecture - William Stallings]]
-2. [[Computer Organization and Design RISC-V Edition - Patterson & Hennessy]]
-3. [[Modern Computer Architecture and Organization - Jim Ledin]]
-4. [[Digital Design and Computer Architecture - Sara Harris]]
+1. [[Computer Architecture_ A Quantitative Approach - Patterson & Hennessy]] _Main_
+2. [[Computer Organization and Architecture - William Stallings]]
+3. [[Digital Design and Computer Architecture - Sara Harris]]
+4. [[Modern Computer Architecture and Organization - Jim Ledin]]
    
 **Logisim**
 4. [[Logisim-ITA.exe]]

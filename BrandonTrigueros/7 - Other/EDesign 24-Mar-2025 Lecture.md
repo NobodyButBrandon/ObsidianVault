@@ -9,7 +9,6 @@ ___
 Basado en [[Explicación de factores 2025.pdf]] tengo la figura
 ![[EDesign 24-Mar-2025 Lecture 2025-03-24 11.15.16.excalidraw|700]]
 
-
 #### **Homeworks:**
 
 #### **Teacher notes:**
