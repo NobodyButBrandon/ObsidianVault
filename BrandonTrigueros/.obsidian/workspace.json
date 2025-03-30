@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "AdvancedDB 28-Mar-2025 Lecture"
             }
           }
         ]
@@ -133,31 +133,6 @@
             }
           },
           {
-            "id": "6a0f08ed8a4f8a27",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true,
-                "showSearch": false,
-                "searchQuery": ""
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "d304a7f04ad6ec6a",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
-            }
-          },
-          {
             "id": "93da35f3c0c656b2",
             "type": "leaf",
             "state": {
@@ -171,13 +146,23 @@
               "icon": "lucide-list",
               "title": "Outline of Advanced databases - UCR"
             }
+          },
+          {
+            "id": "e038771c8ffd17b5",
+            "type": "leaf",
+            "state": {
+              "type": "task-timeline-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Task Timeline"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 435.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,7 +177,8 @@
       "templates:Insert template": true,
       "command-palette:Open command palette": true,
       "obsidian-youglish-plugin:Youglish Plugin": true,
-      "translate:Open translation view": false
+      "translate:Open translation view": false,
+      "obsidian-task-timeline:Task Timeline": false
     }
   },
   "active": "e7a7b303c61786dc",
