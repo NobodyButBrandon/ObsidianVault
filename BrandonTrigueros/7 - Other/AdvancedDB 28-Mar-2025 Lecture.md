@@ -6,8 +6,6 @@ ___
 #### **Lecture contents:**
 Presentación: Almacenes de Datos <- Descargar y agregar, agregar al resto de lectures #UNI_TODO
 
-Hola que se sabe -> _07-Apr-2025_ #UNI_TODO
-
 Recapitulando con el modelo de estrella: Esto es un diagrama físico, estamos hablando de tablas, no es la conceptual.
 
 La ventaja de un modelo conceptual es que es muy barato de modificar y que es fácil de adaptar a cualquier sistema de BD porque no contiene detalles técnicos.
