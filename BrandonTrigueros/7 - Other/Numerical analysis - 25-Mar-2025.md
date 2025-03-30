@@ -1,0 +1,16 @@
+### Numerical analysis - 25-Mar-2025
+
+28-Mar-2025 17:12
+Course: [[Numerical analysis - UCR]]
+___
+#### **Lecture contents:**
+[[Solución numérica de ecuaciones no lineales.pdf]]
+
+
+
+#### **Homeworks:**
+- Quiz -> _01-Apr-2025_
+
+#### **Teacher notes:**
+
+#### **Mental notes:**

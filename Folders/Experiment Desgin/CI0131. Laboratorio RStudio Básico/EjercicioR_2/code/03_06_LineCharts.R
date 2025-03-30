@@ -33,7 +33,7 @@ uspop %>%
 abline(v = 1930, col = "lightgray")
 text(1930, 10, "1930", col = "red3") 
 abline(v = 1940, col = "lightgray")
-text(1940, 2, "1940", col = "red3") 
+text(1940, 20, "1940", col = "red3") 
 
 # Plot with ts.plot()
 ?ts.plot

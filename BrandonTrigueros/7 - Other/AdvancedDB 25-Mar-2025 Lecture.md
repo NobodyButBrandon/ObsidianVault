@@ -61,10 +61,10 @@ ___
 Los OLAP me permite agrupar en grandes volúmenes y analizar más fácil.
 
 _Modelo multidimensional_
-Repasar las filminas #UNI_TODO 
+Repasar las filminas #UNI_TODO sobre estrella y copo de nieve
 
 #### **Homeworks:**
-Averiguar que es K-anonimato, privacidad diferencial y GDPR -> _1-Apr-2025_
+Averiguar que es K-anonimato, privacidad diferencial y GDPR -> _1-Apr-2025_ #UNI_TODO
 
 #### **Teacher notes:**
 También se debe saber de redes, saber en que puertos escucha las bases de datos, saber detectar problemas.
@@ -73,7 +73,7 @@ Los teléfonos no tienen firewall porque nos quieren robar al información.
 
 Uno siempre tiene que utilizar consultas pre-preparadas, que es eso? Es hacer la consulta:
 
-selct
+select
 from
 tata...
 carne = c17899

@@ -25,7 +25,7 @@ df %>%
 
 # Bivariate scatterplot with defaults
 df %>%
-  select(scrapbook,modernDance, museum) %>% 
+  select(scrapbook,modernDance, museum) %>% E
   plot()
 
 # Bivariate scatterplot with options

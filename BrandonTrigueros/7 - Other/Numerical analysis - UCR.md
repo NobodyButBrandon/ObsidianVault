@@ -37,6 +37,7 @@ Office: CIMPA 319  (Consultations on Thursday 9:00 to 11:00)
 [[MATLAB exercises - 18-Mar-2025]]
 [[MATLAB exercises - 21-Mar-2025]]
 [[MATLAB exercises - 25-Mar-2025]] #UNI_TODO 
+[[Numerical analysis - 25-Mar-2025]]
 
 # Materials
 **Filander Presentations**

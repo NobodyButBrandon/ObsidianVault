@@ -29,7 +29,7 @@ diamonds %>%
 # Similar code using barplot(); doesn't work
 diamonds %>%
   select(clarity) %>%
-  barplot()  # Error: height must be a vector or a matrix
+  barplot() # Error: height must be a vector or a matrix
 
 # Create frequency vector with table()
 ?table
