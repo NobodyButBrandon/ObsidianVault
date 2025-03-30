@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "aadd3fec984a948a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Advanced databases - UCR.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Advanced databases - UCR"
+              "title": "Home"
             }
           }
         ]
@@ -156,13 +156,28 @@
               "icon": "SpacedRepIcon",
               "title": "Notes Review Queue"
             }
+          },
+          {
+            "id": "93da35f3c0c656b2",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7 - Other/Advanced databases - UCR.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Advanced databases - UCR"
+            }
           }
         ],
         "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 339.5
+    "width": 288.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -180,10 +195,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "aadd3fec984a948a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/UCR 1-2025.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
