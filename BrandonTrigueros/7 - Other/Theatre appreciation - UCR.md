@@ -14,14 +14,14 @@ Email: maria.steiner@ucr.ac.cr
 Office:  Theater [[professorship]] 200 (Consultations on Wednesday 19:00 to 21:50)
 
 **Deadlines**
-- Round table 1 about "La Novia" -> _28-Mar-2025_
-- Theater play "El profe" -> _06-Apr-2025_
-- Round table 2 about "Romeo y Julieta" -> _02-May-2025_
-- Artistic expression -> _09-May-2025_
-- Round table 3 about "Jauría" -> _16-May-2025_
-- Theater tour -> _23-May-2025_
-- Group exhibitions -> From _06-Jun-2025_ to _20-Jun-2025_
-- Final activity -> _27-Jun-2025_
+Round table 1 about "La Novia" -> _28-Mar-2025_ #UNI_DEADLINE
+Theater play "El profe" -> _06-Apr-2025_ #UNI_DEADLINE
+Round table 2 about "Romeo y Julieta" -> _02-May-2025_ #UNI_DEADLINE
+Artistic expression -> _09-May-2025_ #UNI_DEADLINE
+Round table 3 about "Jauría" -> _16-May-2025_ #UNI_DEADLINE
+Theater tour -> _23-May-2025_ #UNI_DEADLINE
+Group exhibitions -> From _06-Jun-2025_ to _20-Jun-2025_ #UNI_DEADLINE
+Final activity -> _27-Jun-2025_ #UNI_DEADLINE
   
 **Evaluation**
 

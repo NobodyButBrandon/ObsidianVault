@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Experiment design - UCR.md",
+                "file": "7 - Other/Theatre appreciation - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Experiment design - UCR"
+              "title": "Theatre appreciation - UCR"
             }
           }
         ]
@@ -186,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 403.5
+    "width": 419.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -207,12 +207,13 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "7 - Other/Numerical analysis - UCR.md",
-    "Home.md",
     "7 - Other/UCR 1-2025.md",
-    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "Home.md",
+    "7 - Other/Numerical analysis - UCR.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "7 - Other/Experiment design - UCR.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
     "7 - Other/Flashcards/Vocabulary.md",
@@ -234,7 +235,6 @@
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Ch1 - Introduction.md",
     "6 - Attachments/AdvancedDB 18-Mar-2025 Lecture 2025-03-27 20.58.18.excalidraw.md",
-    "7 - Other/CI0131. Laboratorio RStudio Básico.md",
     "6 - Attachments/Lab 1 - Diseño de experimentos - C17899 - C13388.pdf",
     "6 - Attachments/Mario de León folleto MA1006.pdf",
     "6 - Attachments/Modern Computer Architecture and Organization.pdf",
