@@ -30,6 +30,10 @@ Final exam -> _30-Jun-2025_  #UNI_DEADLINE
 | Midterm Exam      | 20%        |
 | Final Exam        | 20%        |
 # Lecture notes
+[[CArchitecture 31-Mar-2025 Lecture]]
+# Homeworks
+[[Homework 1 - CPU 4 bits]]
+[[Homework 2 - CPU 8 bits]]
 
 # Materials
 
