@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Numerical analysis - UCR.md",
+                "file": "7 - Other/Experiment design - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Numerical analysis - UCR"
+              "title": "Experiment design - UCR"
             }
           }
         ]
@@ -207,10 +207,11 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/Numerical analysis - UCR.md",
+    "Home.md",
     "7 - Other/UCR 1-2025.md",
     "7 - Other/Experiment design - UCR.md",
     "7 - Other/Computer architecture - UCR.md",
-    "Home.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
@@ -219,7 +220,6 @@
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/breakthroughs.md",
     "7 - Other/binders.md",
-    "7 - Other/Numerical analysis - UCR.md",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
     "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
     "7 - Other/Numerical analysis - 25-Mar-2025.md",
