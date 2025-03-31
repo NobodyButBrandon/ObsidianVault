@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 427.5
+    "width": 342.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,7 +206,7 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e038771c8ffd17b5",
   "lastOpenFiles": [
     "Home.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
