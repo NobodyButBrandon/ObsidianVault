@@ -186,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 399.5
+    "width": 333.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,7 +205,7 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "140dce517c1e3ccd",
   "lastOpenFiles": [
     "Home.md",
     "7 - Other/Advanced databases - UCR.md",
