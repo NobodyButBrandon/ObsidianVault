@@ -15,9 +15,9 @@ Email: luis.esquivel@ucr.ac.cr
 Office: Annex building 4-4 (Consultations on tuesday 13:00 to 15:30)
 
 **Deadlines**
-- First project advance -> _29-Apr-2025_ #UNI_DEADLINE
-- Second project advance -> _24-Jun-2025_ #UNI_DEADLINE 
-- Short tests & Lab works -> One every 2 or 3 weeks
+First project advance -> _29-Apr-2025_ #UNI_DEADLINE
+Second project advance -> _24-Jun-2025_ #UNI_DEADLINE 
+Short tests & Lab works -> One every 2 or 3 weeks
 
 **Evaluation**
 

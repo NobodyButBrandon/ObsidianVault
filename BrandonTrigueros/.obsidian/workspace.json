@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/Numerical analysis - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Numerical analysis - UCR"
             }
           }
         ]
@@ -186,7 +186,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 333.5
+    "width": 403.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,14 +205,16 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "140dce517c1e3ccd",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/UCR 1-2025.md",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/Computer architecture - UCR.md",
     "Home.md",
-    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
     "7 - Other/Flashcards/Vocabulary.md",
-    "7 - Other/UCR 1-2025.md",
     "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/breakthroughs.md",
@@ -226,10 +228,8 @@
     "7 - Other/delve.md",
     "7 - Other/University.md",
     "7 - Other/ubiquitous.md",
-    "7 - Other/Experiment design - UCR.md",
     "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/EDesign 24-Mar-2025 Lecture.md",
-    "7 - Other/Computer architecture - UCR.md",
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Ch1 - Introduction.md",

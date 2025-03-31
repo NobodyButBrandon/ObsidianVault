@@ -15,13 +15,13 @@ Email: hugo.pena@ucr.ac.cr
 Office: CIMPA 319  (Consultations on Thursday 9:00 to 11:00)
 
 **Deadlines**
-- Short test 1 -> _31-Mar-2025_
-- Exam 1 -> _9-Apr-2025_
-- Short test 2 -> _12-May-2025_
-- Exam 2 -> _24-May-2025_
-- Research presentation -> _23-Jun-2025_
-- Short test 3 -> _23-Jun-2025_
-- Exam 3 -> _05-Jul-2025
+Short test 1 -> _31-Mar-2025_ #UNI_DEADLINE
+Exam 1 -> _9-Apr-2025_ #UNI_DEADLINE
+Short test 2 -> _12-May-2025_ #UNI_DEADLINE
+Exam 2 -> _24-May-2025_ #UNI_DEADLINE
+Research presentation -> _23-Jun-2025_ #UNI_DEADLINE
+Short test 3 -> _23-Jun-2025_ #UNI_DEADLINE
+Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 
 **Evaluation**
 

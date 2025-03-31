@@ -15,9 +15,9 @@ Email: ignacio.diazoreiro@ucr.ac.cr
 Office: Annex Building 6-5 (Consultations on Monday 8:00 to 10:00, Thursday 8:00 to 9:00)
 
 **Deadlines**
-- Project [[proposal]] -> _8-May-2025_
-- Project advance -> _5-Jun-2025_
-- Project final presentation -> _4-Jul-2025_
+Project [[proposal]] -> _8-May-2025_ #UNI_DEADLINE 
+Project advance -> _5-Jun-2025_  #UNI_DEADLINE 
+Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 
 **Evaluation**
 
