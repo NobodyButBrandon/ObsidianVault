@@ -156,6 +156,31 @@
               "icon": "lucide-file",
               "title": "Task Timeline"
             }
+          },
+          {
+            "id": "92402b3c7fa2c3cf",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "1941ee9ed5a7c8e7",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
         ],
         "currentTab": 3
@@ -183,9 +208,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "Home.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
-    "Home.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/UCR 1-2025.md",
