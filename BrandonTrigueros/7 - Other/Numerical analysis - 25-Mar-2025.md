@@ -6,10 +6,8 @@ ___
 #### **Lecture contents:**
 [[Solución numérica de ecuaciones no lineales.pdf]]
 
-
-
 #### **Homeworks:**
-- Quiz -> _01-Apr-2025_
+Estudiar para quiz 1 -> _01-Apr-2025_ #UNI_TODO
 
 #### **Teacher notes:**
 

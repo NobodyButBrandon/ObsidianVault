@@ -16,7 +16,7 @@ Office: CIMPA 319  (Consultations on Thursday 9:00 to 11:00)
 
 **Deadlines**
 Short test 1 -> _1-Apr-2025_ #UNI_DEADLINE
-Exam 1 -> _9-Apr-2025_ #UNI_DEADLINE
+Exam 1 -> _8-Apr-2025_ #UNI_DEADLINE
 Short test 2 -> _12-May-2025_ #UNI_DEADLINE
 Exam 2 -> _24-May-2025_ #UNI_DEADLINE
 Research presentation -> _23-Jun-2025_ #UNI_DEADLINE
@@ -36,7 +36,7 @@ Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 #  Lecture notes
 [[MATLAB exercises - 18-Mar-2025]]
 [[MATLAB exercises - 21-Mar-2025]]
-[[MATLAB exercises - 25-Mar-2025]] #UNI_TODO 
+[[MATLAB exercises - 25-Mar-2025]]
 [[Numerical analysis - 25-Mar-2025]]
 
 # Materials
@@ -52,6 +52,7 @@ Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 ___
 **Hugo Peña Presentations**
 	[[Punto_Flotante.pdf]]
+	[[PuntoFijo_Newton_Secante.pdf]]
 ___
 **M de León Presentations**
 	[[P01.pdf]]

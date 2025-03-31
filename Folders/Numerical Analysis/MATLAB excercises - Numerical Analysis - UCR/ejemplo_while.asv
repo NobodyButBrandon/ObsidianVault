@@ -1,0 +1,9 @@
+%suponga que se quiere aproximar el valor de la raiz cuadrada de 2 y
+%estamos dispuestos tolerar un error absoluto de 0.001.
+
+clearvars
+
+x = sqrt(2);
+tol = 0.001;
+xn = 12.5;
+

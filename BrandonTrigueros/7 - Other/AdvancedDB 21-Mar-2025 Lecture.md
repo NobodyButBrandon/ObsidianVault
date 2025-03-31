@@ -38,7 +38,6 @@ Un DW es:
 
 En cuanto a la seguridad, existen datos que pueden parecer inocentes pero me permiten individualizar a las personas,  lo cual se presta para un montón de cosas. Por esto se sumariza en los DW.
 #### **Homeworks:**
-- _Próxima clase_ -> Leer capítulo 4 #UNI_TODO 
 - _25-Mar-2025_:
 	- Investigar que es un ODBC
 	- Averiguar cual driver y con qué versión se utilizaba para conectarse a la base de datos del PI de bases - inge. soft.
@@ -51,7 +50,7 @@ En cuanto a la seguridad, existen datos que pueden parecer inocentes pero me per
 
 #### **Teacher notes:**
 - Vimos el vídeo de hostigamiento sexual.
-- Va a haber _quiz_ el próximo viernes 28-Mar-2025 sobre capítulo 3. Repasar este capítulo #UNI_TODO 
+- Va a haber _quiz_ el próximo viernes 28-Mar-2025 sobre capítulo 3. Repasar este capítulo
 - La primera tarea va a ser un data mart investigando algún conjunto de datos. No puede ser solo una base de datos, semi-estructurados.
 #### **Mental notes:**
 Sería interesante programar drivers en lenguajes como C, C++ o ensamblador. #idea

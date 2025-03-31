@@ -17,8 +17,6 @@ En bases de datos tenemos varios conceptos que son distintos pero que se confund
 
 Sin embargo una base de datos operacional se limita a que no engloba datos de distintas fuentes. Por ejemplo, una cadena de tiendas que quiera responder preguntas de business intelligence, como un análisis de las ventas, pero cada tienda administra una base operacional separada.
 
-![[AdvancedDB 18-Mar-2025 Lecture 2025-03-27 20.58.18.excalidraw]]
-
 ![[Excalidraw ADB#^group=agg3Sxu2|500]]
 
 Si construyo un almacén de datos usando lo que tengo almacenado en mis tablas relacionales, para que me serviría?
@@ -33,7 +31,6 @@ Si construyo un almacén de datos usando lo que tengo almacenado en mis tablas r
 | Para construirla se ocupan requerimientos                       | Lo que necesito saber para construirlo es cuál es la pregunta que deseo responda |
 
 #### **Homeworks:**
--...-
 
 #### **Teacher notes:**
 Es necesario repasar comando _tar_ y relacionado si quiero decir que sé de bases de datos <- #UNI_TODO 

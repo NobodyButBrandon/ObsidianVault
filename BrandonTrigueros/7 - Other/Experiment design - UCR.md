@@ -15,7 +15,8 @@ Email: ignacio.diazoreiro@ucr.ac.cr
 Office: Annex Building 6-5 (Consultations on Monday 8:00 to 10:00, Thursday 8:00 to 9:00)
 
 **Deadlines**
-Project [[proposal]] -> _8-May-2025_ #UNI_DEADLINE 
+Project [[proposal]]. View details in [[EDesign - Project Docs]]
+ -> _8-May-2025_ #UNI_DEADLINE 
 Project advance -> _5-Jun-2025_  #UNI_DEADLINE 
 Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 
@@ -31,15 +32,20 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 
 # Lecture notes
 [[EDesign 24-Mar-2025 Lecture]]
-
+[[EDesign 31-Mar-2025 Lecture]]
 # Laboratories
-[[CI0131. Laboratorio RStudio Básico]]
+[[EDesign. Laboratorio RStudio Básico]]
+
+# Class Work & Homework
+[[EDesign Classwork 1]]
+[[EDesign Homework 1]]
 
 # Materials
 
 __Presentations__
 [[1. CI0131 Capas del diseño de investigación 2025.pdf]]
 [[2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf]]
+[[3. CI0131 Análisis Exploratorio de Datos 2025.pdf]]
 ___
 __Books__
 [[Design and analysis of experiments - Montgomery]]

@@ -1,0 +1,5 @@
+% En esta ocasion estamos dispuestos a tolerar un error absoluto de 1 x
+% 10^-6 en la proxim aproximimacion. Sin embargo, queremos ejecutar un maximo
+% de 5 iteraciones.
+
+tol = 1*10^*-6

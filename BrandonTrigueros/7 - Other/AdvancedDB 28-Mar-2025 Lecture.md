@@ -50,6 +50,7 @@ Ver diagrama #UNI_TODO
 La relación de hechos me une todas las dimensiones a modelar. 
 
 #### **Homeworks:**
+Estudiar para el quiz del capítulo 3 -> _01-Apr-2025_ #UNI_TODO 
 Leer el capítulo 4 y ver anexo A3 -> _01-Apr-2025_ #UNI_TODO
 Primer trabajo de laboratorio -> _04-Apr-2025_ #UNI_TODO
 
