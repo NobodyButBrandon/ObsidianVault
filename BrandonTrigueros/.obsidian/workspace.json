@@ -4,16 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4996b71a7be9dfb4",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
+        "dimension": 76.96396928529238,
         "children": [
           {
-            "id": "83e31a6a9a6567b2",
+            "id": "62c918a0bc99ec2c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Homework 2 - CPU 8 bits.md",
+                "file": "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +29,26 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Homework 2 - CPU 8 bits"
+              "title": "CArchitecture 31-Mar-2025 Lecture"
+            }
+          }
+        ]
+      },
+      {
+        "id": "0cb2819a531f5c4a",
+        "type": "tabs",
+        "dimension": 23.03603071470762,
+        "children": [
+          {
+            "id": "140dce517c1e3ccd",
+            "type": "leaf",
+            "pinned": true,
+            "state": {
+              "type": "task-timeline-view",
+              "state": {},
+              "pinned": true,
+              "icon": "lucide-file",
+              "title": "Task Timeline"
             }
           }
         ]
@@ -88,7 +108,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 200,
+    "collapsed": true
   },
   "right": {
     "id": "ab400e4e217ca578",
@@ -99,22 +120,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "140dce517c1e3ccd",
-            "type": "leaf",
-            "state": {
-              "type": "task-timeline-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Task Timeline"
-            }
-          },
-          {
             "id": "7841936919d78c14",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +135,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for Home"
+              "title": "Backlinks for CArchitecture 31-Mar-2025 Lecture"
             }
           },
           {
@@ -185,7 +196,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 392.5
+    "width": 346.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,18 +216,22 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "83e31a6a9a6567b2",
+  "active": "62c918a0bc99ec2c",
   "lastOpenFiles": [
-    "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
-    "7 - Other/Homework 2 - CPU 8 bits.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
+    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "7 - Other/Numerical analysis - 25-Mar-2025.md",
+    "7 - Other/Homework 1 - CPU 4 bits.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Homework 2 - CPU 8 bits.md",
+    "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
     "5 - Important Notes/Course of Action (March24 - July5).md",
     "6 - Attachments/Computer Organization and Architecture.pdf",
     "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
     "7 - Other/AdvancedDB 11-Mar-2025 Lecture.md",
-    "7 - Other/Homework 1 - CPU 4 bits.md",
     "6 - Attachments/cpu4bits.circ",
     "7 - Other/Experiment design - UCR.md",
     "7 - Other/EDesign Classwork 1.md",
@@ -231,14 +247,10 @@
     "7 - Other/AdvancedDB 18-Mar-2025 Lecture.md",
     "7 - Other/AdvancedDB 18-Mar-2025 Lecture 2025-03-27 20.58.18.excalidraw.md",
     "7 - Other/Numerical analysis - UCR.md",
-    "7 - Other/Numerical analysis - 25-Mar-2025.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/National reality seminar II - UCR.md",
     "6 - Attachments/PuntoFijo_Newton_Secante.pdf",
     "7 - Other/MATLAB exercises - 21-Mar-2025.md",
-    "7 - Other/MATLAB exercises - 25-Mar-2025.md",
-    "7 - Other/MATLAB exercises - 18-Mar-2025.md",
-    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
     "6 - Attachments/Solución numérica de ecuaciones no lineales.pdf",
     "6 - Attachments/Lab 1 - Diseño de experimentos - C17899 - C13388.pdf",
