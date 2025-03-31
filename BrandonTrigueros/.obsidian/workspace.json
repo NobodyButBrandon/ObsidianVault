@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 422.5
+    "width": 377.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +206,11 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e038771c8ffd17b5",
   "lastOpenFiles": [
-    "Home.md",
-    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
+    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "Home.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/UCR 1-2025.md",
