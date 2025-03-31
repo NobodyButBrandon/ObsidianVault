@@ -7,8 +7,10 @@ ___
 El profe comienza a hacer un approach del CPU de 8 bits, es decir la [[Homework 2 - CPU 8 bits]]
 
 #### **Homeworks:**
-
+[[Homework 2 - CPU 8 bits]] -> _7-Apr-2025_ #UNI_TODO 
 
 #### **Teacher notes:**
+Quiz 1 Arquitectura de computadoras -> _3-Apr-2025_ #UNI_TODO
+[Temas de quiz](https://i.imgur.com/1zsSVcu.png)
 
 #### **Mental notes:**

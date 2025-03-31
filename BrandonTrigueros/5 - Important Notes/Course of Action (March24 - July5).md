@@ -47,8 +47,8 @@ ___
 
 **Actions**:
 1. Block CAP work as non-negotiable sessions.
-	Session 1: Saturday 8:30 to 11:30
-	Session 2: Saturday 13:00 to 16:00
+	Session 1: Wednesday 5:00 to 8:00
+	Session 2: Wednesday 8:30 to 11:30
 	
 2. Use workdays to do assignments and as study time. My main goal is to learn so i **commit** to study hard every hour i have.
 	#complete_later 
