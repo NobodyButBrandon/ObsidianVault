@@ -18,4 +18,4 @@ ___
 [[Ch3 - Data Warehouse Concepts]]
 
 #### Chapter 4
-[[Ch4 - Data Warehouse Concepts]]
+[[Ch4 - Conceptual Data Warehouse Design]]

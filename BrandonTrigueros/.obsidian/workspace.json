@@ -6,26 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 54.38335809806835,
-        "children": [
-          {
-            "id": "8bebaeb71037959e",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "6 - Attachments/Data Warehouse Systems.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Data Warehouse Systems"
-            }
-          }
-        ]
-      },
-      {
-        "id": "11ede8511a8e2a9c",
-        "type": "tabs",
-        "dimension": 45.61664190193165,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -33,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Ch4 - Data Warehouse Concepts.md",
+                "file": "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -48,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ch4 - Data Warehouse Concepts"
+              "title": "Ch4 - Conceptual Data Warehouse Design"
             }
           }
         ]
@@ -128,8 +108,82 @@
               "icon": "lucide-file",
               "title": "Task Timeline"
             }
+          },
+          {
+            "id": "e8c2e2a64c49956b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "7 - Other/Ch4 - Data Warehouse Concepts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Ch4 - Data Warehouse Concepts"
+            }
+          },
+          {
+            "id": "0d626ee4c1bf1871",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "7 - Other/Ch4 - Data Warehouse Concepts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ch4 - Data Warehouse Concepts"
+            }
+          },
+          {
+            "id": "939a04ca4f79a563",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "8b92c770a5c3c341",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7 - Other/Ch4 - Data Warehouse Concepts.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ch4 - Data Warehouse Concepts"
+            }
+          },
+          {
+            "id": "7f9a62d5495017d3",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -155,16 +209,17 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "6 - Attachments/Data Warehouse Systems.pdf",
-    "7 - Other/Ch4 - Data Warehouse Concepts.md",
     "7 - Other/Flashcards/Vocabulary.md",
+    "7 - Other/pertaining.md",
     "7 - Other/underlying.md",
+    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
-    "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "6 - Attachments/Data Warehouse Systems.pdf",
+    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
     "7 - Other/K-anonimato, Privacidad diferencial y GDPR.md",
     "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
     "7 - Other/Computer architecture - UCR.md",
