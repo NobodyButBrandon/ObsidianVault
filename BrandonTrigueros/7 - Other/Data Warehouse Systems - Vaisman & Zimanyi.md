@@ -16,3 +16,6 @@ ___
 
 #### Chapter 3
 [[Ch3 - Data Warehouse Concepts]]
+
+#### Chapter 4
+[[Ch4 - Data Warehouse Concepts]]

@@ -64,7 +64,7 @@ _Modelo multidimensional_
 Repasar las filminas #UNI_TODO sobre estrella y copo de nieve
 
 #### **Homeworks:**
-Averiguar que es K-anonimato, privacidad diferencial y GDPR -> _1-Apr-2025_ #UNI_TODO
+Averiguar que es [[K-anonimato, Privacidad diferencial y GDPR]] -> _1-Apr-2025_
 
 #### **Teacher notes:**
 También se debe saber de redes, saber en que puertos escucha las bases de datos, saber detectar problemas.
