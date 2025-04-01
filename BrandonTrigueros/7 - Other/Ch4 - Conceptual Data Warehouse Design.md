@@ -43,5 +43,6 @@ En donde los roles Subordinado y Supervisor de la relación padre-hijo están vi
 Esta jerarquía está desequilibrada, ya que los empleados sin subordinados no tendrán descendientes en el árbol de instancias.
 
 #### Jerarquías generalizadas
-
+Son aquellas en las que los miembros de un nivel son de diferentes tipos por lo que el camino de agregación puede ser diferente para cada uno.
+ 
 # Flashcards

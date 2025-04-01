@@ -35,8 +35,17 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 21-Mar-2025 Lecture]]
 [[AdvancedDB 25-Mar-2025 Lecture]]
 [[AdvancedDB 28-Mar-2025 Lecture]]
+[[AdvancedDB 1-Apr-2025 Lecture]]
 
 # Materials
 [[ACID]]
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
 [Business Intelligence: Multidimensional Analysis](https://www.youtube.com/watch?v=IhFkNmVmwn4)
+
+# Presentations
+[[I-2025 ImportanciaDeLosDatos.pdf]]
+[[I-2025 Historia de los Sistemas de Bases de Datos.pdf]]
+[[I-2025 DW - Introducción 1.pdf]]
+[[I-2025 ETL.pdf]]
+[[DW - Modelo Conceptual.pdf]]
+[[DW - Metodología para el diseño.pdf]]

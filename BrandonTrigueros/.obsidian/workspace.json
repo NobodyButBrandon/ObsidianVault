@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
+                "file": "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,31 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Ch4 - Conceptual Data Warehouse Design"
+              "title": "AdvancedDB 1-Apr-2025 Lecture"
+            }
+          },
+          {
+            "id": "a14c18067873c35f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "AdvancedDB 1-Apr-2025 Lecture"
             }
           }
         ]
@@ -64,7 +88,7 @@
               "type": "search",
               "state": {
                 "query": "",
-                "matchingCase": true,
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -84,7 +108,8 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -182,12 +207,11 @@
               "title": "Notes Review Queue"
             }
           }
-        ],
-        "currentTab": 5
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 303.5,
+    "width": 200,
     "collapsed": true
   },
   "left-ribbon": {
@@ -209,14 +233,23 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/Homework 1 - CPU 4 bits.md",
+    "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "6 - Attachments/I-2025 DW - Introducción 1.pdf",
+    "6 - Attachments/I-2025 DW - Introducción.pdf",
+    "6 - Attachments/I-2025 ETL.pdf",
+    "6 - Attachments/DW - Modelo Conceptual.pdf",
+    "6 - Attachments/DW - Metodología para el diseño.pdf",
+    "6 - Attachments/I-2025 Historia de los Sistemas de Bases de Datos.pdf",
+    "6 - Attachments/I-2025 ImportanciaDeLosDatos.pdf",
+    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
+    "7 - Other/UCR 1-2025.md",
+    "Home.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/pertaining.md",
     "7 - Other/underlying.md",
-    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
-    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
-    "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/UCR 1-2025.md",
-    "Home.md",
     "6 - Attachments/Data Warehouse Systems.pdf",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/AdvancedDB 25-Mar-2025 Lecture.md",
@@ -224,7 +257,6 @@
     "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/Numerical analysis - 25-Mar-2025.md",
-    "7 - Other/Homework 1 - CPU 4 bits.md",
     "7 - Other/Homework 2 - CPU 8 bits.md",
     "5 - Important Notes/Course of Action (March24 - July5).md",
     "6 - Attachments/Computer Organization and Architecture.pdf",
@@ -236,15 +268,6 @@
     "7 - Other/EDesign 31-Mar-2025 Lecture.md",
     "7 - Other/EDesign - Project Docs.md",
     "7 - Other/EDesign 24-Mar-2025 Lecture.md",
-    "6 - Attachments/3. CI0131 Análisis Exploratorio de Datos 2025.pdf",
-    "6 - Attachments/CI0131 Análisis Explotatorio de Datos 2025.pdf",
-    "7 - Other/EDesign. Laboratorio RStudio Básico.md",
-    "7 - Other/EDesign Homework 1.md",
-    "6 - Attachments/Tarea Recolección y Muestreo de Datos 2025.pdf",
-    "6 - Attachments/CI0131. Trabajo en clase - I 2025.pdf",
-    "6 - Attachments/PuntoFijo_Newton_Secante.pdf",
-    "6 - Attachments/Métodos numéricos con Matlab.pdf",
-    "6 - Attachments/Solución numérica de ecuaciones no lineales.pdf",
     "6 - Attachments/Pasted image 20250318091810.png",
     "6 - Attachments/Pasted image 20250322211647.png",
     "6 - Attachments/Pasted image 20250322203131.png",
