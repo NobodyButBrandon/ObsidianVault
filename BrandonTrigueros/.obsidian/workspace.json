@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+                "file": "7 - Other/UCR 1-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,31 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AdvancedDB 1-Apr-2025 Lecture"
-            }
-          },
-          {
-            "id": "a14c18067873c35f",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "AdvancedDB 1-Apr-2025 Lecture"
+              "title": "UCR 1-2025"
             }
           }
         ]
@@ -211,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 376.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -233,8 +208,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "7 - Other/Homework 1 - CPU 4 bits.md",
+    "Home.md",
     "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+    "7 - Other/Homework 1 - CPU 4 bits.md",
     "7 - Other/Advanced databases - UCR.md",
     "6 - Attachments/I-2025 DW - Introducción 1.pdf",
     "6 - Attachments/I-2025 DW - Introducción.pdf",
@@ -246,7 +222,6 @@
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
     "7 - Other/UCR 1-2025.md",
-    "Home.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/pertaining.md",
     "7 - Other/underlying.md",
