@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87af1a16e95a18db",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -100,6 +100,79 @@
         "type": "tabs",
         "children": [
           {
+            "id": "eeeada48c2dc86c4",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "7 - Other/Ch3 - Data Warehouse Concepts.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Ch3 - Data Warehouse Concepts"
+            }
+          },
+          {
+            "id": "1f16179fb0b24308",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "7 - Other/Ch3 - Data Warehouse Concepts.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Ch3 - Data Warehouse Concepts"
+            }
+          },
+          {
+            "id": "c0e9861c54dd8bc3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "7 - Other/Ch3 - Data Warehouse Concepts.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Ch3 - Data Warehouse Concepts"
+            }
+          },
+          {
+            "id": "267c34b867ee3ba4",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "865b5b99d8535cae",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
+            }
+          },
+          {
             "id": "e0473232b5bad5d3",
             "type": "leaf",
             "pinned": true,
@@ -111,11 +184,12 @@
               "title": "Task Timeline"
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 366.5
+    "width": 355.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -134,14 +208,15 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "87af1a16e95a18db",
+  "active": "e0473232b5bad5d3",
   "lastOpenFiles": [
-    "Excalidraw/Excalidraw ADB.md",
-    "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "7 - Other/Ch3 - Data Warehouse Concepts.md",
+    "Excalidraw/Excalidraw ADB.md",
     "6 - Attachments/Screenshot 2025-04-02 151328.png",
     "6 - Attachments/Ch3 - Data Warehouse Concepts 2025-04-02 15.11.26.excalidraw.md",
     "7 - Other/Flashcards/Vocabulary.md",
@@ -151,7 +226,6 @@
     "7 - Other/coarser.md",
     "6 - Attachments/Data Warehouse Systems.pdf",
     "7 - Other/Ch1 - Introduction.md",
-    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/Homework 1 - CPU 4 bits.md",
     "7 - Other/Numerical analysis - UCR.md",

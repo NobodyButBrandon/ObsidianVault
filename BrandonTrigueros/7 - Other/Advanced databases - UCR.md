@@ -37,9 +37,10 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 28-Mar-2025 Lecture]]
 [[AdvancedDB 1-Apr-2025 Lecture]]
 
+# Book
+[[Data Warehouse Systems - Vaisman & Zimanyi]]
 # Materials
 [[ACID]]
-[[Data Warehouse Systems - Vaisman & Zimanyi]]
 [Business Intelligence: Multidimensional Analysis](https://www.youtube.com/watch?v=IhFkNmVmwn4)
 
 # Presentations

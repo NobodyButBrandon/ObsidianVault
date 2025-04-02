@@ -7,7 +7,7 @@ Tags: [[databases]] [[warehouse systems]]
 ## Reference
 [[Data Warehouse Systems.pdf]]
 ___
-# Syllabus
+## Syllabus
 #### Chapter 1
 [[Ch1 - Introduction]]
 

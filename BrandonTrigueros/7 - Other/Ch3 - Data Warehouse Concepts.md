@@ -51,6 +51,7 @@ En el mundo real existen muchos tipos de jerarquías, la imagen muestra uno de l
 número de niveles desde cada producto individual hasta la raíz de la jerarquía.
 ___
 
+
 ![[Pasted image 20250318085945.png|600]]
 
 Comparación entre bases de datos operativas y almacenes de datos
