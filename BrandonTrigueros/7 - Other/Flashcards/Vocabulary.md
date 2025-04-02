@@ -9,3 +9,5 @@
 [[breakthroughs]]
 [[underlying]]
 [[pertaining]]
+[[coarser]]
+[[aggregated]]

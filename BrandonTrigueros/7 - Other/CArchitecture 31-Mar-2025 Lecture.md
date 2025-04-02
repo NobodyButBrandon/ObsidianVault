@@ -10,10 +10,10 @@ Vamos a comenzar a ver ISA's. Vamos a comenzar con MIPS x64
 
 #### **Homeworks:**
 [[Homework 2 - CPU 8 bits]] -> _7-Apr-2025_ #UNI_TODO 
-Investigar sobre R type, I type, J type, jumps, ALU, FP, l/s, tipos de direccionamiento, register direct, lmm, register indirect, absolute -> _3-Apr-2025_ #UNI_TODO 
+Investigar sobre R type, I type, J type, jumps, ALU, FP, l/s, tipos de direccionamiento, register direct, lmm, register indirect, absolute -> _2-Apr-2025_ #UNI_TODO 
 
 #### **Teacher notes:**
-Quiz 1 Arquitectura de computadoras -> _3-Apr-2025_ #UNI_TODO
+Estudiar para quiz 1 Arquitectura de computadoras -> _2-Apr-2025_ #UNI_TODO
 [Temas de quiz](https://i.imgur.com/1zsSVcu.png)
 
 #### **Mental notes:**

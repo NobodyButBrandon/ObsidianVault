@@ -2,5 +2,8 @@
   "accentColor": "",
   "cssTheme": "Border",
   "baseFontSize": 19,
-  "theme": "system"
+  "theme": "obsidian",
+  "showViewHeader": true,
+  "showRibbon": true,
+  "nativeMenus": false
 }

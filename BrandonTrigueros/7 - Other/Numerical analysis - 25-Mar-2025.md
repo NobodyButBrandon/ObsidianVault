@@ -7,7 +7,7 @@ ___
 [[Solución numérica de ecuaciones no lineales.pdf]]
 
 #### **Homeworks:**
-Estudiar para quiz 1 -> _01-Apr-2025_ #UNI_TODO
+Estudiar para quiz 1 -> _01-Apr-2025_
 
 #### **Teacher notes:**
 

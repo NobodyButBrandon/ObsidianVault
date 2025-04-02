@@ -9,5 +9,8 @@
   "strictLineBreaks": false,
   "showLineNumber": false,
   "spellcheck": true,
-  "livePreview": true
+  "livePreview": true,
+  "propertiesInDocument": "source",
+  "foldIndent": false,
+  "showUnsupportedFiles": true
 }
