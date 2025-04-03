@@ -17,7 +17,7 @@ Las bases de datos típicas operacionales fueron concebidas con propósitos espe
 
 **Almacén de datos:**
 > Recopilación de datos <u>orientados a temas concretos</u>, <u>integrados</u>, <u>no volátiles</u>
-> y <u>variables en el tiempo</u> para apoyar las decisiones de gestión.
+ > y <u>variables en el tiempo</u> para apoyar las decisiones de gestión.
 
 <u>Orientados a temas concretos</u>: 
 El almacén se enfoca en temas de análisis de acuerdo a los requerimientos de los directivos.
@@ -34,7 +34,7 @@ El almacén va a crecer junto con los datos y va a almacenar información de có
 **Modelado multidimensional**
 Consiste en organizar las tablas relacionales en estructuras especiales (esquemas de estrella y copo de nieve) que permitan ver los datos como hechos asociados a distintas dimensiones.  Sobre esta vista relacional el OLAP construye un cubo de datos que provee una vista multidimensional de los datos.
 
-#UNI_TODO <- make flashcards for review questions
+___
 #### Review questions
 1. _Why are traditional databases called operational or transactional? Why are these databases inappropriate for data analysis?_
 Because they are designed to support daily business operations, such as frequent updates, inserts, and deletions. They prioritize concurrent access and data consistency through recovery techniques. Are inappropriate for data analysis because 

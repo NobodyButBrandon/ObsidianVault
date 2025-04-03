@@ -2,7 +2,7 @@
   "accentColor": "",
   "cssTheme": "Border",
   "baseFontSize": 19,
-  "theme": "obsidian",
+  "theme": "system",
   "showViewHeader": true,
   "showRibbon": true,
   "nativeMenus": false

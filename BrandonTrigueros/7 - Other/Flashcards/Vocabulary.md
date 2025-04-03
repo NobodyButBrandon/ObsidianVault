@@ -11,3 +11,5 @@
 [[pertaining]]
 [[coarser]]
 [[aggregated]]
+[[traversing]]
+[[Completeness]]
