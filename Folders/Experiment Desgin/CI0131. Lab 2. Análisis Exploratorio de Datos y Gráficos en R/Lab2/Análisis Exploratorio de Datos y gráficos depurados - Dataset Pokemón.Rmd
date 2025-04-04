@@ -1,0 +1,13 @@
+```{r}
+# Cargar el dataframe
+
+df = (read.csv(file.choose(), header=T, encoding = "UTF-8"))
+```
+
+```{r}
+plot(cars)
+```
+
+```{r}
+plot(cars)
+```

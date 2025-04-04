@@ -142,5 +142,5 @@ Las medidas holísticas no pueden derivarse a partir de la combinación de subag
 Por ejemplo, la **mediana:** necesita ordenar todos los datos para determinar el valor central. La **moda:** requiere evaluar la frecuencia de cada valor para identificar el más recurrente.
 
 Debido a esta necesidad de procesar todos los datos, estas medidas suelen ser más costosas.
-
+___
 Seguir con las operaciones OLAP -> _03-Apr-2025_ #UNI_TODO 

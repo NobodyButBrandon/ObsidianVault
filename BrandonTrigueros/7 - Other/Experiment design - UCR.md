@@ -33,8 +33,10 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 # Lecture notes
 [[EDesign 24-Mar-2025 Lecture]]
 [[EDesign 31-Mar-2025 Lecture]]
+[[EDesign 4-Apr-2025 Lecture]]
 # Laboratories
 [[EDesign. Laboratorio RStudio Básico]]
+[[Lab 2. Análisis Exploratorio de Datos y Gráficos en R]]
 
 # Class Work & Homework
 [[EDesign Classwork 1]]

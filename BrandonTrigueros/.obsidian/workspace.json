@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8d31afcdd666b415",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
+                "file": "7 - Other/Trabajo de laboratorio - Historia de Datos y Power BI.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CArchitecture 31-Mar-2025 Lecture"
+              "title": "Trabajo de laboratorio - Historia de Datos y Power BI"
             }
           }
         ]
@@ -183,11 +183,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 382.5
+    "width": 303.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,48 +206,48 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "8d31afcdd666b415",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
-    "7 - Other/Homework 1 - CPU 4 bits.md",
-    "6 - Attachments/Homework 1 - CPU 4 bits 2025-04-02 21.40.48.excalidraw.md",
-    "6 - Attachments/cpu4bits.bak",
-    "7 - Other/Computer architecture - UCR.md",
-    "6 - Attachments/Homework 1 - CPU 4 bits 2025-04-02 21.39.10.excalidraw.md",
+    "6 - Attachments/Reporte de Laboratorio de Historia de Datos y Power BI - C17899.pdf",
+    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
-    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "7 - Other/Trabajo de laboratorio - Historia de Datos y Power BI.md",
+    "7 - Other/Lab 2. Análisis Exploratorio de Datos y Gráficos en R.md",
+    "7 - Other/Experiment design - UCR.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
-    "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
+    "7 - Other/Course of Action (July13 - December 31).md",
+    "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "6 - Attachments/Computer Architecture_ A Quantitative Approach.pdf",
+    "7 - Other/Modern Computer Architecture and Organization - Jim Ledin.md",
+    "7 - Other/Ch1_Computer Architecture.md",
+    "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
+    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
+    "7 - Other/Homework 1 - CPU 4 bits.md",
+    "6 - Attachments/Lab2 Analisis exploratorio de datos.pdf",
+    "6 - Attachments/pokemon.csv",
+    "7 - Other/EDesign 4-Apr-2025 Lecture.md",
+    "6 - Attachments/3. CI0131 Análisis Exploratorio de Datos 2025.pdf",
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
+    "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
+    "6 - Attachments/Homework 1 - CPU 4 bits 2025-04-02 21.40.48.excalidraw.md",
+    "6 - Attachments/cpu4bits.bak",
+    "6 - Attachments/Homework 1 - CPU 4 bits 2025-04-02 21.39.10.excalidraw.md",
     "6 - Attachments/Pasted image 20250318090530.png",
     "6 - Attachments/Pasted image 20250318090416.png",
     "6 - Attachments/Pasted image 20250318085945.png",
     "7 - Other/Explicación ChatGPT para coste por unidad.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/traversing.md",
-    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Ch1 - Introduction.md",
-    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
-    "7 - Other/Completeness.md",
     "6 - Attachments/I-2025 DW - Introducción.pdf",
     "6 - Attachments/I-2025 DW - Introducción 1.pdf",
-    "Excalidraw/Excalidraw ADB.md",
     "6 - Attachments/Screenshot 2025-04-02 151328.png",
-    "6 - Attachments/Ch3 - Data Warehouse Concepts 2025-04-02 15.11.26.excalidraw.md",
-    "7 - Other/aggregated.md",
-    "7 - Other/Untitled.md",
-    "7 - Other/Flashcards/comprises.md",
-    "7 - Other/coarser.md",
     "6 - Attachments/Data Warehouse Systems.pdf",
-    "7 - Other/Numerical analysis - UCR.md",
-    "7 - Other/Theatre appreciation - UCR.md",
     "6 - Attachments/PuntoFijo_Newton_Secante.pdf",
     "6 - Attachments/I-2025 ETL.pdf",
-    "6 - Attachments/DW - Modelo Conceptual.pdf",
-    "6 - Attachments/DW - Metodología para el diseño.pdf",
-    "6 - Attachments/I-2025 Historia de los Sistemas de Bases de Datos.pdf",
-    "6 - Attachments/I-2025 ImportanciaDeLosDatos.pdf",
     "6 - Attachments/Pasted image 20250318091810.png",
     "6 - Attachments/Pasted image 20250322211647.png",
     "6 - Attachments/Pasted image 20250322203131.png",

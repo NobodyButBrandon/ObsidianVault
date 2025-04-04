@@ -37,9 +37,13 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 28-Mar-2025 Lecture]]
 [[AdvancedDB 1-Apr-2025 Lecture]]
 
+# Labs
+[[Trabajo de laboratorio - Historia de Datos y Power BI]]
+
 # Books
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
 # Materials
+
 [[ACID]]
 [Business Intelligence: Multidimensional Analysis](https://www.youtube.com/watch?v=IhFkNmVmwn4)
 
