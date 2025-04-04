@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/Numerical analysis - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Numerical analysis - UCR"
             }
           }
         ]
@@ -206,10 +206,11 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e0473232b5bad5d3",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "Home.md",
     "2 - Source Material/Computer Organization and Architecture - William Stallings.md",
     "7 - Other/UCR 1-2025.md",
     "7 - Other/Computer architecture - UCR.md",
@@ -242,7 +243,6 @@
     "6 - Attachments/Pasted image 20250318085945.png",
     "7 - Other/Explicación ChatGPT para coste por unidad.md",
     "7 - Other/Flashcards/Vocabulary.md",
-    "7 - Other/traversing.md",
     "6 - Attachments/I-2025 DW - Introducción.pdf",
     "6 - Attachments/I-2025 DW - Introducción 1.pdf",
     "6 - Attachments/Screenshot 2025-04-02 151328.png",
