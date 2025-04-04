@@ -52,7 +52,7 @@ La relación de hechos me une todas las dimensiones a modelar.
 #### **Homeworks:**
 Leer el capítulo 4 y ver anexo A3 -> _02-Apr-2025_ #UNI_TODO
 
-Trabajo de laboratorio - Historia de Datos y Power BI -> _04-Apr-2025_ #UNI_TODO
+Trabajo de laboratorio - Historia de Datos y Power BI -> _04-Apr-2025_
 [Detalles](https://mv1.mediacionvirtual.ucr.ac.cr/mod/assign/view.php?id=2638361)
 #### **Teacher notes:**
 Yapping sobre documentación.

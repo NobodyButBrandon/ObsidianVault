@@ -37,8 +37,9 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 28-Mar-2025 Lecture]]
 [[AdvancedDB 1-Apr-2025 Lecture]]
 
-# Labs
+# Actividades
 [[Trabajo de laboratorio - Historia de Datos y Power BI]]
+[[Clase asincrónica AdvancedDB 04-Apr-2025]]
 
 # Books
 [[Data Warehouse Systems - Vaisman & Zimanyi]]

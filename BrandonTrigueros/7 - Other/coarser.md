@@ -4,7 +4,7 @@ ___
 ?
 
 más áspero (menos detallado)
-<!--SR:!2025-04-03,1,230-->
+<!--SR:!2025-04-06,2,230-->
 +++
 
 #englishcards

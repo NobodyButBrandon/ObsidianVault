@@ -4,6 +4,7 @@ ___
 ?
 
 Integridad / Completitud
+<!--SR:!2025-04-07,3,250-->
 +++
 
 #englishcards
