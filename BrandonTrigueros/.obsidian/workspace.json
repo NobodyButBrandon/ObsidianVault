@@ -8,30 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "15e40002ecef29da",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "6 - Attachments/DW - Modelo Conceptual.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "DW - Modelo Conceptual"
-            }
-          }
-        ]
-      },
-      {
-        "id": "31ea08f4c36f750b",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "6739b30e55d0835a",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
+                "file": "7 - Other/UCR 1-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -46,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AdvancedDB 8-Apr-2025 Lecture"
+              "title": "UCR 1-2025"
             }
           }
         ]
@@ -205,8 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 387.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -225,10 +206,11 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "6739b30e55d0835a",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "6 - Attachments/DW - Modelo Conceptual.pdf",
+    "Home.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
+    "6 - Attachments/DW - Modelo Conceptual.pdf",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Untitled 2.md",
     "7 - Other/Untitled 1.md",
@@ -240,7 +222,6 @@
     "6 - Attachments/Solución numérica de ecuaciones no lineales.pdf",
     "7 - Other/Numerical analysis - UCR.md",
     "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
-    "Home.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/Experiment design - UCR.md",
     "7 - Other/EDesign 7-Apr-2025 Lecture.md",
