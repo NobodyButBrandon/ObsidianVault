@@ -34,6 +34,7 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign 24-Mar-2025 Lecture]]
 [[EDesign 31-Mar-2025 Lecture]]
 [[EDesign 4-Apr-2025 Lecture]]
+[[EDesign 7-Apr-2025 Lecture]]
 # Laboratories
 [[EDesign. Laboratorio RStudio Básico]]
 [[Lab 2. Análisis Exploratorio de Datos y Gráficos en R]]
@@ -48,6 +49,7 @@ __Presentations__
 [[1. CI0131 Capas del diseño de investigación 2025.pdf]]
 [[2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf]]
 [[3. CI0131 Análisis Exploratorio de Datos 2025.pdf]]
+[[4. CI0131 Experimentos comparativos simples 2025.pdf]]
 ___
 __Books__
 [[Design and analysis of experiments - Montgomery]]

@@ -52,7 +52,8 @@ Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 ___
 **Hugo Peña Presentations**
 	[[Punto_Flotante.pdf]]
-	[[PuntoFijo_Newton_Secante.pdf]]
+	[[Solución numérica de ecuaciones no lineales.pdf]]
+	[[PuntoFijo_Newton_Secante_RegulaFalsi_Orden.pdf]]
 ___
 **M de León Presentations**
 	[[P01.pdf]]

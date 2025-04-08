@@ -17,7 +17,7 @@ Email: monica.matasoto@ucr.ac.cr
 Office: PROIN (Consultations on Friday 14:00 to 15:00)
 
 **Deadlines**
-Forum 1 -> _08-Apr-2025_ #UNI_DEADLINE
+Forum 1 -> _08-Apr-2025_
 Movie Analysis -> _29-Apr-2025_ #UNI_DEADLINE
 Forum 2 -> _13-May-2025_ #UNI_DEADLINE
 Forum 3 -> _03-Jun-2025_ #UNI_DEADLINE
@@ -39,7 +39,8 @@ Final Essay -> _08-Jul-2025_ #UNI_DEADLINE
 | Research: Infographic         | 6%         |
 | Research: Group reflections   | 6%         |
 
-# Lecture notes
+# Forums
+[[Forum 1 - National reality seminar II]]
 
 # Materials
 [[Guía del Trabajo Grupal.pdf]]

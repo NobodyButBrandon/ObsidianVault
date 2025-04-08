@@ -2,7 +2,7 @@
 
 Debido a que aún no contamos con las máquinas virtuales del curso, vamos a realizar varias actividades teóricas como parte de esta clase asíncrona (la entrega se hace en grupo -los mismos del proyecto-).  
 
-**Trabajo en grupo** -> _08-Apr-2025_ #UNI_TODO
+**Trabajo en grupo** -> _08-Apr-2025_
 1. Deben crear un proyecto en JIRA donde se incluyan todas las personas miembros del grupo del proyecto del curso, así como el profesor y el asistente del curso.
 2. Deben crear en JIRA todas las tareas que han realizado y planean realizar para crear un almacén de datos con los datos que recopilaron.
 3. Deben crear en [GIT (de la UCR)](https://git.ucr.ac.cr/users/sign_in) un proyecto donde vayan agregando toda la documentación y productos que vayan realizando del proyecto. Esto incluye referencias de fuentes de datos, modelo conceptual, entre otros.  
