@@ -40,9 +40,9 @@ ___
 **Sleep schedule**: 22:00 to 5:00 every day
 ___
 ### 1. University Responsibilities
-**Time**: 59 hrs/week
+**Time**: 56 hrs/week
 - Classes: 25 hrs (5 courses × 5 hrs each, Mon to Fri).
-- Study work: 28 hrs (4 courses × 7 hrs each).
+- Study work: 25 hrs (4 courses × 5 hrs each).
 - Cap System Work: 6 hrs (2 sessions × 3 hrs each with Milton - Track in [Jira](https://brandontrg.atlassian.net/jira/software/projects/KAN/boards/1))
 
 **Actions**:
@@ -55,18 +55,10 @@ ___
 
 ___
 ### 2. Problem Solving & Job Prep
-- **Time**: 18 hrs/week
-#### Python Basics: 4 hrs/week
-- **Study**: 2 hrs/week (use [[Think Python.pdf]])
-- **Solve book exercises**: 2 hrs/week (track progress here) <- #TODO: create GitHub repository and link readme here.
-#### DSA & Leetcode: 10 hrs/week
-- **Study**: 4 hrs/week (use [[Introduction to Algorithms.pdf]] + spaced repetition).
+- **Time**: 12 hrs/week
+#### DSA & Leetcode: 12 hrs/week
+- **Study**: 6 hrs/week (use [[Introduction to Algorithms.pdf]] + spaced repetition).
 - **Leetcode**: 6 hrs/week (follow [Neetcode Roadmap](https://neetcode.io/roadmap)).
-#### English Level step-up: 4 hrs/week
-**TOEFL Prep**:
-- **Study**: 4 hrs/week. Define a structured English preparation plan <- #TODO 
-- Flashcards in Obsidian.
-- Passive Practice (YouTube videos, notetaking in english and job interviews).
 #### Job Applications
 - **Weeks 4–16**: Apply to 5 jobs/week (tailor resume/portfolio).
 - Practice behavioral interviews.
@@ -102,4 +94,3 @@ ___
 #TODO <- Make weekly note template to review on Sunday nights.
 
 ---
-**Next Step**: Draft a 4-month calendar with key milestones (e.g., CAP launch by Week 10, Leetcode 150 problems by Week 16). #TODO 
