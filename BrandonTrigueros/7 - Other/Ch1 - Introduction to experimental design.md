@@ -7,7 +7,6 @@ Up: [[Design and analysis of experiments - Montgomery]]
 ___
 # Notes
 
-___
 ### Estrategia de experimentación
 
 "Se puede observar mucho a través de solo mirar", sin embargo, observar solo nos puede llevar hasta el terreno de crear teorías y formular hipótesis. 
@@ -96,7 +95,7 @@ ___
 
 ### Directrices para el diseño de experimentos
 
-[Directrices para el diseño de experimentos en detalle](file:///C:/Users/brand/OneDrive/Documents/ObsidianVault/BrandonTrigueros/6%20-%20Attachments/Design%20and%20analysis%20of%20experiments.pdf#%5B%7B%22num%22%3A39%2C%22gen%22%3A0%7D%2C%7B%22name%22%3A%22XYZ%22%7D%2C144.855%2C576.0482%2C0%5D)
+[[Design and analysis of experiments.pdf#page=27|Directrices en detalle]]
 
 1. Reconocimiento y planteamiento del problema
 2. Selección de la variable de respuesta

@@ -8,42 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "2. CI0131 Introducción al diseño de experimentos 2025-03B"
-            }
-          }
-        ]
-      },
-      {
-        "id": "925b95e517fb8bca",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "ad30206ea0772954",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "6 - Attachments/Design and analysis of experiments.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Design and analysis of experiments"
-            }
-          },
-          {
-            "id": "b3970a1831edd4a2",
+            "id": "7a082767bcb556f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Experiment design - UCR.md",
+                "file": "7 - Other/Numerical analysis - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -58,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Experiment design - UCR"
+              "title": "Numerical analysis - UCR"
             }
           }
         ]
@@ -236,11 +206,24 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "ad30206ea0772954",
+  "active": "7a082767bcb556f7",
   "lastOpenFiles": [
-    "7 - Other/Ch1 - Introduction to experimental design.md",
+    "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
+    "7 - Other/EDesign Homework 1.md",
+    "6 - Attachments/Tarea 1 Diseño de experimentos.pdf",
+    "7 - Other/EDesign. Análisis Exploratorio de Datos y Gráficos en R.md",
+    "6 - Attachments/Laboratorio 2 Análisis Exploratorio de Datos y gráficos depurados.pdf",
     "7 - Other/Experiment design - UCR.md",
+    "7 - Other/EDesign Classwork 1.md",
+    "6 - Attachments/Tarea Recolección y Muestreo de Datos 2025.pdf",
+    "7 - Other/EDesign. Laboratorio RStudio Básico.md",
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
+    "7 - Other/Ch1 - Introduction to experimental design.md",
     "6 - Attachments/Design and analysis of experiments.pdf",
+    "7 - Other/UCR 1-2025.md",
+    "Home.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "6 - Attachments/Métodos numéricos con Matlab.pdf",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/gauge.md",
     "7 - Other/Ejemplos de formación de bloques.md",
@@ -249,30 +232,18 @@
     "7 - Other/Error experimental.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/Computer Organization and Architecture - William Stallings.md",
-    "7 - Other/Design and analysis of experiments - Montgomery.md",
-    "7 - Other/UCR 1-2025.md",
-    "Home.md",
-    "7 - Other/Lab 2. Análisis Exploratorio de Datos y Gráficos en R.md",
     "7 - Other/Course of Action (March24 - July5).md",
     "7 - Other/Course of Action (July13 - December 31).md",
     "7 - Other/Scientific Computation Workshop.md",
     "3 - Tags/scientific computation.md",
     "7 - Other/Untitled 3.md",
-    "7 - Other/Numerical analysis - UCR.md",
     "6 - Attachments/intro_matlab.pdf",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
     "6 - Attachments/DW - Modelo Conceptual.pdf",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Untitled 2.md",
-    "7 - Other/Untitled 1.md",
     "6 - Attachments/DW - Metodología para el diseño.pdf",
-    "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
-    "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
     "6 - Attachments/Solución numérica de ecuaciones no lineales.pdf",
-    "6 - Attachments/4. CI0131 Experimentos comparativos simples 2025.pdf",
-    "6 - Attachments/PuntoFijo_Newton_Secante_RegulaFalsi_Orden.pdf",
-    "6 - Attachments/PuntoFijo_Newton_Secante.pdf",
-    "6 - Attachments/MA1006_LISTA_EJERCICIOS_1PARCIAL.pdf",
     "6 - Attachments/Pasted image 20250318090530.png",
     "6 - Attachments/Pasted image 20250318090416.png",
     "6 - Attachments/Pasted image 20250318085945.png",

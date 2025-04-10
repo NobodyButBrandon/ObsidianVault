@@ -8,3 +8,4 @@ Tags: [[experiment design]] [[scientific method]]
 ___
 # Syllabus
 [[Ch1 - Introduction to experimental design]]
+Seguir con [[Ch2 - Basic Statistical Concepts]] -> _11-Apr-2025_ #UNI_TODO 
