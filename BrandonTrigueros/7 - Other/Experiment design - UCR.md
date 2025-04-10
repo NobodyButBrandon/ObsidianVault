@@ -35,10 +35,12 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign 31-Mar-2025 Lecture]]
 [[EDesign 4-Apr-2025 Lecture]]
 [[EDesign 7-Apr-2025 Lecture]]
+[[EDesign 10-Apr-2025 Lecture]]
 
 # Assignments
 **Class Work & Homework**
 [[EDesign Classwork 1]]
+[[EDesign Classwork 2]]
 [[EDesign Homework 1]]
 
 **Laboratories**
@@ -52,6 +54,7 @@ __Presentations__
 [[2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf]]
 [[3. CI0131 Análisis Exploratorio de Datos 2025.pdf]]
 [[4. CI0131 Experimentos comparativos simples 2025.pdf]]
+[[Peter Hoff Chap2.pdf]]
 ___
 __Books__
 [[Design and analysis of experiments - Montgomery]]
