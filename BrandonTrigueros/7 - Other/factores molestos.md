@@ -1,0 +1,1 @@
+Son factores que, aunque pueden influir en la respuesta del experimento, no son el foco del estudio.

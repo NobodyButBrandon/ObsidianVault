@@ -8,4 +8,3 @@ Tags: [[experiment design]] [[scientific method]]
 ___
 # Syllabus
 [[Ch1 - Introduction to experimental design]]
-[[Ch1 - Introduction to experimental design]]

@@ -8,7 +8,25 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f0ef1d621b0355e0",
+            "id": "e7a7b303c61786dc",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "2. CI0131 Introducción al diseño de experimentos 2025-03B"
+            }
+          }
+        ]
+      },
+      {
+        "id": "925b95e517fb8bca",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ad30206ea0772954",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -20,12 +38,12 @@
             }
           },
           {
-            "id": "e7a7b303c61786dc",
+            "id": "b3970a1831edd4a2",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Lab 2. Análisis Exploratorio de Datos y Gráficos en R.md",
+                "file": "7 - Other/Experiment design - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -40,7 +58,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Lab 2. Análisis Exploratorio de Datos y Gráficos en R"
+              "title": "Experiment design - UCR"
             }
           }
         ]
@@ -218,11 +236,20 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "f0ef1d621b0355e0",
+  "active": "ad30206ea0772954",
   "lastOpenFiles": [
     "7 - Other/Ch1 - Introduction to experimental design.md",
-    "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/Experiment design - UCR.md",
+    "6 - Attachments/Design and analysis of experiments.pdf",
+    "7 - Other/Flashcards/Vocabulary.md",
+    "7 - Other/gauge.md",
+    "7 - Other/Ejemplos de formación de bloques.md",
+    "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
+    "7 - Other/factores molestos.md",
+    "7 - Other/Error experimental.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "7 - Other/Computer Organization and Architecture - William Stallings.md",
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
     "7 - Other/Lab 2. Análisis Exploratorio de Datos y Gráficos en R.md",
@@ -241,21 +268,11 @@
     "6 - Attachments/DW - Metodología para el diseño.pdf",
     "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
     "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
-    "7 - Other/EDesign 31-Mar-2025 Lecture.md",
     "6 - Attachments/Solución numérica de ecuaciones no lineales.pdf",
-    "7 - Other/AdvancedDB 21-Mar-2025 Lecture.md",
-    "7 - Other/Theatre appreciation - UCR.md",
-    "7 - Other/EDesign 7-Apr-2025 Lecture.md",
     "6 - Attachments/4. CI0131 Experimentos comparativos simples 2025.pdf",
     "6 - Attachments/PuntoFijo_Newton_Secante_RegulaFalsi_Orden.pdf",
     "6 - Attachments/PuntoFijo_Newton_Secante.pdf",
-    "7 - Other/Computer architecture - UCR.md",
-    "7 - Other/Homework 1 - CPU 4 bits.md",
     "6 - Attachments/MA1006_LISTA_EJERCICIOS_1PARCIAL.pdf",
-    "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Forum 1 - National reality seminar II.md",
-    "6 - Attachments/Reporte de Laboratorio de Historia de Datos y Power BI - C17899.pdf",
-    "6 - Attachments/Computer Architecture_ A Quantitative Approach.pdf",
     "6 - Attachments/Pasted image 20250318090530.png",
     "6 - Attachments/Pasted image 20250318090416.png",
     "6 - Attachments/Pasted image 20250318085945.png",

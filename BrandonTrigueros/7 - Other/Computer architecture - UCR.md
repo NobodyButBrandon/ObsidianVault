@@ -39,9 +39,8 @@ Final exam -> _30-Jun-2025_  #UNI_DEADLINE
 
 **Textbooks**
 1. [[Computer Architecture_ A Quantitative Approach - Patterson & Hennessy]] _Main_
-2. [[Computer Organization and Architecture - William Stallings]]
-3. [[Digital Design and Computer Architecture - Sara Harris]]
-4. [[Modern Computer Architecture and Organization - Jim Ledin]]
+2. [[Digital Design and Computer Architecture - Sara Harris]]
+3. [[Modern Computer Architecture and Organization - Jim Ledin]]
    
 **Logisim**
 4. [[Logisim-ITA.exe]]
