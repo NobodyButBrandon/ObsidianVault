@@ -1,3 +1,4 @@
+# Enunciado
 **Clase asíncrona 04/04/2025**  
 
 Debido a que aún no contamos con las máquinas virtuales del curso, vamos a realizar varias actividades teóricas como parte de esta clase asíncrona (la entrega se hace en grupo -los mismos del proyecto-).  
@@ -17,10 +18,18 @@ Entregar un archivo pdf que contenga:
 3. El enlace del proyecto en [GIT (de la UCR)](https://git.ucr.ac.cr/users/sign_in).
 El contenido de los enlaces será evaluado en función de las indicaciones de la clase asíncrona.
 
-**Trabajo en individual** -> _11-Apr-2025_ #UNI_TODO
+**Trabajo en individual** -> _11-Apr-2025_
 1. Realice el modulo "[Introducción a la ingeniería de datos en Azure](https://learn.microsoft.com/es-es/training/modules/introduction-to-data-engineering-azure/)", este modulo es parte de un curso con el mismo nombre, pero en nuestro contexto solo es requerido realizar el modulo solicitado. Deben entregar en formato pdf un pequeño resumen con los conceptos vistos en el modulo y una imagen de la "Prueba de conocimientos" una vez realizada por cada miembro del grupo. Recuerden realizar estas actividades con su cuenta de Microsoft de la UCR.  
 2. Realice el tutorial: [De modelo dimensional a impresionante informe en Power BI Desktop](https://learn.microsoft.com/es-mx/power-bi/create-reports/desktop-dimensional-model-report). Su entregable consiste en subir el Archivo del Informe y compartir su publicación con el asistente y el profesor.
 
  [![](https://mv1.mediacionvirtual.ucr.ac.cr/theme/image.php/essential/assign/1743750001/icon)Trabajo individual - asíncrono Tarea](https://mv1.mediacionvirtual.ucr.ac.cr/mod/assign/view.php?id=2644572)
 
 Entregar un archivo pdf que contenga las evidencias correspondientes a lo solicitado en las indicaciones de la clase asíncrona.
+
+# Solución trabajo individual
+[Resúmen de conceptos](https://docs.google.com/document/d/1aLqSZZuabfNxSN1iDyncN3KRU7_MdH9ypLJ6NkykK6g/edit?tab=t.0)
+
+[[sales-report-c17899.pbix]]
+[Reporte de ventas Power BI](https://app.powerbi.com/links/vI-xb5Vwj2?ctid=e7984cac-2543-4f88-8f97-9524335e6bc4&pbi_source=linkShare)
+
+

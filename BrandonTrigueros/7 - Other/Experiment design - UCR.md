@@ -48,7 +48,6 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign. Análisis Exploratorio de Datos y Gráficos en R]]
 
 # Materials
-
 __Presentations__
 [[1. CI0131 Capas del diseño de investigación 2025.pdf]]
 [[2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf]]

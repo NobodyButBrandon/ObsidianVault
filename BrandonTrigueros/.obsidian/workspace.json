@@ -6,7 +6,6 @@
       {
         "id": "4509724f8bf84da7",
         "type": "tabs",
-        "dimension": 58.903133903133906,
         "children": [
           {
             "id": "e7a7b303c61786dc",
@@ -14,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Experiment design - UCR.md",
+                "file": "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -29,75 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Experiment design - UCR"
-            }
-          },
-          {
-            "id": "7b55e5c702563c42",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/EDesign Classwork 2.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "EDesign Classwork 2"
-            }
-          },
-          {
-            "id": "45cffe0ed1313c1b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/EDesign 10-Apr-2025 Lecture.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "EDesign 10-Apr-2025 Lecture"
-            }
-          }
-        ],
-        "currentTab": 1
-      },
-      {
-        "id": "0c819d80510a633d",
-        "type": "tabs",
-        "dimension": 41.096866096866094,
-        "children": [
-          {
-            "id": "67c8cc70baa755f8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "6 - Attachments/Peter Hoff Chap2.pdf"
-              },
-              "icon": "lucide-file-text",
-              "title": "Peter Hoff Chap2"
+              "title": "Clase asincrónica AdvancedDB 04-Apr-2025"
             }
           }
         ]
@@ -256,7 +187,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 288.5
+    "width": 288.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -275,41 +207,42 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "7b55e5c702563c42",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "6 - Attachments/Pasted image 20250410095342.png",
-    "7 - Other/EDesign Classwork 2.md",
-    "7 - Other/Experiment design - UCR.md",
-    "7 - Other/Design and analysis of experiments - Montgomery.md",
-    "7 - Other/Ch1 - Introduction to experimental design.md",
-    "7 - Other/EDesign 10-Apr-2025 Lecture.md",
-    "6 - Attachments/Peter Hoff Chap2.pdf",
+    "6 - Attachments/sales-report-c17899.pbix",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "7 - Other/EDesign 4-Apr-2025 Lecture.md",
+    "7 - Other/Ch3 - Data Warehouse Concepts.md",
+    "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "7 - Other/Ejemplo Drill-down en la vida real.md",
+    "7 - Other/Ejemplo Roll-up en la vida real.md",
+    "7 - Other/Untitled.md",
+    "7 - Other/Untitled 2.md",
+    "7 - Other/Untitled 1.md",
+    "7 - Other/Untitled 5.md",
+    "7 - Other/Untitled 4.md",
+    "7 - Other/Medidas Distribuidas, Algebraicas y Holísticas.md",
+    "7 - Other/Condiciones de resumibilidad.md",
+    "7 - Other/Medidas aditivas, semi-aditivas y no aditivas.md",
+    "7 - Other/CArchitecture 31-Mar-2025 Lecture.md",
+    "7 - Other/Homework 2 - CPU 8 bits.md",
     "7 - Other/Numerical analysis - UCR.md",
-    "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
-    "7 - Other/EDesign Homework 1.md",
-    "6 - Attachments/Tarea 1 Diseño de experimentos.pdf",
-    "7 - Other/EDesign. Análisis Exploratorio de Datos y Gráficos en R.md",
-    "6 - Attachments/Laboratorio 2 Análisis Exploratorio de Datos y gráficos depurados.pdf",
-    "7 - Other/EDesign Classwork 1.md",
-    "6 - Attachments/Tarea Recolección y Muestreo de Datos 2025.pdf",
-    "7 - Other/EDesign. Laboratorio RStudio Básico.md",
-    "6 - Attachments/Design and analysis of experiments.pdf",
     "6 - Attachments/Métodos numéricos con Matlab.pdf",
-    "7 - Other/Flashcards/Vocabulary.md",
-    "7 - Other/gauge.md",
-    "7 - Other/Ejemplos de formación de bloques.md",
-    "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
-    "7 - Other/factores molestos.md",
-    "7 - Other/Error experimental.md",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/Computer architecture - UCR.md",
-    "7 - Other/Computer Organization and Architecture - William Stallings.md",
-    "7 - Other/Course of Action (March24 - July5).md",
-    "7 - Other/Course of Action (July13 - December 31).md",
-    "7 - Other/Scientific Computation Workshop.md",
-    "3 - Tags/scientific computation.md",
-    "7 - Other/Untitled 3.md",
+    "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
+    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "6 - Attachments/Pasted image 20250410095342.png",
+    "6 - Attachments/Peter Hoff Chap2.pdf",
+    "6 - Attachments/Tarea 1 Diseño de experimentos.pdf",
+    "6 - Attachments/Laboratorio 2 Análisis Exploratorio de Datos y gráficos depurados.pdf",
+    "6 - Attachments/Tarea Recolección y Muestreo de Datos 2025.pdf",
+    "6 - Attachments/Design and analysis of experiments.pdf",
+    "6 - Attachments/2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf",
     "6 - Attachments/intro_matlab.pdf",
     "6 - Attachments/DW - Modelo Conceptual.pdf",
     "6 - Attachments/DW - Metodología para el diseño.pdf",
