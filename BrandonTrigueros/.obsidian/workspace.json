@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AdvancedDB 1-Apr-2025 Lecture"
+              "title": "Home"
             }
           }
         ]
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -208,8 +208,8 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+    "Home.md",
     "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Medidas Distribuidas, Algebraicas y Holísticas.md",
