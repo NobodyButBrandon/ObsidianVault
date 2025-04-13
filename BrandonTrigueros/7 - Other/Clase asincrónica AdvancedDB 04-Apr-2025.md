@@ -27,6 +27,7 @@ El contenido de los enlaces será evaluado en función de las indicaciones de la
 Entregar un archivo pdf que contenga las evidencias correspondientes a lo solicitado en las indicaciones de la clase asíncrona.
 
 # Solución trabajo individual
+[[Resúmen de conceptos vistos en el módulo “Introducción a la ingeniería de datos en Azure” - C17899 (1).pdf]]
 [Resúmen de conceptos](https://docs.google.com/document/d/1aLqSZZuabfNxSN1iDyncN3KRU7_MdH9ypLJ6NkykK6g/edit?tab=t.0)
 
 [[sales-report-c17899.pbix]]

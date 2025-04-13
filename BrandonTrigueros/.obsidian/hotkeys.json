@@ -70,6 +70,7 @@
   "workspace:split-vertical": [
     {
       "modifiers": [
+        "Alt",
         "Mod",
         "Shift"
       ],

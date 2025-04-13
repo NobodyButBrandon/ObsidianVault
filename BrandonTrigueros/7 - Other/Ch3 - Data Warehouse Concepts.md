@@ -7,7 +7,7 @@ Up: [[Data Warehouse Systems - Vaisman & Zimanyi]]
 ___
 # Notes
 ## Modelo multidimensional
-
+### Conceptos básicos
 Los _almacenes de datos_ son bases de datos dedicadas al análisis de datos diseñados para soportar queries OLAP eficientemente. 
 
 Los almacenes de datos son diseñados para soportar grandes volúmenes de datos históricos por cada consulta, esto implica comúnmente que necesitan traerse todos o la mayoría de registros. Un ejemplo de una consulta sobre un DW (data warehouse) es la de obtener las ventas totales por producto  y por consumidor.
@@ -64,75 +64,82 @@ para cambiar la granularidad de esta dimensión de Ciudad a País en el nuestro 
 entonces las ventas de todos los compradores van a ser agregadas por país usando una función de agregación asociada, la suma por ejemplo obteniendo el siguiente nuevo cubo.
 
 ![400](https://i.imgur.com/QXOGv79.png)
-___
-#### Condiciones de resumibilidad
-[[Condiciones de resumibilidad]]
 
-El siguiente concepto es importante:
+El siguiente concepto es importante para las secciones posteriores:
 **Resumibilidad** se refiere a la correcta agregación de las medidas del cubo a lo largo de jerarquías de dimensiones, para obtener resultados de agregación coherentes
-#### Medidas aditivas, semi-aditivas y no aditivas
-[[Medidas aditivas, semi-aditivas y no aditivas]]
+#### [[Condiciones de resumibilidad]]
 
-#### Medidas Distribuidas, Algebraicas y Holísticas
-[[Medidas Distribuidas, Algebraicas y Holísticas]]
- 
+#### [[Medidas aditivas, semi-aditivas y no aditivas]]
+
+#### [[Medidas Distribuidas, Algebraicas y Holísticas]]
+
 ___
 ## Operaciones OLAP
+Se usa el siguiente cubo de partida para mostrar las distintas operaciones OLAP
 
-Cubo de partida
 ![300](https://i.imgur.com/OUZSEUA.png)
-___
-### Roll-up
-Básicamente sumariza medidas a lo largo de una jerarquía de dimensión para obtener las medidas de una granularidad menos detallada.
+### [[Roll-up OLAP]]
+### [[Drill-down OLAP]]
+### [[Sort OLAP]]
 
-_Sintaxis_:
-``` c
-ROLLUP(CubeName, (Dimension → Level)*, AggFunction(Measure)*)
-```
+### [[Pivot OLAP]]
 
-_Ejemplo_: Aplicar al cubo inicial la siguiente operación roll-up calcula la cantidad de ventas por país:
-``` c
-ROLLUP(Sales, Customer -> Country, SUM(Quantity))
-```
-Transforma el cubo de la siguiente manera:
-![300](https://i.imgur.com/OUZSEUA.png) **->** ![300](https://i.imgur.com/BPtwTWE.png)
+### [[Slice OLAP]]
 
-_Notas_: 
-Puedo hacer roll-up sobre una dimensión y llevar el resto a la jerarquía All así:
-```c
-ROLLUP*(Sales, Time → Quarter, SUM(Quantity))
-```
-Que realiza un roll-up a lo largo de la dimensión Tiempo hasta el nivel Trimestre y de las otras dimensiones (en este caso Cliente y Producto) hasta el nivel Todo.
+### [[Dice OLAP]]
 
-Puedo contar el número de miembros en una de las dimensiones eliminadas del cubo. La consulta:
-```c
-ROLLUP*(Ventas, Tiempo → Trimestre, COUNT(Producto) AS ProdCount)
-```
-Obtiene el número de productos distintos vendidos por trimestre y se añadirá una nueva medida ProdCount al cubo.
+### [[Rename OLAP]]
 
-_Otro_ [[Ejemplo Roll-up en la vida real]] sería el siguiente:
-![[Ejemplo Roll-up en la vida real#Ejemplo]]
+### [[Drill across OLAP]]
 
-___
-### Drill-down
-Es la operación inversa del Roll-up, es decir que va de un nivel mas general a uno más detallado.
+### [[Add measure OLAP]]
 
-_Sintaxis_:
-``` c
-DRILLDOWN(CubeName, (Dimension → Level)*)
-```
+### [[Drop measure OLAP]]
 
-_Ejemplo_: Podemos ver si las altas ventas en Francia en el primer Trimestre se dieron en algún mes en particular operando sobre el cubo base de la siguiente manera:
-``` c
-DRILLDOWN(Sales, Time → Month)
-```
-Transforma el cubo así y vemos que por alguna razón las ventas de mariscos en enero en Paris y Lyon se dispararon:
-![300](https://i.imgur.com/OUZSEUA.png) **->** ![300](https://i.imgur.com/9cMg2Q0.png)
+### [[Aggregation OLAP]]
 
-_Otro_ [[Ejemplo Drill-down en la vida real]] sería el siguiente:
-![[Ejemplo Drill-down en la vida real#Ejemplo]]
+### [[Union OLAP]]
 
-___
-### Sort
-Básicamente ordena los miembros de una dimensión
-Terminar -> _10-Apr-2025_ #UNI_TODO 
+### [[Difference OLAP]]
+
+![](https://i.imgur.com/b9CwJpj.png)
+
+## Almacenes de Datos
+
+### Diferencias entre bases de datos transaccionales y almacenes de datos
+![](https://i.imgur.com/vSHbaL6.png)
+
+### Arquitectura de un almacén de datos
+![](https://i.imgur.com/RkfH7cO.png)
+
+**Como extraer datos**
+Para resolver los problemas de interoperabilidad, los datos se extraen siempre que es posible utilizando interfaces de programación de aplicaciones (API) como ODBC (Open Database Connectivity) y JDBC (Java Database Connectivity).
+
+**Refrescar el almacén (Data flows)**
+Refrescar el almacén de datos quiere decir propagar las actualizaciones de las fuentes de datos al almacén de datos con una frecuencia determinada a fin de proporcionar datos actualizados para el proceso de toma de decisiones.
+
+**Que metadatos tener**
+Metadatos de estructura del almacén y data marts: Describen el modelo (conceptual, lógico, físico) e incluyen detalles de seguridad y supervisión.. 
+
+Metadatos de fuentes de datos:  Documentan los esquemas, propiedad, frecuencia de actualización, restricciones legales y métodos de acceso. 
+
+Metadatos de Proceso ETL: Cubren el linaje, extracción, limpieza, transformación, actualización y depuración, así como los algoritmos de integración.
+
+**Lenguajes para interactuar con DW**
+XMLA (XML for Analysis) tiene como objetivo proporcionar un lenguaje común para el intercambio de datos multidimensionales entre aplicaciones cliente y servidores OLAP.
+
+Además, MDX (MultiDimensional eXpressions) y DAX (Data Analysis eXpressions) son lenguajes de consulta para bases de datos OLAP.
+
+**Variaciones en la arquitectura**
+Un data mart suele ser más fácil de crear que un almacén empresarial. Sin embargo, cuando se crean varios data marts de forma independiente, es necesario integrarlos en un DW, lo que suele ser complicado.
+
+En otras situaciones, no existe un servidor OLAP y/o las herramientas cliente acceden directamente al almacén de datos.
+
+**Herramientas**
+Visual Studio es una plataforma de desarrollo que admite proyectos de Analysis Services, Reporting Services e Integration Services. 
+
+SQL Server Management Studio (SSMS) proporciona una gestión integrada de todos los componentes de SQL Server. 
+
+Power BI es una herramienta de inteligencia empresarial cuyo objetivo es permitir a los usuarios finales de negocio analizar datos y crear sus propias visualizaciones de datos en forma de informes
+
+Por último, Power Pivot es un complemento para Excel que permite crear y analizar modelos de datos.

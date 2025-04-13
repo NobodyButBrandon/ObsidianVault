@@ -30,13 +30,11 @@ Tratamos de tratar de analizar exhaustivamente los datos que tenemos para encont
 
 ![](https://i.imgur.com/cZBXOZ3.png)
 
-
 Es una etapa de investigación sobre los datos, con diferencia de que los datos no mienten y los datos están disponibles.
-
 #### **Homeworks:**
 
 #### **Teacher notes:**
-Buscar becas en el extranjero -> _2-Apr-2025_  #UNI_TODO 
+Buscar becas en el extranjero -> _2-Apr-2025_  #UNI_TODO
 
 #### **Mental notes:**
 Se pueden aplicar varios procedimientos para derivar dimensiones y jerarquías automáticamente #idea de Tesis.

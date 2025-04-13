@@ -27,4 +27,4 @@ Hago gráficos que me sirven a explorar los datos, porque me da información de 
 #### **Teacher notes:**
 
 #### **Mental notes:**
-Hay que repasar Probabilidad y Estadística y R. Hacer plan de acción -> _03-Apr-2023_ #UNI_TODO 
+Hay que repasar Probabilidad y Estadística y R. Hacer plan de estudio -> _03-Apr-2023_ #UNI_TODO 

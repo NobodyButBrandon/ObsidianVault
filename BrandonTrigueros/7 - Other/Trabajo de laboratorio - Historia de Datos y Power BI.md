@@ -8,4 +8,5 @@ Lea y realice las actividades sugeridas en el curso virtual "[Obtención de dato
 Debe entregar un reporte que permita corroborar que se ejecutaron cada una de las actividades realizadas.
 
 # Solución
-![[Reporte de Laboratorio de Historia de Datos y Power BI - C17899.pdf]]
+[[Reporte de Laboratorio de Historia de Datos y Power BI - C17899.pdf]]
+[[LaboratorioPowerBI.pbix]]
