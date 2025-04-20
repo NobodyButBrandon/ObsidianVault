@@ -34,7 +34,6 @@ Es una etapa de investigación sobre los datos, con diferencia de que los datos 
 #### **Homeworks:**
 
 #### **Teacher notes:**
-Buscar becas en el extranjero -> _2-Apr-2025_  #UNI_TODO
 
 #### **Mental notes:**
 Se pueden aplicar varios procedimientos para derivar dimensiones y jerarquías automáticamente #idea de Tesis.

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "AdvancedDB 1-Apr-2025 Lecture"
             }
           }
         ]
@@ -206,14 +206,15 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "7bf45797083e3fae",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "7 - Other/EDesign 4-Apr-2025 Lecture.md",
+    "7 - Other/Design and analysis of experiments - Montgomery.md",
+    "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
+    "Home.md",
     "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
-    "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
-    "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Medidas Distribuidas, Algebraicas y Holísticas.md",
     "7 - Other/Medidas aditivas, semi-aditivas y no aditivas.md",
@@ -239,7 +240,6 @@
     "6 - Attachments/Pasted Image 20250412185850_862.png",
     "7 - Other/Drill-down OLAP.md",
     "7 - Other/Sort OLAP.md",
-    "7 - Other/Pivot OLAP.md",
     "6 - Attachments/Reporte de Laboratorio de Historia de Datos y Power BI - C17899.pdf",
     "6 - Attachments/LaboratorioPowerBI.pbix",
     "6 - Attachments/Resúmen de conceptos vistos en el módulo “Introducción a la ingeniería de datos en Azure” - C17899 (1).pdf",
