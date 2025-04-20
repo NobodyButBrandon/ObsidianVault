@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "AdvancedDB 8-Apr-2025 Lecture"
             }
           }
         ]
@@ -183,7 +183,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -208,8 +208,9 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
-    "Home.md",
     "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
+    "7 - Other/EDesign 4-Apr-2025 Lecture.md",
+    "Home.md",
     "7 - Other/Design and analysis of experiments - Montgomery.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Medidas Distribuidas, Algebraicas y Holísticas.md",
@@ -239,7 +240,6 @@
     "7 - Other/Pivot OLAP.md",
     "7 - Other/Explicación detallada de TOPPERCENT.md",
     "6 - Attachments/Aggregation OLAP 2025-04-12 15.24.27.excalidraw.md",
-    "6 - Attachments/Aggregation OLAP 2025-04-12 15.15.20.excalidraw.md",
     "6 - Attachments/Reporte de Laboratorio de Historia de Datos y Power BI - C17899.pdf",
     "6 - Attachments/LaboratorioPowerBI.pbix",
     "6 - Attachments/Resúmen de conceptos vistos en el módulo “Introducción a la ingeniería de datos en Azure” - C17899 (1).pdf",
