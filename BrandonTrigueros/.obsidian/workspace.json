@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/EDesign 4-Apr-2025 Lecture.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "EDesign 4-Apr-2025 Lecture"
+              "title": "Home"
             }
           }
         ]
@@ -173,7 +173,7 @@
             }
           },
           {
-            "id": "5eb2259dd3312fb0",
+            "id": "6e17ce891101d58b",
             "type": "leaf",
             "state": {
               "type": "task-timeline-view",
@@ -187,7 +187,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5
+    "width": 381.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +206,11 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "5eb2259dd3312fb0",
+  "active": "6e17ce891101d58b",
   "lastOpenFiles": [
-    "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/EDesign 4-Apr-2025 Lecture.md",
     "Home.md",
+    "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
     "7 - Other/AdvancedDB 1-Apr-2025 Lecture.md",
     "7 - Other/Design and analysis of experiments - Montgomery.md",
