@@ -41,7 +41,7 @@ Short tests & Lab works -> One every 2 or 3 weeks
 # Activities
 [[Trabajo de laboratorio - Historia de Datos y Power BI]]
 [[Clase asincrónica AdvancedDB 04-Apr-2025]]
-Concebir proyecto de DW -> _11-Apr-2025_ #UNI_TODO 
+[[Proyecto Data Warehouse]]
 
 # Books
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
