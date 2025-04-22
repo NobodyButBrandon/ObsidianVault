@@ -37,6 +37,7 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 28-Mar-2025 Lecture]]
 [[AdvancedDB 1-Apr-2025 Lecture]]
 [[AdvancedDB 8-Apr-2025 Lecture]]
+[[AdvancedDB 22-Apr-2025 Lecture]]
 
 # Activities
 [[Trabajo de laboratorio - Historia de Datos y Power BI]]
@@ -57,3 +58,4 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[I-2025 ETL.pdf]]
 [[DW - Modelo Conceptual.pdf]]
 [[DW - Metodología para el diseño.pdf]]
+[[BasesDatosDistribuidas.pdf]]

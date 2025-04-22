@@ -46,7 +46,7 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 **Laboratories**
 [[EDesign. Laboratorio RStudio Básico]]
 [[EDesign. Análisis Exploratorio de Datos y Gráficos en R]]
-Laboratorio en Lab 104 Jueves -> _21-Apr-2025_ #UNI_TODO  
+Laboratorio en Lab 104 Jueves -> _24-Apr-2025_ #UNI_TODO  
 
 # Materials
 __Presentations__
