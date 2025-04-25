@@ -43,9 +43,12 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[Trabajo de laboratorio - Historia de Datos y Power BI]]
 [[Clase asincrónica AdvancedDB 04-Apr-2025]]
 [[Proyecto Data Warehouse]]
+[[Clase asincrónica AdvancedDB 25-Apr-2025]]
 
 # Books
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
+[[Principles of distributed database systems.pdf]]
+[[Distributed Computing Principles, Algorithms.pdf]]
 
 # Materials
 [[ACID]]
