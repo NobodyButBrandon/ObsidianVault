@@ -4,31 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "4509724f8bf84da7",
+        "id": "c049191ca5fefa0a",
         "type": "tabs",
         "children": [
           {
-            "id": "e7a7b303c61786dc",
+            "id": "e421ab308e9b721b",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Clase asincrónica AdvancedDB 25-Apr-2025"
+              "title": "New tab"
             }
           }
         ]
@@ -184,7 +170,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -207,17 +193,21 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e7a7b303c61786dc",
+  "active": "e421ab308e9b721b",
   "lastOpenFiles": [
-    "6 - Attachments/1-2025 PrácticaDirigidaETL.pdf",
-    "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
-    "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
+    "7 - Other/Teach Yourself Computer Science.md",
+    "7 - Other/CS Roadmap.md",
     "7 - Other/Scientific Computation Workshop.md",
-    "7 - Other/Course of Action (March24 - July5).md",
-    "7 - Other/EDesign. Laboratorio T-test.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "7 - Other/UCR 1-2025.md",
     "7 - Other/Experiment design - UCR.md",
+    "7 - Other/EDesign. Laboratorio T-test.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "6 - Attachments/1-2025 PrácticaDirigidaETL.pdf",
+    "7 - Other/Course of Action (March24 - July5).md",
     "7 - Other/Proyecto Data Warehouse.md",
     "7 - Other/pollada.md",
     "7 - Other/Ejemplo Roll-up en la vida real.md",
@@ -241,9 +231,6 @@
     "7 - Other/EDesign. Análisis Exploratorio de Datos y Gráficos en R.md",
     "6 - Attachments/Laboratorio 2 Análisis Exploratorio de Datos y gráficos depurados.pdf",
     "7 - Other/Design and analysis of experiments - Montgomery.md",
-    "7 - Other/Ch1 - Introduction.md",
-    "7 - Other/Ch4 - Conceptual Data Warehouse Design.md",
-    "6 - Attachments/Proyecto Data Warehouse 2025-04-20 20.35.28.excalidraw.md",
     "6 - Attachments/Pasted Image 20250412191548_591.png",
     "6 - Attachments/Pasted Image 20250412191315_301.png",
     "6 - Attachments/Pasted Image 20250412191119_359.png",
