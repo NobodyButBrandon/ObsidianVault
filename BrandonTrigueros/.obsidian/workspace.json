@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/CS Roadmap.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "CS Roadmap"
+              "title": "Home"
             }
           }
         ]
@@ -209,10 +209,10 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/CS Roadmap.md",
     "Home.md",
     "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
     "7 - Other/Teach Yourself Computer Science.md",
-    "7 - Other/CS Roadmap.md",
     "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/Computer architecture - UCR.md",
     "7 - Other/UCR 1-2025.md",
