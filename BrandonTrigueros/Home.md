@@ -1,5 +1,4 @@
 # Brandon Trigueros Vault
-bichillo bichillo xd
 
 ## Course of Action
 [[Course of Action (March24 - July5)]]
