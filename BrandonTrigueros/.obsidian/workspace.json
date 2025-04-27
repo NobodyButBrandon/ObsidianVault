@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "c049191ca5fefa0a",
+        "id": "4509724f8bf84da7",
         "type": "tabs",
         "children": [
           {
-            "id": "e421ab308e9b721b",
+            "id": "e7a7b303c61786dc",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/CS Roadmap.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CS Roadmap"
             }
           }
         ]
@@ -193,7 +207,7 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e421ab308e9b721b",
+  "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
     "Home.md",
     "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
