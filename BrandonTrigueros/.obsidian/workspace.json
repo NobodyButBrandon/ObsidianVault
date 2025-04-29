@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Clase asincrónica AdvancedDB 25-Apr-2025"
             }
           }
         ]
@@ -184,12 +184,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 348.5,
-    "collapsed": true
+    "width": 348.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -210,16 +209,16 @@
   },
   "active": "e7a7b303c61786dc",
   "lastOpenFiles": [
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/UCR 1-2025.md",
     "Home.md",
     "7 - Other/Teach Yourself Computer Science.md",
     "7 - Other/CS Roadmap.md",
     "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
     "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/Computer architecture - UCR.md",
-    "7 - Other/UCR 1-2025.md",
     "7 - Other/Experiment design - UCR.md",
     "7 - Other/EDesign. Laboratorio T-test.md",
-    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Numerical analysis - UCR.md",
     "6 - Attachments/1-2025 PrácticaDirigidaETL.pdf",
     "7 - Other/Course of Action (March24 - July5).md",
