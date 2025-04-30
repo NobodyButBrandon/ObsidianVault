@@ -38,7 +38,7 @@ Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 [[MATLAB exercises - 21-Mar-2025]]
 [[MATLAB exercises - 25-Mar-2025]]
 [[Numerical analysis - 25-Mar-2025]]
-
+[[Numerical analysis - 29-Mar-2025]]
 # Materials
 **Filander Presentations**
 	[[P02_MATLAB.pdf]]
@@ -55,6 +55,7 @@ ___
 	[[intro_matlab.pdf]]
 	[[Solución numérica de ecuaciones no lineales.pdf]]
 	[[PuntoFijo_Newton_Secante_RegulaFalsi_Orden.pdf]]
+	[[Metodos_iterativos.pdf]]
 ___
 **M de León Presentations**
 	[[P01.pdf]]

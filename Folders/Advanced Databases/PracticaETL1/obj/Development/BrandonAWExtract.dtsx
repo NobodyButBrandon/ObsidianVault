@@ -1,0 +1,1422 @@
+<?xml version="1.0"?>
+<DTS:Executable xmlns:DTS="www.microsoft.com/SqlServer/Dts"
+  DTS:refId="Package"
+  DTS:CreationDate="4/25/2025 11:31:59 PM"
+  DTS:CreationName="Microsoft.Package"
+  DTS:CreatorComputerName="MV-CI0141-22"
+  DTS:CreatorName="MV-CI0141-22\ecciadm"
+  DTS:DTSID="{D2A8895D-5FA2-4A77-A481-28C2CFFB421F}"
+  DTS:ExecutableType="Microsoft.Package"
+  DTS:LastModifiedProductVersion="16.0.5685.0"
+  DTS:LocaleID="5130"
+  DTS:ObjectName="BrandonAWExtract"
+  DTS:PackageType="5"
+  DTS:VersionBuild="30"
+  DTS:VersionGUID="{A3E98AFA-54E7-4C7F-BA66-5F2D516CE38C}">
+  <DTS:Property
+    DTS:Name="PackageFormatVersion">8</DTS:Property>
+  <DTS:ConnectionManagers>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[Excel Connection Manager]"
+      DTS:CreationName="EXCEL"
+      DTS:DTSID="{82CBADA8-7E16-480F-AB26-442929DBC0C4}"
+      DTS:ObjectName="Excel Connection Manager">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="0"
+          DTS:ConnectRetryInterval="0"
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductIdCost.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[MV-CI0141-22.AdventureWorks2022]"
+      DTS:CreationName="OLEDB"
+      DTS:DTSID="{3BA81426-3CCA-480B-BF1C-444E1E894095}"
+      DTS:ObjectName="MV-CI0141-22.AdventureWorks2022">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:ConnectRetryCount="1"
+          DTS:ConnectRetryInterval="5"
+          DTS:ConnectionString="Data Source=MV-CI0141-22;Initial Catalog=AdventureWorks2022;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-BrandonAWExtract-{3BA81426-3CCA-480B-BF1C-444E1E894095}MV-CI0141-22.AdventureWorks2022;Auto Translate=False;" />
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+    <DTS:ConnectionManager
+      DTS:refId="Package.ConnectionManagers[ProductQtyCost]"
+      DTS:CreationName="FLATFILE"
+      DTS:DTSID="{54B2225B-A506-4E7F-8ACA-204FD077D92E}"
+      DTS:ObjectName="ProductQtyCost">
+      <DTS:ObjectData>
+        <DTS:ConnectionManager
+          DTS:Format="Delimited"
+          DTS:LocaleID="5130"
+          DTS:HeaderRowDelimiter="_x000D__x000A_"
+          DTS:RowDelimiter=""
+          DTS:TextQualifier="_x003C_none_x003E_"
+          DTS:CodePage="1252"
+          DTS:ConnectionString="C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductQtyCost.txt">
+          <DTS:FlatFileColumns>
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="3"
+              DTS:TextQualified="True"
+              DTS:ObjectName="ProductID"
+              DTS:DTSID="{CF58A43F-5FB7-48CA-893B-67AF2142305B}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x002C_"
+              DTS:DataType="20"
+              DTS:TextQualified="True"
+              DTS:ObjectName="Quantity"
+              DTS:DTSID="{95EC5078-44F0-4E04-BF79-925A8D81689C}"
+              DTS:CreationName="" />
+            <DTS:FlatFileColumn
+              DTS:ColumnType="Delimited"
+              DTS:ColumnDelimiter="_x000D__x000A_"
+              DTS:DataType="131"
+              DTS:DataPrecision="30"
+              DTS:DataScale="4"
+              DTS:TextQualified="True"
+              DTS:ObjectName="TotalCost"
+              DTS:DTSID="{51767BE0-CD2D-4808-967D-85CD1F586DA0}"
+              DTS:CreationName="" />
+          </DTS:FlatFileColumns>
+        </DTS:ConnectionManager>
+      </DTS:ObjectData>
+    </DTS:ConnectionManager>
+  </DTS:ConnectionManagers>
+  <DTS:Variables />
+  <DTS:Executables>
+    <DTS:Executable
+      DTS:refId="Package\SalesReport"
+      DTS:CreationName="Microsoft.Pipeline"
+      DTS:Description="Tarea Flujo de datos"
+      DTS:DTSID="{D133A66C-958B-4A96-89CE-15D6D05982DD}"
+      DTS:ExecutableType="Microsoft.Pipeline"
+      DTS:LocaleID="-1"
+      DTS:ObjectName="SalesReport"
+      DTS:TaskContact="Performs high-performance data extraction, transformation and loading;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; All Rights Reserved;http://www.microsoft.com/sql/support/default.asp;1">
+      <DTS:Variables />
+      <DTS:ObjectData>
+        <pipeline
+          version="1">
+          <components>
+            <component
+              refId="Package\SalesReport\Aggregate Data"
+              componentClassID="Microsoft.Aggregate"
+              contactInfo="Agregado;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;3"
+              description="Agrega datos mediante funciones como Average, Sum, Count, Max y Min. Por ejemplo, se agrupan datos para calcular la suma de las ventas por producto o el promedio de visitas por día."
+              name="Aggregate Data"
+              version="3">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el número aproximado de claves GROUP BY que produce la agregación. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 de valores de clave. No especificado indica que no se usó ningún valor de KeyScale."
+                  name="KeyScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Especifica el número exacto de claves GROUP BY que produce la agregación. Si se especifica un valor de KeyScale, el valor de Keys tiene prioridad."
+                  name="Keys" />
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el número aproximado de valores distintos de una columna que cuenta la agregación de forma distintiva. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 valores de clave. No especificado indica que no se usa ningún valor de CountDistinctScale."
+                  name="CountDistinctScale"
+                  typeConverter="KeyScaleType">0</property>
+                <property
+                  dataType="System.Null"
+                  description="Especifica el número exacto de valores distintos de una columna que cuenta la agregación de forma distintiva. Si se especifica un valor de CountDistinctScale, el valor de CountDistinctKeys tiene prioridad."
+                  name="CountDistinctKeys" />
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el porcentaje en el que puede ampliarse la memoria durante la agregación. Los valores válidos están comprendidos entre 1 y 100."
+                  name="AutoExtendFactor">25</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Aggregate Data.Inputs[Entrada de agregado 1]"
+                  name="Entrada de agregado 1">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SalesReport\Aggregate Data.Inputs[Entrada de agregado 1].Columns[TotalCost]"
+                      cachedDataType="numeric"
+                      cachedName="TotalCost"
+                      cachedPrecision="30"
+                      cachedScale="4"
+                      lineageId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de columna derivada].Columns[TotalCost]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Aggregate Data.Inputs[Entrada de agregado 1].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[Quantity]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Aggregate Data.Inputs[Entrada de agregado 1].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ProductID]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1]"
+                  name="Salida de agregado 1">
+                  <properties>
+                    <property
+                      dataType="System.Int32"
+                      description="Especifica el número aproximado de claves GROUP BY que produce la agregación. Mínimo indica 500.000 valores de clave, Medio indica 5.000.000 de valores de clave y Alto indica más de 25.000.000 de valores de clave. No especificado indica que no se usó ningún valor de KeyScale."
+                      name="KeyScale"
+                      typeConverter="KeyScaleType">0</property>
+                    <property
+                      dataType="System.Null"
+                      description="Especifica el número exacto de claves GROUP BY que produce la agregación. Si se especifica un valor de KeyScale, el valor de Keys tiene prioridad."
+                      name="Keys" />
+                  </properties>
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[ProductID]"
+                      name="ProductID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ProductID]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[Quantity]"
+                      dataType="i8"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[Quantity]"
+                      name="Quantity">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[Quantity]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[TotalCost]"
+                      dataType="numeric"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[TotalCost]"
+                      name="TotalCost"
+                      precision="30"
+                      scale="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el id. de la columna de entrada usada en la agregación."
+                          name="AggregationColumnId">#{Package\SalesReport\Calculate Total Cost.Outputs[Salida de columna derivada].Columns[TotalCost]}</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el tipo de agregación."
+                          name="AggregationType"
+                          typeConverter="AggregationType">4</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Indica si la columna requiere tratamiento especial porque puede contener datos de tamaño excesivo o porque requiere mayor precisión que el tipo de datos float."
+                          name="IsBig">1</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación de cadenas."
+                          name="AggregationComparisonFlags">0</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Calculate Total Cost"
+              componentClassID="Microsoft.DerivedColumn"
+              contactInfo="Columna derivada;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Crea nuevos valores de columna aplicando expresiones a las columnas de entrada de la transformación. Crea nuevas columnas o sobrescribe las columnas existentes. Por ejemplo, se concatenan los valores de las columnas 'nombre' y 'apellidos' para crear una columna 'nombre completo'."
+              name="Calculate Total Cost"
+              usesDispositions="true">
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Calculate Total Cost.Inputs[Entrada de columna derivada]"
+                  description="Entrada en la transformación Columna derivada"
+                  name="Entrada de columna derivada">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SalesReport\Calculate Total Cost.Inputs[Entrada de columna derivada].Columns[Quantity]"
+                      cachedDataType="i4"
+                      cachedName="Quantity"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[Quantity]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Calculate Total Cost.Inputs[Entrada de columna derivada].Columns[ActualCost]"
+                      cachedDataType="cy"
+                      cachedName="ActualCost"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ActualCost]" />
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de columna derivada]"
+                  description="Salida predeterminada de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  name="Salida de columna derivada"
+                  synchronousInputId="Package\SalesReport\Calculate Total Cost.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de columna derivada].Columns[TotalCost]"
+                      dataType="numeric"
+                      errorOrTruncationOperation="Cálculo"
+                      errorRowDisposition="FailComponent"
+                      lineageId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de columna derivada].Columns[TotalCost]"
+                      name="TotalCost"
+                      precision="30"
+                      scale="4"
+                      truncationRowDisposition="FailComponent">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión de columna derivada"
+                          name="Expression">#{Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[Quantity]} * #{Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ActualCost]}</property>
+                        <property
+                          containsID="true"
+                          dataType="System.String"
+                          description="Expresión descriptiva de columna derivada"
+                          expressionType="Notify"
+                          name="FriendlyExpression">Quantity * ActualCost</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de error de columna derivada]"
+                  description="Salida de error de la transformación Columna derivada"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de columna derivada"
+                  synchronousInputId="Package\SalesReport\Calculate Total Cost.Inputs[Entrada de columna derivada]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de error de columna derivada].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de error de columna derivada].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Destino de archivo plano"
+              componentClassID="Microsoft.FlatFileDestination"
+              contactInfo="Destino de archivo plano;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Destino de archivo plano"
+              localeId="5130"
+              name="Destino de archivo plano"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Especifica si los datos sobrescriben el archivo de destino o se anexan al mismo."
+                  name="Overwrite">true</property>
+                <property
+                  dataType="System.Null"
+                  description="Especifica el texto para escribir en el archivo de destino antes de escribir ningún dato."
+                  expressionType="Notify"
+                  name="Header" />
+                <property
+                  dataType="System.Boolean"
+                  description="Cuando el calificador de texto está habilitado, especifica si este contendrá secuencias de escape o no en los datos escritos en el archivo de destino."
+                  name="EscapeQualifier">false</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\SalesReport\Destino de archivo plano.Connections[FlatFileConnection]"
+                  connectionManagerID="Package.ConnectionManagers[ProductQtyCost]"
+                  connectionManagerRefId="Package.ConnectionManagers[ProductQtyCost]"
+                  name="FlatFileConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano]"
+                  hasSideEffects="true"
+                  name="Entrada de destino de archivo plano">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      externalMetadataColumnId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[ProductID]"
+                      lineageId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[Quantity]"
+                      cachedDataType="i8"
+                      cachedName="Quantity"
+                      cachedSortKeyPosition="-1"
+                      externalMetadataColumnId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Quantity]"
+                      lineageId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[Quantity]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].Columns[TotalCost]"
+                      cachedDataType="numeric"
+                      cachedName="TotalCost"
+                      cachedPrecision="30"
+                      cachedScale="4"
+                      externalMetadataColumnId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[TotalCost]"
+                      lineageId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[TotalCost]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[Quantity]"
+                      dataType="i8"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano].ExternalColumns[TotalCost]"
+                      dataType="numeric"
+                      name="TotalCost"
+                      precision="30"
+                      scale="4" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Destino de Excel"
+              componentClassID="Microsoft.ExcelDestination"
+              contactInfo="Destino de Excel;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Destino de Excel"
+              name="Destino de Excel"
+              usesDispositions="true">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">Hoja1$</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si los valores proporcionados para columnas de identidad se van a copiar al destino. Si es False, los valores de las columnas de identidad se generan automáticamente en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepIdentity">false</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si las columnas que contienen NULL tendrán NULL insertado en el destino. Si es False, las columnas que contienen NULL tendrán sus valores predeterminados insertados en el destino. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadKeepNulls">false</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica opciones para usar con la carga rápida. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadOptions"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica cuándo se emiten confirmaciones durante la inserción de datos. El valor 0 especifica que se emitirá una confirmación al final de la inserción de datos. Solo se aplica si está activada la carga rápida."
+                  name="FastLoadMaxInsertCommitSize">2147483647</property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\SalesReport\Destino de Excel.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[Excel Connection Manager]"
+                  connectionManagerRefId="Package.ConnectionManagers[Excel Connection Manager]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel]"
+                  errorOrTruncationOperation="Insertar"
+                  errorRowDisposition="FailComponent"
+                  hasSideEffects="true"
+                  name="Entrada de destino de Excel">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      cachedSortKeyPosition="-1"
+                      externalMetadataColumnId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].ExternalColumns[ProductID]"
+                      lineageId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[ProductID]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].Columns[Quantity]"
+                      cachedDataType="i8"
+                      cachedName="Quantity"
+                      externalMetadataColumnId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].ExternalColumns[Quantity]"
+                      lineageId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[Quantity]" />
+                    <inputColumn
+                      refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].Columns[TotalCost]"
+                      cachedDataType="numeric"
+                      cachedName="TotalCost"
+                      cachedPrecision="30"
+                      cachedScale="4"
+                      externalMetadataColumnId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].ExternalColumns[TotalCost]"
+                      lineageId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[TotalCost]" />
+                  </inputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].ExternalColumns[ProductID]"
+                      dataType="wstr"
+                      length="255"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].ExternalColumns[Quantity]"
+                      dataType="wstr"
+                      length="255"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel].ExternalColumns[TotalCost]"
+                      dataType="wstr"
+                      length="255"
+                      name="TotalCost" />
+                  </externalMetadataColumns>
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Destino de Excel.Outputs[Salida de error de destino de Excel]"
+                  exclusionGroup="1"
+                  isErrorOut="true"
+                  name="Salida de error de destino de Excel"
+                  synchronousInputId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel]">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Destino de Excel.Outputs[Salida de error de destino de Excel].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Destino de Excel.Outputs[Salida de error de destino de Excel].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\SalesReport\Destino de Excel.Outputs[Salida de error de destino de Excel].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Destino de Excel.Outputs[Salida de error de destino de Excel].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Multiple Destinations"
+              componentClassID="Microsoft.Multicast"
+              contactInfo="Multidifusión;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;0"
+              description="Distribuye cada fila de entrada a cada una de las filas de una o varias salidas. Por ejemplo, se crea una bifurcación de un flujo de datos para realizar una copia de los datos de modo que se puedan enmascarar algunos valores antes de compartirlos con los asociados externos."
+              name="Multiple Destinations">
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Multiple Destinations.Inputs[Entrada de Multidifusión 1]"
+                  name="Entrada de Multidifusión 1">
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Multiple Destinations.Outputs[Salida de Multidifusión 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Salida de Multidifusión 1"
+                  synchronousInputId="Package\SalesReport\Multiple Destinations.Inputs[Entrada de Multidifusión 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\SalesReport\Multiple Destinations.Outputs[Salida de multidifusión 1]"
+                  deleteOutputOnPathDetached="true"
+                  name="Salida de multidifusión 1"
+                  synchronousInputId="Package\SalesReport\Multiple Destinations.Inputs[Entrada de Multidifusión 1]">
+                  <externalMetadataColumns />
+                </output>
+                <output
+                  refId="Package\SalesReport\Multiple Destinations.Outputs[Salida de multidifusión 2]"
+                  dangling="true"
+                  deleteOutputOnPathDetached="true"
+                  name="Salida de multidifusión 2"
+                  synchronousInputId="Package\SalesReport\Multiple Destinations.Inputs[Entrada de Multidifusión 1]">
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Sort by Product ID"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordenar;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Ordena los datos de entrada de manera ascendente o descendente cuando no es posible ordenarlos en su origen. Por ejemplo, se ordenan los datos de ventas por 'id. de cliente' antes de que se escriban en un archivo plano y se entreguen a otro departamento. Nota: no se recomienda realizar esta transformación para grandes flujos de datos."
+              name="Sort by Product ID"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si la transformación Ordenar quita filas con valores de ordenación duplicados."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el número máximo de subprocesos que se deben usar para la ordenación."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Sort by Product ID.Inputs[Entrada de ordenación]"
+                  name="Entrada de ordenación">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SalesReport\Sort by Product ID.Inputs[Entrada de ordenación].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[ProductID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación para datos de caracteres."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el criterio de ordenación de la columna."
+                          name="NewSortKeyPosition">-1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\SalesReport\Sort by Product ID.Inputs[Entrada de ordenación].Columns[Quantity]"
+                      cachedDataType="i8"
+                      cachedName="Quantity"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[Quantity]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación para datos de caracteres."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el criterio de ordenación de la columna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\SalesReport\Sort by Product ID.Inputs[Entrada de ordenación].Columns[TotalCost]"
+                      cachedDataType="numeric"
+                      cachedName="TotalCost"
+                      cachedPrecision="30"
+                      cachedScale="4"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[TotalCost]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación para datos de caracteres."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el criterio de ordenación de la columna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación]"
+                  isSorted="true"
+                  name="Salida de ordenación">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[ProductID]"
+                      name="ProductID"
+                      sortKeyPosition="-1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                          name="SortColumnId">#{Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[ProductID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[Quantity]"
+                      dataType="i8"
+                      lineageId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[Quantity]"
+                      name="Quantity">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                          name="SortColumnId">#{Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[Quantity]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[TotalCost]"
+                      dataType="numeric"
+                      lineageId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación].Columns[TotalCost]"
+                      name="TotalCost"
+                      precision="30"
+                      scale="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                          name="SortColumnId">#{Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[TotalCost]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Sort by Product Quantity"
+              componentClassID="Microsoft.Sort"
+              contactInfo="Ordenar;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;1"
+              description="Ordena los datos de entrada de manera ascendente o descendente cuando no es posible ordenarlos en su origen. Por ejemplo, se ordenan los datos de ventas por 'id. de cliente' antes de que se escriban en un archivo plano y se entreguen a otro departamento. Nota: no se recomienda realizar esta transformación para grandes flujos de datos."
+              name="Sort by Product Quantity"
+              version="1">
+              <properties>
+                <property
+                  dataType="System.Boolean"
+                  description="Indica si la transformación Ordenar quita filas con valores de ordenación duplicados."
+                  name="EliminateDuplicates">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el número máximo de subprocesos que se deben usar para la ordenación."
+                  expressionType="Notify"
+                  name="MaximumThreads">-1</property>
+              </properties>
+              <inputs>
+                <input
+                  refId="Package\SalesReport\Sort by Product Quantity.Inputs[Entrada de ordenación]"
+                  name="Entrada de ordenación">
+                  <inputColumns>
+                    <inputColumn
+                      refId="Package\SalesReport\Sort by Product Quantity.Inputs[Entrada de ordenación].Columns[ProductID]"
+                      cachedDataType="i4"
+                      cachedName="ProductID"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[ProductID]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación para datos de caracteres."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el criterio de ordenación de la columna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\SalesReport\Sort by Product Quantity.Inputs[Entrada de ordenación].Columns[Quantity]"
+                      cachedDataType="i8"
+                      cachedName="Quantity"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[Quantity]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación para datos de caracteres."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el criterio de ordenación de la columna."
+                          name="NewSortKeyPosition">-1</property>
+                      </properties>
+                    </inputColumn>
+                    <inputColumn
+                      refId="Package\SalesReport\Sort by Product Quantity.Inputs[Entrada de ordenación].Columns[TotalCost]"
+                      cachedDataType="numeric"
+                      cachedName="TotalCost"
+                      cachedPrecision="30"
+                      cachedScale="4"
+                      lineageId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[TotalCost]">
+                      <properties>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica las opciones de comparación para datos de caracteres."
+                          name="NewComparisonFlags">0</property>
+                        <property
+                          dataType="System.Int32"
+                          description="Especifica el criterio de ordenación de la columna."
+                          name="NewSortKeyPosition">0</property>
+                      </properties>
+                    </inputColumn>
+                  </inputColumns>
+                  <externalMetadataColumns />
+                </input>
+              </inputs>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación]"
+                  isSorted="true"
+                  name="Salida de ordenación">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[ProductID]"
+                      name="ProductID">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                          name="SortColumnId">#{Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[ProductID]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[Quantity]"
+                      dataType="i8"
+                      lineageId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[Quantity]"
+                      name="Quantity"
+                      sortKeyPosition="-1">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                          name="SortColumnId">#{Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[Quantity]}</property>
+                      </properties>
+                    </outputColumn>
+                    <outputColumn
+                      refId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[TotalCost]"
+                      dataType="numeric"
+                      lineageId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación].Columns[TotalCost]"
+                      name="TotalCost"
+                      precision="30"
+                      scale="4">
+                      <properties>
+                        <property
+                          containsID="true"
+                          dataType="System.Int32"
+                          description="Especifica el identificador de linaje de la columna de entrada que está asociada a esta columna de salida."
+                          name="SortColumnId">#{Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1].Columns[TotalCost]}</property>
+                      </properties>
+                    </outputColumn>
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+            <component
+              refId="Package\SalesReport\Transaction History"
+              componentClassID="Microsoft.OLEDBSource"
+              contactInfo="Origen de OLE DB;Microsoft Corporation; Microsoft SQL Server; (C) Microsoft Corporation; Todos los derechos reservados; http://www.microsoft.com/sql/support;7"
+              description="Origen de OLE DB"
+              name="Transaction History"
+              usesDispositions="true"
+              version="7">
+              <properties>
+                <property
+                  dataType="System.Int32"
+                  description="Número de segundos antes de que se agote el tiempo de espera de un comando. Un valor de 0 indica un tiempo de espera infinito."
+                  name="CommandTimeout">0</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowset">[Production].[TransactionHistoryArchive]</property>
+                <property
+                  dataType="System.String"
+                  description="Especifica la variable que contiene el nombre del objeto de base de datos usado para abrir un conjunto de filas."
+                  name="OpenRowsetVariable"></property>
+                <property
+                  dataType="System.String"
+                  description="Comando SQL para ejecutar."
+                  name="SqlCommand"
+                  UITypeEditor="Microsoft.DataTransformationServices.Controls.ModalMultilineStringEditor"></property>
+                <property
+                  dataType="System.String"
+                  description="Variable que contiene el comando SQL para ejecutar."
+                  name="SqlCommandVariable"></property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica la página de códigos de columna para utilizar cuando la información de página de códigos no está disponible en el origen de datos."
+                  name="DefaultCodePage">1252</property>
+                <property
+                  dataType="System.Boolean"
+                  description="Fuerza el uso del valor de la propiedad DefaultCodePage al describir datos de caracteres."
+                  name="AlwaysUseDefaultCodePage">false</property>
+                <property
+                  dataType="System.Int32"
+                  description="Especifica el modo utilizado para obtener acceso a la base de datos."
+                  name="AccessMode"
+                  typeConverter="AccessMode">0</property>
+                <property
+                  dataType="System.String"
+                  description="Asignaciones entre los parámetros del comando SQL y las variables."
+                  name="ParameterMapping"></property>
+              </properties>
+              <connections>
+                <connection
+                  refId="Package\SalesReport\Transaction History.Connections[OleDbConnection]"
+                  connectionManagerID="Package.ConnectionManagers[MV-CI0141-22.AdventureWorks2022]"
+                  connectionManagerRefId="Package.ConnectionManagers[MV-CI0141-22.AdventureWorks2022]"
+                  description="La conexión de tiempo de ejecución OLE DB usada para obtener acceso a la base de datos."
+                  name="OleDbConnection" />
+              </connections>
+              <outputs>
+                <output
+                  refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB]"
+                  name="Salida de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[TransactionID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[TransactionID]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[TransactionID]"
+                      name="TransactionID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductID]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ProductID]"
+                      name="ProductID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ReferenceOrderID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ReferenceOrderID]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ReferenceOrderID]"
+                      name="ReferenceOrderID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ReferenceOrderLineID]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ReferenceOrderLineID]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ReferenceOrderLineID]"
+                      name="ReferenceOrderLineID"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[TransactionDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[TransactionDate]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[TransactionDate]"
+                      name="TransactionDate"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[TransactionType]"
+                      dataType="wstr"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[TransactionType]"
+                      length="1"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[TransactionType]"
+                      name="TransactionType"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[Quantity]"
+                      dataType="i4"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[Quantity]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[Quantity]"
+                      name="Quantity"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ActualCost]"
+                      dataType="cy"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ActualCost]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ActualCost]"
+                      name="ActualCost"
+                      truncationRowDisposition="FailComponent" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ModifiedDate]"
+                      dataType="dbTimeStamp"
+                      errorOrTruncationOperation="Conversión"
+                      errorRowDisposition="FailComponent"
+                      externalMetadataColumnId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ModifiedDate]"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].Columns[ModifiedDate]"
+                      name="ModifiedDate"
+                      truncationRowDisposition="FailComponent" />
+                  </outputColumns>
+                  <externalMetadataColumns
+                    isUsed="True">
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[TransactionID]"
+                      dataType="i4"
+                      name="TransactionID" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ProductID]"
+                      dataType="i4"
+                      name="ProductID" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ReferenceOrderID]"
+                      dataType="i4"
+                      name="ReferenceOrderID" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ReferenceOrderLineID]"
+                      dataType="i4"
+                      name="ReferenceOrderLineID" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[TransactionDate]"
+                      dataType="dbTimeStamp"
+                      name="TransactionDate" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[TransactionType]"
+                      dataType="wstr"
+                      length="1"
+                      name="TransactionType" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[Quantity]"
+                      dataType="i4"
+                      name="Quantity" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ActualCost]"
+                      dataType="cy"
+                      name="ActualCost" />
+                    <externalMetadataColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB].ExternalColumns[ModifiedDate]"
+                      dataType="dbTimeStamp"
+                      name="ModifiedDate" />
+                  </externalMetadataColumns>
+                </output>
+                <output
+                  refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB]"
+                  isErrorOut="true"
+                  name="Salida de error de origen de OLE DB">
+                  <outputColumns>
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[TransactionID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[TransactionID]"
+                      name="TransactionID" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ProductID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ProductID]"
+                      name="ProductID" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ReferenceOrderID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ReferenceOrderID]"
+                      name="ReferenceOrderID" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ReferenceOrderLineID]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ReferenceOrderLineID]"
+                      name="ReferenceOrderLineID" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[TransactionDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[TransactionDate]"
+                      name="TransactionDate" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[TransactionType]"
+                      dataType="wstr"
+                      length="1"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[TransactionType]"
+                      name="TransactionType" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[Quantity]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[Quantity]"
+                      name="Quantity" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ActualCost]"
+                      dataType="cy"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ActualCost]"
+                      name="ActualCost" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ModifiedDate]"
+                      dataType="dbTimeStamp"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ModifiedDate]"
+                      name="ModifiedDate" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ErrorCode]"
+                      name="ErrorCode"
+                      specialFlags="1" />
+                    <outputColumn
+                      refId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      dataType="i4"
+                      lineageId="Package\SalesReport\Transaction History.Outputs[Salida de error de origen de OLE DB].Columns[ErrorColumn]"
+                      name="ErrorColumn"
+                      specialFlags="2" />
+                  </outputColumns>
+                  <externalMetadataColumns />
+                </output>
+              </outputs>
+            </component>
+          </components>
+          <paths>
+            <path
+              refId="Package\SalesReport.Paths[Salida de agregado 1]"
+              endId="Package\SalesReport\Multiple Destinations.Inputs[Entrada de Multidifusión 1]"
+              name="Salida de agregado 1"
+              startId="Package\SalesReport\Aggregate Data.Outputs[Salida de agregado 1]" />
+            <path
+              refId="Package\SalesReport.Paths[Salida de columna derivada]"
+              endId="Package\SalesReport\Aggregate Data.Inputs[Entrada de agregado 1]"
+              name="Salida de columna derivada"
+              startId="Package\SalesReport\Calculate Total Cost.Outputs[Salida de columna derivada]" />
+            <path
+              refId="Package\SalesReport.Paths[Salida de Multidifusión 1]"
+              endId="Package\SalesReport\Sort by Product Quantity.Inputs[Entrada de ordenación]"
+              name="Salida de Multidifusión 1"
+              startId="Package\SalesReport\Multiple Destinations.Outputs[Salida de Multidifusión 1]" />
+            <path
+              refId="Package\SalesReport.Paths[Salida de multidifusión 1]"
+              endId="Package\SalesReport\Sort by Product ID.Inputs[Entrada de ordenación]"
+              name="Salida de multidifusión 1"
+              startId="Package\SalesReport\Multiple Destinations.Outputs[Salida de multidifusión 1]" />
+            <path
+              refId="Package\SalesReport.Paths[Salida de ordenación]"
+              endId="Package\SalesReport\Destino de archivo plano.Inputs[Entrada de destino de archivo plano]"
+              name="Salida de ordenación"
+              startId="Package\SalesReport\Sort by Product Quantity.Outputs[Salida de ordenación]" />
+            <path
+              refId="Package\SalesReport.Paths[Salida de ordenación1]"
+              endId="Package\SalesReport\Destino de Excel.Inputs[Entrada de destino de Excel]"
+              name="Salida de ordenación"
+              startId="Package\SalesReport\Sort by Product ID.Outputs[Salida de ordenación]" />
+            <path
+              refId="Package\SalesReport.Paths[Salida de origen de OLE DB]"
+              endId="Package\SalesReport\Calculate Total Cost.Inputs[Entrada de columna derivada]"
+              name="Salida de origen de OLE DB"
+              startId="Package\SalesReport\Transaction History.Outputs[Salida de origen de OLE DB]" />
+          </paths>
+        </pipeline>
+      </DTS:ObjectData>
+    </DTS:Executable>
+  </DTS:Executables>
+  <DTS:DesignTimeProperties><![CDATA[<?xml version="1.0"?>
+<!--This CDATA section contains the layout information of the package. The section includes information such as (x,y) coordinates, width, and height.-->
+<!--If you manually edit this section and make a mistake, you can delete it. -->
+<!--The package will still be able to load normally but the previous layout information will be lost and the designer will automatically re-arrange the elements on the design surface.-->
+<Objects
+  Version="8">
+  <!--Each node below will contain properties that do not affect runtime behavior.-->
+  <Package
+    design-time-name="Package">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="4" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph">
+        <NodeLayout
+          Size="135,42"
+          Id="Package\SalesReport"
+          TopLeft="274,182" />
+      </GraphLayout>
+    </LayoutInfo>
+  </Package>
+  <TaskHost
+    design-time-name="Package\SalesReport">
+    <LayoutInfo>
+      <GraphLayout
+        Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
+        <NodeLayout
+          Size="172,42"
+          Id="Package\SalesReport\Calculate Total Cost"
+          TopLeft="289,175" />
+        <NodeLayout
+          Size="157,42"
+          Id="Package\SalesReport\Destino de Excel"
+          TopLeft="124.545454545455,503.636363636364" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\SalesReport\Transaction History"
+          TopLeft="171.818181818182,100.909090909091" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\SalesReport\Sort by Product Quantity"
+          TopLeft="699.222222222222,401.444444444444" />
+        <NodeLayout
+          Size="195,42"
+          Id="Package\SalesReport\Destino de archivo plano"
+          TopLeft="693.989898989899,510.323232323232" />
+        <NodeLayout
+          Size="166,42"
+          Id="Package\SalesReport\Sort by Product ID"
+          TopLeft="114.848484848485,412.828282828283" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\SalesReport\Aggregate Data"
+          TopLeft="421,301.333333333333" />
+        <NodeLayout
+          Size="177,42"
+          Id="Package\SalesReport\Multiple Destinations"
+          TopLeft="413.333333333333,405.555555555556" />
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de origen de OLE DB]"
+          TopLeft="256.818181818182,142.909090909091">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="118.181818181818,32.0909090909091"
+              Start="0,0"
+              End="118.181818181818,24.5909090909091">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,12.0454545454545" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,12.0454545454545"
+                    Point2="0,16.0454545454545"
+                    Point3="4,16.0454545454545" />
+                  <mssgle:LineSegment
+                    End="114.181818181818,16.0454545454545" />
+                  <mssgle:CubicBezierSegment
+                    Point1="114.181818181818,16.0454545454545"
+                    Point2="118.181818181818,16.0454545454545"
+                    Point3="118.181818181818,20.0454545454545" />
+                  <mssgle:LineSegment
+                    End="118.181818181818,24.5909090909091" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de ordenación1]"
+          TopLeft="200.44696969697,454.828282828283">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,48.8080808080809"
+              Start="0,0"
+              End="0,41.3080808080809">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,41.3080808080809" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de ordenación]"
+          TopLeft="794.10606060606,443.444444444444">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,66.8787878787877"
+              Start="0,0"
+              End="0,59.3787878787877">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,59.3787878787877" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de multidifusión 1]"
+          TopLeft="413.333333333333,430.191919191919">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="-132.484848484848,0"
+              Start="0,0"
+              End="-124.984848484848,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="-124.984848484848,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de Multidifusión 1]"
+          TopLeft="590.333333333333,424.5">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="108.888888888889,0"
+              Start="0,0"
+              End="101.388888888889,0">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="101.388888888889,0" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de columna derivada]"
+          TopLeft="375,217">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="122.5,84.3333333333334"
+              Start="0,0"
+              End="122.5,76.8333333333334">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,38.1666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="0,38.1666666666667"
+                    Point2="0,42.1666666666667"
+                    Point3="4,42.1666666666667" />
+                  <mssgle:LineSegment
+                    End="118.5,42.1666666666667" />
+                  <mssgle:CubicBezierSegment
+                    Point1="118.5,42.1666666666667"
+                    Point2="122.5,42.1666666666667"
+                    Point3="122.5,46.1666666666667" />
+                  <mssgle:LineSegment
+                    End="122.5,76.8333333333334" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <EdgeLayout
+          Id="Package\SalesReport.Paths[Salida de agregado 1]"
+          TopLeft="499.666666666667,343.333333333333">
+          <EdgeLayout.Curve>
+            <mssgle:Curve
+              StartConnector="{assembly:Null}"
+              EndConnector="0,62.2222222222222"
+              Start="0,0"
+              End="0,54.7222222222222">
+              <mssgle:Curve.Segments>
+                <mssgle:SegmentCollection
+                  Capacity="5">
+                  <mssgle:LineSegment
+                    End="0,54.7222222222222" />
+                </mssgle:SegmentCollection>
+              </mssgle:Curve.Segments>
+            </mssgle:Curve>
+          </EdgeLayout.Curve>
+          <EdgeLayout.Labels>
+            <EdgeLabelCollection />
+          </EdgeLayout.Labels>
+        </EdgeLayout>
+        <AnnotationLayout
+          Text="1"
+          ParentId="Package\SalesReport"
+          FontInfo="{assembly:Null}"
+          Size="35,40"
+          Id="7c709e8a-3a31-4bcb-95a8-4a90d9aa4d94"
+          TopLeft="788.888888888889,233.333333333333" />
+      </GraphLayout>
+    </LayoutInfo>
+  </TaskHost>
+  <PipelineComponentMetadata
+    design-time-name="Package\SalesReport\Destino de Excel">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+  <PipelineComponentMetadata
+    design-time-name="Package\SalesReport\Transaction History">
+    <Properties>
+      <Property>
+        <Name>DataSourceViewID</Name>
+      </Property>
+      <Property>
+        <Name>TableInfoObjectType</Name>
+        <Value
+          type="q2:string">Table</Value>
+      </Property>
+    </Properties>
+  </PipelineComponentMetadata>
+</Objects>]]></DTS:DesignTimeProperties>
+</DTS:Executable>
