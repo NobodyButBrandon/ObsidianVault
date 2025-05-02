@@ -30,6 +30,30 @@
               "icon": "lucide-file",
               "title": "Clase asincrónica AdvancedDB 25-Apr-2025"
             }
+          },
+          {
+            "id": "e1adf180b3b2df32",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
           }
         ]
       }
@@ -209,14 +233,14 @@
   },
   "active": "15e37108b2311696",
   "lastOpenFiles": [
+    "Home.md",
+    "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/AdvancedDB 22-Apr-2025 Lecture.md",
     "7 - Other/UCR 1-2025.md",
-    "Home.md",
     "7 - Other/EDesign. Laboratorio T-test.md",
     "6 - Attachments/Lab 3. Prueba t de dos muestras 2025.pdf",
     "6 - Attachments/Laboratorio 3  Experimentos comparativos simples. Prueba T para comparar dos medias independientes.pdf",
-    "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
     "7 - Other/Numerical analysis - UCR.md",
     "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/Numerical analysis - 29-Mar-2025.md",
