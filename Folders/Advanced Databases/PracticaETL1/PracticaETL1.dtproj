@@ -26,7 +26,7 @@
           <SSIS:Property SSIS:Name="CreatorComputerName">MV-CI0141-22</SSIS:Property>
           <SSIS:Property SSIS:Name="Description">
           </SSIS:Property>
-          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAANzHxkFdjPk6TjhqbKqGdWwAAAAACAAAAAAAQZgAAAAEAACAAAAAptmkM3zlPeHUz5agejVFNyIwDXmu8IWz9ZKOEqFY1UwAAAAAOgAAAAAIAACAAAABlaDm4y3JVe/96v7ZGaInzMuARtLBzfzl1NXaAIhz/vJAAAAAM1MM1PB0dgamKHGReMzg0659jPdL5jfQaZ73V5nE089RfZto5OtGEW1Z5moIBeeoZOKUTHoKnoVONFbd8fG6df64vSJ0XaNDihy7DAyolQ5CKfh36hT0eP41k5sNhx6c1tMKXXD0e/XjKzwr1+B25F9w9p4YH64zpmPb3eFV3UKDlmb0k5Z+PXC+x/7YAYu9AAAAA0FXRkOP7HNpA8xj0GiFR+Ymmoi2kktb/JJC3/QTnw54OumhKq0PDaGoPV2GHmtJGagcNdvsnezRbChEzDRX1zg==</SSIS:Property>
+          <SSIS:Property SSIS:Name="PasswordVerifier" SSIS:Sensitive="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKoNMZ04tdkuAugWXQq73rQAAAAACAAAAAAAQZgAAAAEAACAAAAChLf+3Ep5KCAxamQz9LxIMTtU2aDHcx/nU47M6PovpegAAAAAOgAAAAAIAACAAAABgSO8FNx4bQWRlyL81OiE6ADSS1o0cveBZ1YOLng+4NJAAAAClf7HGeGPjuIUt8vC42AJWqYWuaAu98WXxbniNezsiWum3IxQ80Zvk8Ox/IlZIQHYXey7ZbdBOOafd+XVSOYQZF65PruAomj14QnyhOq6HrnSQ36wFrNUmQkGkjX5mj5OtllhqApEcMKzzWn8jfwMON/XFQpI7y2O5eUN1F9WJex5w+Pn/26IeUMHbDsCpruVAAAAAmp/12H50V1JhYAPX27tBomokRvRCTxvI3NhoN6nKinm1UdO95gCyhX/9HXwPBz/mschP6SENPxPUcXzFHzwABQ==</SSIS:Property>
           <SSIS:Property SSIS:Name="FormatVersion">1</SSIS:Property>
         </SSIS:Properties>
         <SSIS:Packages>
@@ -42,10 +42,10 @@
                 <SSIS:Property SSIS:Name="Name">BrandonAWExtract</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMajor">1</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionMinor">0</SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionBuild">28</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionBuild">40</SSIS:Property>
                 <SSIS:Property SSIS:Name="VersionComments">
                 </SSIS:Property>
-                <SSIS:Property SSIS:Name="VersionGUID">{9A77F378-31CA-4B5E-B5DA-14D152488850}</SSIS:Property>
+                <SSIS:Property SSIS:Name="VersionGUID">{431121C6-3AA9-4171-9518-EDBD9AA35BF6}</SSIS:Property>
                 <SSIS:Property SSIS:Name="PackageFormatVersion">8</SSIS:Property>
                 <SSIS:Property SSIS:Name="Description">
                 </SSIS:Property>
@@ -78,7 +78,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductIdCost.xlsx;Extended Properties="Excel 12.0 XML;HDR=YES";</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1\ProductIdCost.xlsx;Extended Properties="EXCEL 12.0 XML;HDR=YES";</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -93,7 +93,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductIdCost.xlsx</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1\ProductIdCost.xlsx</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -166,7 +166,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductIdCost.xlsx</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1\ProductIdCost.xlsx</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -210,7 +210,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">Data Source=MV-CI0141-22;Initial Catalog=AdventureWorks2022;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-BrandonAWExtract-{3BA81426-3CCA-480B-BF1C-444E1E894095}MV-CI0141-22.AdventureWorks2022;Auto Translate=False;</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">Data Source=172.16.202.108;User ID=etl_login;Initial Catalog=AdventureWorks2022;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-BrandonAWExtract-{3BA81426-3CCA-480B-BF1C-444E1E894095}MV-CI0141-22.AdventureWorks2022;</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -314,7 +314,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">MV-CI0141-22</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">172.16.202.108</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -329,6 +329,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">etl_login</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>
@@ -403,7 +404,7 @@
                     <SSIS:Property SSIS:Name="IncludeInDebugDump">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Required">0</SSIS:Property>
                     <SSIS:Property SSIS:Name="Sensitive">0</SSIS:Property>
-                    <SSIS:Property SSIS:Name="Value">C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductQtyCost.txt</SSIS:Property>
+                    <SSIS:Property SSIS:Name="Value">C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1\ProductQtyCost.txt</SSIS:Property>
                     <SSIS:Property SSIS:Name="DataType">18</SSIS:Property>
                   </SSIS:Properties>
                 </SSIS:Parameter>

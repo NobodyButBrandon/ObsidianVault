@@ -11,8 +11,8 @@
   DTS:LocaleID="5130"
   DTS:ObjectName="BrandonAWExtract"
   DTS:PackageType="5"
-  DTS:VersionBuild="31"
-  DTS:VersionGUID="{4F082A87-65FB-4FEA-BC6F-ACEE56A0B943}">
+  DTS:VersionBuild="40"
+  DTS:VersionGUID="{431121C6-3AA9-4171-9518-EDBD9AA35BF6}">
   <DTS:Property
     DTS:Name="PackageFormatVersion">8</DTS:Property>
   <DTS:ConnectionManagers>
@@ -25,7 +25,7 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="0"
           DTS:ConnectRetryInterval="0"
-          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductIdCost.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
+          DTS:ConnectionString="Provider=Microsoft.ACE.OLEDB.16.0;Data Source=C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1\ProductIdCost.xlsx;Extended Properties=&quot;EXCEL 12.0 XML;HDR=YES&quot;;" />
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -37,7 +37,12 @@
         <DTS:ConnectionManager
           DTS:ConnectRetryCount="1"
           DTS:ConnectRetryInterval="5"
-          DTS:ConnectionString="Data Source=MV-CI0141-22;Initial Catalog=AdventureWorks2022;Provider=MSOLEDBSQL.1;Integrated Security=SSPI;Application Name=SSIS-BrandonAWExtract-{3BA81426-3CCA-480B-BF1C-444E1E894095}MV-CI0141-22.AdventureWorks2022;Auto Translate=False;" />
+          DTS:ConnectionString="Data Source=172.16.202.108;User ID=etl_login;Initial Catalog=AdventureWorks2022;Provider=SQLOLEDB.1;Persist Security Info=True;Application Name=SSIS-BrandonAWExtract-{3BA81426-3CCA-480B-BF1C-444E1E894095}MV-CI0141-22.AdventureWorks2022;">
+          <DTS:Password
+            DTS:Name="Password"
+            Sensitive="1"
+            Encrypted="1">AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAAKoNMZ04tdkuAugWXQq73rQAAAAAIAAAARABUAFMAAAAQZgAAAAEAACAAAADWIVKYFCrzPBmOp2y8VWu7oNNuNpwcFRFY6r9Mo5UCEQAAAAAOgAAAAAIAACAAAAD1v6NA+qb0ovSjlgtA02Vb2cXsfjH0V4VPkk2DcT687yAAAABLOQsm9yI6FujDKMNr0PPgKuotWu4yLOYJqr54AHzc5UAAAAAl+V2Fe8+5whUQFoiteLuHlYXUPjwwiNeB7LfxP0q+lxEE2UBy7APDSnyo8Pebgo1Z1veBf9oGBkKFjF/avoY/</DTS:Password>
+        </DTS:ConnectionManager>
       </DTS:ObjectData>
     </DTS:ConnectionManager>
     <DTS:ConnectionManager
@@ -53,7 +58,7 @@
           DTS:RowDelimiter=""
           DTS:TextQualifier="_x003C_none_x003E_"
           DTS:CodePage="1252"
-          DTS:ConnectionString="C:\Users\ecciadm\Desktop\PracticasETL\PracticaETL1\ProductQtyCost.txt">
+          DTS:ConnectionString="C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1\ProductQtyCost.txt">
           <DTS:FlatFileColumns>
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -61,7 +66,7 @@
               DTS:DataType="3"
               DTS:TextQualified="True"
               DTS:ObjectName="ProductID"
-              DTS:DTSID="{CF58A43F-5FB7-48CA-893B-67AF2142305B}"
+              DTS:DTSID="{CC48E97A-73B3-4971-B706-C083309E2AB9}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -69,7 +74,7 @@
               DTS:DataType="20"
               DTS:TextQualified="True"
               DTS:ObjectName="Quantity"
-              DTS:DTSID="{95EC5078-44F0-4E04-BF79-925A8D81689C}"
+              DTS:DTSID="{0A63FD03-49F7-4460-9EB4-C04C837BF6A1}"
               DTS:CreationName="" />
             <DTS:FlatFileColumn
               DTS:ColumnType="Delimited"
@@ -79,7 +84,7 @@
               DTS:DataScale="4"
               DTS:TextQualified="True"
               DTS:ObjectName="TotalCost"
-              DTS:DTSID="{51767BE0-CD2D-4808-967D-85CD1F586DA0}"
+              DTS:DTSID="{8257C1E7-975D-40BD-BB3C-64F8A16AF881}"
               DTS:CreationName="" />
           </DTS:FlatFileColumns>
         </DTS:ConnectionManager>
@@ -1173,40 +1178,40 @@
       <GraphLayout
         Capacity="16" xmlns="clr-namespace:Microsoft.SqlServer.IntegrationServices.Designer.Model.Serialization;assembly=Microsoft.SqlServer.IntegrationServices.Graph" xmlns:mssgle="clr-namespace:Microsoft.SqlServer.Graph.LayoutEngine;assembly=Microsoft.SqlServer.Graph" xmlns:assembly="http://schemas.microsoft.com/winfx/2006/xaml">
         <NodeLayout
+          Size="195,42"
+          Id="Package\SalesReport\Sort by Product Quantity"
+          TopLeft="827,329.444444444444" />
+        <NodeLayout
           Size="172,42"
           Id="Package\SalesReport\Calculate Total Cost"
-          TopLeft="616.777777777778,167.222222222222" />
+          TopLeft="536.777777777778,145.222222222222" />
         <NodeLayout
           Size="157,42"
           Id="Package\SalesReport\Destino de Excel"
-          TopLeft="332.323232323233,453.636363636364" />
-        <NodeLayout
-          Size="170,42"
-          Id="Package\SalesReport\Transaction History"
-          TopLeft="615.151515151515,75.3535353535354" />
-        <NodeLayout
-          Size="195,42"
-          Id="Package\SalesReport\Sort by Product Quantity"
-          TopLeft="907,351.444444444444" />
-        <NodeLayout
-          Size="195,42"
-          Id="Package\SalesReport\Destino de archivo plano"
-          TopLeft="901.767676767677,460.323232323232" />
+          TopLeft="252.323232323233,431.636363636364" />
         <NodeLayout
           Size="166,42"
           Id="Package\SalesReport\Sort by Product ID"
-          TopLeft="322.626262626263,362.828282828283" />
+          TopLeft="242.626262626263,340.828282828283" />
         <NodeLayout
-          Size="153,42"
-          Id="Package\SalesReport\Aggregate Data"
-          TopLeft="628.777777777778,251.333333333333" />
+          Size="195,42"
+          Id="Package\SalesReport\Destino de archivo plano"
+          TopLeft="821.767676767677,438.323232323232" />
         <NodeLayout
           Size="177,42"
           Id="Package\SalesReport\Multiple Destinations"
-          TopLeft="621.111111111111,355.555555555556" />
+          TopLeft="541.111111111111,333.555555555556" />
+        <NodeLayout
+          Size="153,42"
+          Id="Package\SalesReport\Aggregate Data"
+          TopLeft="548.777777777778,229.333333333333" />
+        <NodeLayout
+          Size="170,42"
+          Id="Package\SalesReport\Transaction History"
+          TopLeft="535.151515151515,53.3535353535354" />
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de origen de OLE DB]"
-          TopLeft="701.464646464646,117.353535353535">
+          TopLeft="621.464646464646,95.353535353535">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1228,7 +1233,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de ordenación1]"
-          TopLeft="408.224747474748,404.828282828283">
+          TopLeft="328.224747474748,382.828282828283">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1250,7 +1255,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de ordenación]"
-          TopLeft="1001.88383838384,393.444444444444">
+          TopLeft="921.88383838384,371.444444444444">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1272,7 +1277,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de multidifusión 1]"
-          TopLeft="621.111111111111,380.19191919192">
+          TopLeft="541.111111111111,358.19191919192">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1294,7 +1299,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de Multidifusión 1]"
-          TopLeft="798.111111111111,374.5">
+          TopLeft="718.111111111111,352.5">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1316,7 +1321,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de columna derivada]"
-          TopLeft="704.027777777778,209.222222222222">
+          TopLeft="624.027777777778,187.222222222222">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"
@@ -1338,7 +1343,7 @@
         </EdgeLayout>
         <EdgeLayout
           Id="Package\SalesReport.Paths[Salida de agregado 1]"
-          TopLeft="707.444444444445,293.333333333333">
+          TopLeft="627.444444444445,271.333333333333">
           <EdgeLayout.Curve>
             <mssgle:Curve
               StartConnector="{assembly:Null}"

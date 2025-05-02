@@ -2,13 +2,13 @@
 <BuildLog xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <ProjectInfo>
     <Name>PracticaETL1</Name>
-    <LastWriteTime>2025-04-29T19:49:55.7827723Z</LastWriteTime>
+    <LastWriteTime>2025-05-02T05:19:26.1784164Z</LastWriteTime>
     <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
   </ProjectInfo>
   <LastBuildInfos>
     <ProjectBuildItemInfo>
       <Name>BrandonAWExtract.dtsx</Name>
-      <LastWriteTime>2025-04-29T20:00:08.4445558Z</LastWriteTime>
+      <LastWriteTime>2025-05-02T05:19:26.0379434Z</LastWriteTime>
       <LastKnownProtectionLevel>EncryptSensitiveWithUserKey</LastKnownProtectionLevel>
     </ProjectBuildItemInfo>
   </LastBuildInfos>
