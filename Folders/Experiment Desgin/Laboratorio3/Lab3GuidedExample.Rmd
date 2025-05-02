@@ -1,0 +1,289 @@
+```{r}
+
+# Ejemplo guíado de Laboratorio
+
+# Se quiere determinar si existen evidencias significativas de que la topología de red (variable topología, con valores malla y estrella) afecta el tiempo de transferencia entre nodos.
+
+# NOTA: Para todo el ejercicio supondremos un nivel de significación de 0.05 (el Alpha!)
+
+```
+
+```{r}
+library(tidyverse)
+
+redes = (read.csv("red2025aleatorio.csv", header=TRUE, encoding = "UTF-8"))
+attach(redes)
+
+head(redes, 10)
+```
+
+# 1. Establecer la Hipótesis
+```{r}
+
+# H0: no hay diferencia entre las medias poblacionales: μ(estrella) = μ(malla)
+
+# HA: si hay diferencia entre las medias poblacionales:  μ(estrella) ≠ μ(malla)
+
+```
+
+# 2. Parámetro estimado (estadístico)
+```{r}
+
+# Se calcula la diferencia entre las medias muestrales. Primero se crea top_est con los datos de tiempos filtrados por la topología estrella, y luego top_malla para la topología de malla. Luego se calcula la diferencia de las medias de ambas:
+
+top_est <- redes %>% filter(topologia == "estrella") %>% pull(tiempo)
+top_malla <- redes %>% filter(topologia == "malla") %>% pull(tiempo)
+
+mean(top_malla) - mean(top_est)
+
+# Hay una diferencia de 0.3419935 milisegundos entre ambas medias, pero todavía no sabemos si esta diferencia es significativa o no.
+```
+
+# 3. Validar las condiciones para aplicar una prueba T
+```{r}
+
+# 3.1. Independencia: Se trata de un muestreo aleatorio. Se puede afirmar que los eventos son independientes. Sin embargo, podemos también realizar un gráfico de las observaciones respecto del tiempo en que se tomaron:
+
+if (length(dev.list()) > 1) dev.off()  # Cierra dispositivos gráficos activos si hay
+
+plot(redes$tiempo, axes=TRUE, ylab = "Tiempo observado", xlab = "Observaciones")
+abline(h = mean(redes$tiempo), col = "blue")
+
+# Puede verse que no se observan patrones aparentes que comprometan la independencia de las observaciones.
+
+```
+
+```{r}
+
+# 3.2. Normalidad: Se pueden crear histogramas para ver la forma de las observaciones.
+
+ggplot(redes, aes(x = tiempo)) +  
+  geom_histogram(aes(y = after_stat(density), colour = topologia)) + 
+  facet_grid(.~ topologia) + 
+  theme_bw() + theme(legend.position = "none") + 
+  theme (text = element_text(size=16))
+
+# Las formas de los histogramas no muestran claramente que las observaciones sigan una distribución normal. En ambos casos parece que hay una asimetría hacia la izquierda.
+
+```
+
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Otro gráfico que se puede utilizar es la gráfica de probabilidad normal (que en R puede hacerse con qqnorm y qqline). Por un lado, qqnorm grafica las observaciones ordenadas de la muestra contra sus respectivas frecuencias acumuladas, mientras que qqline muestra una línea de referencia de cómo deberían alinearse los datos si siguen una distribución normal.
+
+par(mfrow = c(1, 2)) 
+
+qqnorm(top_malla, xlab = "", ylab = "",
+  main = "Topología malla", col = "firebrick")
+qqline(top_malla) 
+
+qqnorm(top_est, xlab = "", ylab = "", 
+  main = "Topología estrella", col = "springgreen4") 
+qqline(top_est)
+
+# Este gráfico QQ compara los cuantiles de los datos observados con los cuantiles teóricos de la distribución normal. Si los puntos del gráfico caen sobre la línea recta, los datos se distribuyen aproximadamente de forma normal. En ambos casos, las observaciones más pequeñas no caen sobre la línea teórica.
+
+# En este caso no es claro que los datos sigan la distribución normal, ni para la topología de malla ni 
+# para la de estrella.
+
+```
+
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Se puede entonces ejecutar el estadístico de prueba Shapiro-Wilks, primero para los datos de topología estrella y luego para los de malla.
+
+# Esta prueba utiliza la estrategia de hipótesis nula (los datos provienen de una población normal) y alternativa (los datos no provienen de una población normal). Si el valor p obtenido es menor que el alfa escogido con antelación, se rechaza la hipótesis nula.
+
+shapiro.test(top_est)
+shapiro.test(top_malla)
+
+# Ambas pruebas encuentran evidencias significativas de que los datos no proceden de poblaciones con distribución normal para ambas topologías. Este es un supuesto necesario para usar las pruebas T.
+
+```
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Una prueba no paramétrica, por ejemplo la prueba Mann-Withney, que se basa en el orden o ranking de las observaciones, sería más adecuados que la prueba T. Otra opción sería estudiar si los datos anómalos son excepciones que se pueden excluir del análisis.
+
+```
+
+```{r}
+
+# 3.3. Igualdad de varianzas:
+
+# Podemos graficar boxplots con los datos para observar visualmente las distribuciones:
+
+ggplot(data = redes) + 
+  geom_boxplot(aes(x = topologia, y = tiempo, colour = topologia)) + 
+  theme_bw() + theme(legend.position = "none") + 
+  theme (text = element_text(size=16))
+
+# Viendo estos boxplots parecería que los datos para ambas topologías sí presentan varianzas similares. Vamos a revisarlo con estadísticos para estar seguros.
+
+```
+
+```{r}
+
+# 3.3. Igualdad de varianzas (cont):
+
+# Existen varios estadísticos que permiten comparar varianzas. Dado que no se cumple el critelrio de normalidad, uno de los recomendados es el test Levene o el test no paramétrico de Fligner-Killeen.
+# Si se cumpliera el criterio de normalidad, se podría usar la prueba de Bartlett (en R bartlett.test)
+
+library(car) 
+
+fligner.test(tiempo ~ topologia, data = redes)
+
+leveneTest(tiempo ~ topologia, data = redes, center = "median")
+
+# Ambas prubas generan un p-value mayor que el Alpha establecido de 0.05, por lo que no hay razones para rechazar la hipótesis nula de que las varianzas son iguales. Entonces sí concluimos que las varianzas son iguales.
+
+# Atención: Si las varianzas no fuesen iguales (y sí se cumplen los otros supuestos, particularmente el de normalidad) se podría usar la prueba T con la corrección de Welch.
+
+```
+# 4. Determinar el tipo de test
+```{r}
+
+# Se trata de una prueba de dos colas, dado que la hipótesis nula es con igualdad.
+# Además, sabemos que las varianzas son iguales.
+# También sabemos que las observaciones no siguen una distribución normal.
+
+```
+
+# 5. Determinar el nivel de significancia
+```{r}
+
+# Como se indicó al inicio del ejercicio, se usará α = 0.05.
+
+```
+
+# 6. Cálculo de p-value
+```{r}
+
+# 1) Aunque no contamos con normalidad de los datos, vamos a ejecutar la prueba T para efectos pedagógicos de este laboratorio, y así practicar el utilizar este estadístico tan conocido.
+
+# Realizamos entonces la prueba T para los datos de las dos topologías, indicando mu = 0, dado que estamos usando la prueba para comparar ambas medias, o lo que es igual, que la diferencia de las medias es 0.
+
+# También indicamos que las varianzas son iguales y que el nivel de confianza es 0.95, ó 1 – 0.005 (el nivel de significación):
+
+t.test( 
+  x = top_est, 
+  y = top_malla, 
+  alternative = "two.sided", 
+  mu = 0, 
+  var.equal = TRUE, 
+  conf.level = 0.95 )
+
+# Esta prueba muestra un p-value de 0.0408, menor que el nivel de significancia de 0.05, por lo que sí habría evidencia para rechazar la hipótesis nula. Recordemos que usamos esta prueba con fines académicos.
+
+```
+
+```{r}
+
+# 2) Ahora bien, dado que no es cierto el supuesto de normalidad, vamos a ejecutar la prueba no paramétrica de Mann-Whitney, que en R forma parte de la función wilcox.test(). Esta función permite hacer la prueba Wilcoxon para datos pareados o la prueba Mann-Whitney para datos no pareados, que es este caso.
+
+wilcox.test( 
+  x = top_est, 
+  y = top_malla, 
+  alternative = "two.sided", 
+  mu = 0, 
+  paired = FALSE, 
+  conf.int = 0.95)
+
+# Puede verse que el p-value de 0.028 es menor que el Alpha 0.05. Sí se dispone de evidencia para rechazar la hipótesis nula de que las medias de los tiempos de transferencia son iguales para las dos topologías.
+
+```
+
+# 7. Cálculo tamaño de efecto
+```{r}
+
+# Utilizamos la biblioteca effsize, con la función cohen.d:
+
+library(effsize)
+
+cohen.d(formula = tiempo ~ topologia, data = redes, paired = FALSE)
+
+# Puede verse que el d estimado está alrededor de 0.2 (en magnitud), por lo que se considera que el efecto de la topología en los tiempos de transmisión es pequeño.
+
+```
+
+# 8. Potencia de la prueba
+```{r}
+
+# Este valor estará relacionado con la diferencia de las poblaciones (o en su defecto, la diferencia observada de las dos muestras) y el tamaño de la muestra. También debemos considerar si las muestras de los dos niveles de estudio son iguales, y si las varianzas son conocidas (similares o no) o desconocidas.
+
+# En este caso particular, sabemos que las varianzas muestrales son similares. No contamos con información sobre las varianzas poblacionales. Como las varianzas son similares, podríamos tomar cualquiera de ellas para hacer el cálculo de la potencia (que necesita la desviación estándar), o también calcular la media de ambas y usar esta media como se muestra a continuación:
+
+sd_grupo1 <- sd(top_est) 
+sd_grupo2 <- sd(top_malla) 
+
+sd_comun <- mean(c(sd_grupo1, sd_grupo2)) 
+sd_comun
+
+```
+```{r}
+
+# También se necesita el delta que es la diferencia entre las medias de las poblaciones. Como no tenemos información, usaremos la diferencia enatre las medias muestrales, que ya habíamos calculado en el punto 2:
+
+delta_observado <- mean(top_malla) - mean(top_est) 
+delta_observado
+
+```
+
+```{r}
+
+# Además, debemos revisar si las muestras son de igual tamaño:
+
+length(top_est) 
+length(top_malla)
+
+# En este caso hay 140 observaciones para la topología estrella y 110 para la topología de malla. Para el cálculo de la potencia utilizaremos el valor más pequeño de los dos.
+
+```
+```{r}
+
+# Seguidamente ejecutamos el comando power.t.test() indicando: 
+
+power.t.test(
+  n = 110, 
+  delta = delta_observado, 
+  sd = sd_comun, 
+  sig.level = 0.05, 
+  type = "two.sample")
+
+# De este resultado se puede ver que con este conjunto de datos se obtuvo una potencia de prueba de 0.49, baja si se compara con 0.80 que sería más apropiada. Esto está determinado por el delta que se encontró: diferencias grandes entre las medias son más fácilmente identificables con muestras menores, mientras que diferencias pequeñas necesitan muestras más grandes.
+
+```
+
+```{r}
+
+# Se puede utilizar esta misma función para saber de cuánto debería ser la muestra para llegar a una potencia de 0.80. Se modifica la invocación de la siguiente forma:
+
+power.t.test(
+  power = 0.8, 
+  delta = delta_observado, 
+  sd = sd_comun, 
+  sig.level = 0.05,
+  type = "two.sample")
+
+# El resultado muestra que para obtener una potencia de prueba de 0.80 que esté relacionada con el delta encontrado (0.34) se necesitan al menos 227 observaciones para cada topología.
+
+```
+
+# 9. Análisis de resultados y conclusiones
+```{r}
+
+# Puede verse que el p-value obtenido con la prueba Mann-Whitney de 0.028 es menor que el Alpha 0.05. Sí se dispone de evidencia para rechazar la hipótesis nula de que las medias de los tiempos de transferencia son iguales para las dos topologías.
+
+# A esta conclusión también llegamos utilizando la prueba T de Student, que arrojó un p-value de 0.0408, también menor a 0.05. Como no contamos con normalidad de los datos, este resultado lo tomamos con precaución.
+
+# A su vez, el tamaño de efecto atribuible a la topología, medido por d-Cohen, es pequeño (-0.26).
+
+# Finalmente, la potencia de la prueba es baja, de 0.49. Para obtener una prueba con una potencia de 0.80 se necesitaría tener una muestra de 227 observaciones para cada topología.
+
+```
+

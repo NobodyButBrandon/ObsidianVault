@@ -1,0 +1,311 @@
+```{r}
+
+# Ejercicio de Laboratorio Tamaño del Paquete
+
+# Se quiere determinar si existen evidencias significativas de que el tamaño del paquete envíado afecta el tiempo de transferencia entre nodos.
+
+# NOTA: Para todo el ejercicio supondremos un nivel de significación de 0.05 (el Alpha!)
+
+```
+
+# Carga de datos y exploración de variable
+```{r}
+# Cargamos los datos desde el csv, hacemos primera exploración con la función head().
+
+library(tidyverse)
+
+redes = (read.csv("red2025aleatorio.csv", header=TRUE, encoding = "UTF-8"))
+attach(redes)
+
+head(redes, 10)
+
+```
+
+```{r}
+
+# Utilizamos además la función table sobre la variable paquetes para explorar sus valors y frecuencias
+
+table(paquetes)
+
+# Vemos que la varibale paquetes tiene dos valores posibles: grandes(136) y pequenos(114).
+
+```
+
+# 1. Establecer la Hipótesis
+```{r}
+
+# H0: no hay diferencia entre las medias poblacionales: μ(grandes) = μ(pequenos)
+
+# HA: si hay diferencia entre las medias poblacionales:  μ(grandes) ≠ μ(pequenos)
+
+```
+
+# 2. Parámetro estimado (estadístico)
+```{r}
+
+# Se calcula la diferencia entre las medias muestrales. Primero se crea time_grandes con los datos de tiempos filtrados por el tamaño de paquete grande, y luego time_pequenos para los paquetes pequeños. Luego se calcula la diferencia de las medias de ambas:
+
+time_grandes <- redes %>% filter(paquetes == "grandes") %>% pull(tiempo)
+time_pequenos <- redes %>% filter(paquetes == "pequenos") %>% pull(tiempo)
+
+mean(time_grandes) - mean(time_pequenos)
+
+# Hay una diferencia de 0.4987049 milisegundos entre ambas medias, pero todavía no sabemos si esta diferencia es significativa o no.
+```
+
+# 3. Validar las condiciones para aplicar una prueba T
+```{r}
+
+# 3.1. Independencia: Podemos realizar un gráfico de las observaciones respecto del tiempo en que se tomaron coloreado por tamaño de paquete:
+
+if (length(dev.list()) > 1) dev.off()
+
+plot(tiempo, 
+     ylab = "Tiempo observado (ms)",
+     xlab = "Observación", 
+     col = ifelse(paquetes=="grandes","firebrick","steelblue"),
+     pch = 20)
+
+legend("topright", 
+       legend = c("Grande","Pequeño"),
+       col = c("firebrick","steelblue"), 
+       pch = 20)
+
+abline(h = mean(redes$tiempo), lty = 2)
+
+# Puede verse que no se observan patrones aparentes que comprometan la independencia de las observaciones.
+
+```
+
+```{r}
+
+# 3.2. Normalidad: Se crean histogramas por nivel para ver la forma de las observaciones.
+
+ggplot(redes, 
+       aes(x = tiempo, fill = paquetes)) +
+  
+geom_histogram(aes(y = after_stat(density)),
+               alpha = 0.4, 
+               position = "identity", 
+               bins = 30) +
+  
+labs(x = "Tiempo (ms)",
+     y = "Densidad") +
+  
+facet_wrap(~ paquetes) +
+  
+theme_bw()
+
+# Las formas de los histogramas no muestran claramente que las observaciones sigan una distribución normal. En ambos casos parece que hay una asimetría hacia la izquierda, siendo esta asimetría más pronunciada para el caso de paquetes pequeños.
+```
+
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Se muestra también la gráfica de probabilidad normal.
+
+par(mfrow = c(1, 2)) 
+
+qqnorm(time_grandes, main = "Paquetes grandes", col = "firebrick"); qqline(time_grandes)
+qqnorm(time_pequenos, main = "Paquetes pequeños", col = "springgreen4"); qqline(time_pequenos)
+
+# El gráfico QQ compara los cuantiles de los datos observados con los cuantiles teóricos de la distribución normal. En ambos casos las observaciones más pequeñas y más grandes caen por debajo de la línea teórica por lo que no parece que se siga una distribución normal para ninguno de los dos tipos de paquetes.
+
+```
+
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Se ejecuta el estadístico de prueba Shapiro-Wilks, primero para los datos de paquetes grandes y luego para los pequenos.
+
+shapiro.test(time_grandes)
+shapiro.test(time_pequenos)
+
+# Ambas pruebas encuentran evidencias significativas de no normalidad para ambos tipos tamaños de paquetes, ya que 1.064e-06 < 0.01129 < 0.05.
+
+```
+
+```{r}
+
+# 3.3. Igualdad de varianzas:
+
+# Podemos graficar boxplots con los datos para observar visualmente las distribuciones:
+
+ggplot(redes, 
+       aes(x = paquetes, y = tiempo, colour = paquetes)) +
+  
+geom_boxplot() +
+  
+labs(x = "Paquetes", 
+     y = "Tiempo (ms)") +
+  
+theme_bw() +
+  
+theme(legend.position = "none")
+
+# Viendo estos boxplots parecería que los datos para ambas topologías sí presentan varianzas similares. Vamos a revisarlo con estadísticos para estar seguros.
+
+# Los boxplots nos dicen que los paquetes pequeños tienen ligeramente mayor dispersión en el rango intercuartil. Los valores máximos y mínimos son similares comparados con la mediana, que es menor para paquetes pequeños.
+
+```
+
+```{r}
+
+# 3.3. Igualdad de varianzas (cont):
+
+# Dado que no se cumple el criterio de normalidad, uno estadístico recomendados es el test Levene  o el test no paramétrico de Fligner-Killeen.
+
+# Si se cumpliera el criterio de normalidad, se podría usar la prueba de Bartlett (en R bartlett.test)
+
+library(car) 
+
+fligner.test(tiempo ~ paquetes, data = redes)
+leveneTest(tiempo ~  as.factor(paquetes), data = redes, center = "median")
+      
+# Ambas pruebas generan un p-value mayor que el Alpha establecido de 0.05, por lo que no hay razones para rechazar la hipótesis nula de que las varianzas son iguales. 0.05 < 0.7138 < 0.7538.
+
+```
+# 4. Determinar el tipo de test
+```{r}
+
+# Se trata de una prueba de dos colas, dado que la hipótesis nula es con igualdad.
+# Además, concluímos que las varianjzas son iguales.
+# También sabemos que las observaciones no siguen una distribución normal.
+
+```
+
+# 5. Determinar el nivel de significancia
+```{r}
+
+# Como se indicó al inicio del ejercicio, se usará α = 0.05.
+
+```
+
+# 6. Cálculo de p-value
+```{r}
+
+# 1) Realizamos entonces la prueba T para los datos de los dos paquetes, indicando mu = 0, dado que estamos usando la prueba para comparar ambas medias, o lo que es igual, que la diferencia de las medias es 0.
+
+# También indicamos que las varianzas son iguales y que el nivel de confianza es 0.95, ó 1 – 0.005 (el nivel de significación):
+
+t.test( 
+  x = time_grandes, 
+  y = time_pequenos, 
+  alternative = "two.sided", 
+  mu = 0, 
+  var.equal = TRUE, 
+  conf.level = 0.95 )
+
+# Esta prueba muestra un p-value de 0.002657, menor que el nivel de significancia de 0.05, por lo que sí habría bastante evidencia para rechazar la hipótesis nula.
+```
+
+```{r}
+
+# 2) Dado que no es cierto el supuesto de normalidad, vamos a ejecutar la prueba no paramétrica de Mann-Whitney.
+
+wilcox.test(
+  x = time_grandes,
+  y = time_pequenos,
+  alternative = "two.sided",
+  mu = 0,
+  paired = FALSE,
+  conf.int = 0.95)
+
+# Puede verse que el p-value de 0.006954 es menor que el Alpha 0.05. Sí se dispone de evidencia para rechazar la hipótesis nula de que las medias de los tiempos de transferencia son iguales para los dos tamaños de paquetes.
+
+```
+
+# 7. Cálculo tamaño de efecto
+```{r}
+
+# Utilizamos la biblioteca effsize, con la función cohen.d:
+
+library(effsize)
+
+cohen.d(formula = tiempo ~ paquetes, data = redes, paired = FALSE)
+
+# Puede verse que el d estimado es de 0.3854624 (en magnitud), por lo que se considera que el efecto de el tamaño de paquete en los tiempos de transmisión es pequeño.
+
+```
+
+# 8. Potencia de la prueba
+```{r}
+
+# En este caso particular, sabemos que las varianzas muestrales son similares. No contamos con información sobre las varianzas poblacionales. Como las varianzas son similares, calculamos la media de ambas y usamos esta media como se muestra a continuación:
+
+sd_grupo1 <- sd(time_grandes) 
+sd_grupo2 <- sd(time_pequenos) 
+
+sd_comun <- mean(c(sd_grupo1, sd_grupo2)) 
+sd_comun
+
+# La media de las varianzas es de 1.294015
+
+```
+```{r}
+
+# También se necesita el delta que es la diferencia entre las medias de las poblaciones. Como no tenemos información, usaremos la diferencia enatre las medias muestrales, que ya habíamos calculado en el punto 2:
+
+delta_observado <- mean(time_grandes) - mean(time_pequenos) 
+delta_observado
+
+# El delta obsrvado es 0.4987049
+
+```
+
+```{r}
+
+# Además, debemos revisar si las muestras son de igual tamaño:
+
+length(time_grandes)
+length(time_pequenos)
+
+# En este caso hay 136 observaciones para la paquetes grandes y 114 para la paquetes pequeños. Para el cálculo de la potencia utilizaremos el valor más pequeño de los dos.
+
+```
+```{r}
+
+# Seguidamente ejecutamos el comando power.t.test() indicando: 
+
+power.t.test(
+  n = 114,
+  delta = delta_observado, 
+  sd = sd_comun, 
+  sig.level = 0.05, 
+  type = "two.sample")
+
+# De este resultado se puede ver que con este conjunto de datos se obtuvo una potencia de prueba de 0.8256994, la cual es apropiada.
+
+```
+
+```{r}
+
+# Se puede utilizar esta misma función para saber de cuánto es la muestra mínima para llegar a una potencia de 0.80. Se modifica la invocación de la siguiente forma:
+
+power.t.test(
+  power = 0.8, 
+  delta = delta_observado, 
+  sd = sd_comun, 
+  sig.level = 0.05,
+  type = "two.sample")
+
+# El resultado muestra que para obtener una potencia de prueba de 0.80 que esté relacionada con el delta encontrado (0.4987049) se necesitan al menos 106 observaciones para cada tamaño de paquete. Por lo que con las 114 que tenemos nos basta.
+
+```
+
+# 9. Análisis de resultados y conclusiones
+```{r}
+
+# En el análisis del efecto del tamaño de paquete sobre el tiempo de transferencia se ha encontrado evidencia estadística consistente de que los paquetes “grandes” tardan en promedio más que los “pequeños”. La diferencia muestral de medias es de 0.4987 ms, la prueba t de Student arrojó un t = 3.0355 con df = 248 y p = 0.002657 (< 0.05), confirmando la significación estadística de la diferencia.
+
+# La prueba no paramétrica de Mann–Whitney concordó con un W = 9289 y p = 0.006954, reforzando la decisión de rechazar H₀ pese a la no normalidad de las muestras.
+
+# El tamaño del efecto estimado por Cohen’s d = 0.3855 se considera “pequeño” según los umbrales de 0.2, 0.5 y 0.8.
+
+# Además, la potencia calculada con power.t.test() = 0.8257 supera el nivel recomendado de 0.8, mostrando que la muestra actual es suficiente para detectar el efecto observado.
+
+# Hay evidencia significativa de que el tamaño del paquete afecta el tiempo de transferencia entre nodos. Aunque el efecto estadístico es pequeño (d ≈ 0.39), la prueba cuenta con suficiente potencia y confirma que el fenómeno es real, no atribuible al azar. Por tanto, al diseñar redes, conviene considerar la influencia del tamaño de los paquetes para optimizar el rendimiento.
+
+```

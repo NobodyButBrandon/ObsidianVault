@@ -1,3 +1,8 @@
-[C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Experiment Desgin\Laboratorio 3 Prueba T para comparar dos medias independientes](<file:///C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Experiment Desgin\Laboratorio 3 Prueba T para comparar dos medias independientes>)
+# Enunciado 
+![[Lab 3. Prueba t de dos muestras 2025.pdf]]
 
-Laboratorio T-test -> _02-May-2025_ #UNI_TODO 
+# Carpeta de trabajo
+[C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Experiment Desgin\Laboratorio 3 Prueba T para comparar dos medias independientes](<file:///C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Experiment Desgin\Laboratorio3>)
+
+# Solución
+![[Laboratorio 3  Experimentos comparativos simples. Prueba T para comparar dos medias independientes.pdf]]

@@ -1,0 +1,347 @@
+```{r}
+
+# Ejercicio de Laboratorio Distancia
+
+# Se quiere determinar si existen evidencias significativas de que la distancia entre nodos afecta el tiempo de transferencia.
+
+# NOTA: Para todo el ejercicio supondremos un nivel de significación de 0.05 (el Alpha!)
+
+```
+
+# Carga de datos y exploración de variable
+```{r}
+
+# Cargamos los datos desde el csv, hacemos primera exploración con la función head().
+
+library(tidyverse)
+
+redes = (read.csv("red2025aleatorio.csv", header=TRUE, encoding = "UTF-8"))
+attach(redes)
+
+head(redes, 10)
+
+```
+
+```{r}
+
+# Utilizamos además la función table sobre la variable distancia para explorar sus valores y frecuencias
+
+table(distancia)
+
+# Vemos que la varibale distancia tiene dos valores posibles: corto(167) y largo(83).
+
+```
+
+# 1. Establecer la Hipótesis
+```{r}
+
+# H0: no hay diferencia entre las medias poblacionales: μ(corto) = μ(largo)
+
+# HA: si hay diferencia entre las medias poblacionales:  μ(corto) ≠ μ(largo)
+
+```
+
+# 2. Parámetro estimado (estadístico)
+```{r}
+
+# Se calcula la diferencia entre las medias muestrales. Primero se crea time_corto con los datos de tiempos filtrados por las distancias cortas, y luego time_largo para los distancias largas. Luego se calcula la diferencia de las medias de ambas:
+
+time_corto <- redes %>% filter(distancia == "corto") %>% pull(tiempo)
+time_largo <- redes %>% filter(distancia == "largo") %>% pull(tiempo)
+
+mean(time_corto) - mean(time_largo)
+
+# Hay una diferencia de 1.083399 milisegundos entre ambas medias, pero todavía no sabemos si esta diferencia es significativa o no.
+```
+
+# 3. Validar las condiciones para aplicar una prueba T
+```{r}
+
+# 3.1. Independencia: Podemos realizar un gráfico de las observaciones respecto del tiempo en que se tomaron coloreado por distancia:
+
+if (length(dev.list()) > 1) dev.off()
+
+plot(tiempo, 
+     ylab = "Tiempo observado (ms)",
+     xlab = "Observación", 
+     col = ifelse(distancia=="corto","firebrick","steelblue"),
+     pch = 20)
+
+legend("topright", 
+       legend = c("Corto","Largo"),
+       col = c("firebrick","steelblue"), 
+       pch = 20)
+
+abline(h = mean(tiempo), lty = 2)
+
+# Puede verse que no se observan patrones aparentes que comprometan la independencia de las observaciones.
+
+```
+
+```{r}
+
+# 3.2. Normalidad: Se crean histogramas por nivel para ver la forma de las observaciones.
+
+ggplot(redes, 
+       aes(x = tiempo, fill = distancia)) +
+  
+geom_histogram(aes(y = after_stat(density)),
+               alpha = 0.4, 
+               position = "identity", 
+               bins = 30) +
+  
+labs(x = "Tiempo (ms)",
+     y = "Densidad") +
+  
+facet_wrap(~ distancia) +
+  
+theme_bw()
+
+# Los histogramas podrían estar siguiendo una distribución normal pero no es del toco claro. En ambos casos parece que hay una asimetría hacia la izquierda.
+```
+
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Se muestra también la gráfica de probabilidad normal.
+
+par(mfrow = c(1, 2)) 
+
+qqnorm(time_corto, main = "Distancia corto", col = "firebrick"); qqline(time_corto)
+qqnorm(time_largo, main = "Distancia largo", col = "springgreen4"); qqline(time_largo)
+
+# El gráfico QQ compara los cuantiles de los datos observados con los cuantiles teóricos de la distribución normal. El gráfico de distancia corto parece seguir más la distribución normal, aunque las observaciones menores caen bajo la línea. Mientras que en el caso de la distancia largo los valores oscilan más sobre la línea teórica.
+
+```
+
+```{r}
+
+# 3.2. Normalidad (cont):
+
+# Se ejecuta el estadístico de prueba Shapiro-Wilks, primero para los datos de distancia corto y luego para los largo.
+
+shapiro.test(time_corto)
+shapiro.test(time_largo)
+
+# Los valores de ambas pruebas arrojan que 0.1427 > 0.2251 > 0.05, por lo que no hay evidencia para rechazar la hipótesis nula (los datos provienen de una distribución normal). Concluímos normalidad.
+
+```
+
+```{r}
+
+# 3.3. Igualdad de varianzas:
+
+# Podemos graficar boxplots con los datos para observar visualmente las distribuciones:
+
+ggplot(redes, 
+       aes(x = distancia, y = tiempo, colour = distancia)) +
+  
+geom_boxplot() +
+  
+labs(x = "Distancia", 
+     y = "Tiempo (ms)") +
+  
+theme_bw() +
+  
+theme(legend.position = "none")
+
+# A primera vista las distribuciones en las muestras parecen no ser iguales, la diferencia en el tamaño de los rangos intercuartil es pronunciada, así como los máximos y mínimos. Vamos a comprobarlo con un estadístico.
+
+```
+
+```{r}
+
+# 3.3. Igualdad de varianzas (cont):
+
+# Dado que se cumple el criterio de normalidad, se puede usar la prueba de Bartlett (en R bartlett.test)
+
+bartlett.test(tiempo ~ as.factor(distancia), data = redes)
+
+# Obtenemos el resultado para el p value de 2.727e-06 < 0.05 por lo tanto hay evidencia para rechazar la hipótesis de que las varianzas son iguales. Concluímos que no hay igualdad de varianzas.
+
+```
+# 4. Determinar el tipo de test
+```{r}
+
+# Se trata de una prueba de dos colas, dado que la hipótesis nula es con igualdad. Además, concluímos que las varianjzas no son iguales. También sabemos que las observaciones siguen una distribución normal.
+
+# Podemos usar una prueba T con la corrección de Welch
+
+```
+
+# 5. Determinar el nivel de significancia
+```{r}
+
+# Como se indicó al inicio del ejercicio, se usará α = 0.05.
+
+```
+
+# 6. Cálculo de p-value
+```{r}
+
+# Realizamos entonces la prueba T con la corrección de Welch para los datos de las dos distancias, indicando mu = 0, dado que estamos usando la prueba para comparar ambas medias, o lo que es igual, que la diferencia de las medias es 0.
+
+# También indicamos que las varianzas no son iguales y que el nivel de confianza es 0.95, ó 1 – 0.005 (el nivel de significación):
+
+t.test( 
+  x = time_corto, 
+  y = time_largo, 
+  alternative = "two.sided", 
+  mu = 0, 
+  var.equal = FALSE, 
+  conf.level = 0.95 )
+
+# Esta prueba muestra un p-value de 6.139e-08, menor que el nivel de significancia de 0.05, por lo que sí habría bastante evidencia para rechazar la hipótesis nula.
+```
+
+# 7. Cálculo tamaño de efecto
+```{r}
+
+# Utilizamos la biblioteca effsize, con la función cohen.d:
+
+library(effsize)
+cohen.d(formula = tiempo ~ distancia, data = redes, paired = FALSE)
+
+# Puede verse que el d estimado es de 0.8924623 (en magnitud), por lo que se considera que el efecto de el tamaño de paquete en los tiempos de transmisión es alto.
+
+```
+
+# 8. Potencia de la prueba
+
+```{r}
+
+# 1) Para calcular la potencia cuando no se cumplen las varianzas iguales, vamos a emplear la función pwr.t2n.test() del paquete pwr, que está pensada para dos muestras de distinto tamaño. Para ello msimo debemos obtener la varianza en común:
+
+sd_corto = sd(time_corto)
+sd_largo = sd(time_largo)
+
+sd_comun = mean(time_corto) - mean(time_largo)
+print (sd_comun)
+
+# El valor arrojado es 1.083399
+
+```
+
+```{r}
+
+# Debemos revisar si las muestras son de igual tamaño:
+
+n1 = length(time_corto)
+n2 = length(time_largo)
+
+print (n1)
+print (n2)
+
+# En este caso hay 167 observaciones para la distancia corto y 83 para la distancia larga.
+
+```
+
+```{r}
+# Para usa esta prueba de potencia necesitamos calcular un efecto d no-pooled de la siguiente manera:
+
+d = sd_comun/sqrt(((sd_corto^2) + (sd_largo^2))/2)
+print (d)
+
+# El valor d observado es de 0.8284778
+
+```
+
+```{r}
+
+# Ejecutamos entonces la prueba de potencia para varianzas diferentes de la siguiente manera:
+
+library(pwr)
+
+pwr.t2n.test(
+  n1       = n1,
+  n2       = n2,
+  d        = d,
+  sig.level = 0.05,
+  power     = NULL,
+  alternative = "two.sided"
+)
+
+# Esta prueba nos arroja una potencia de 0.9999857, lo cual es muy alto y nos dice que la cantidad de muestras es suficiente.
+
+```
+
+```{r}
+
+# Se puede utilizar esta misma función para saber de cuánto es la muestra mínima para llegar a una potencia de 0.80. Para ello necesitamos calcular el delta, que es la diferencia entre las medias de las poblaciones. Como no tenemos información, usaremos la diferencia entre las medias muestrales.
+
+delta_observado <- mean(time_corto) - mean(time_largo) 
+delta_observado
+
+# El delta obsrvado es 1.083399
+
+```
+
+```{r}
+
+# Ahora modificamos la función de la siguiente manera
+
+power.t.test(
+  n         = NULL,             # deja que la función calcule n
+  power     = 0.80,             # potencia deseada
+  delta     = delta_observado,  
+  sd        = sd_comun,
+  sig.level = 0.05,
+  type      = "two.sample",     # prueba de dos muestras
+  alternative = "two.sided"      # dos colas
+)
+
+# El resultado muestra que para obtener una potencia de prueba de 0.80 que esté relacionada con el delta encontrado (1.083399) se necesitan al menos 16 observaciones para cada tamaño de paquete.
+
+```
+
+```{r}
+
+# 2) Tambíen podemos ejecutar la prueba de potencia para la prueba T que hemos trabajo en el ejercicio anterior, calculamos la media de las varianzas:
+
+sd_grupo1 <- sd(time_corto) 
+sd_grupo2 <- sd(time_largo) 
+
+sd_comun2 <- mean(c(sd_grupo1, sd_grupo2)) 
+sd_comun2
+
+# La media de las varianzas es de 1.278909
+
+```
+
+```{r}
+
+# Seguidamente ejecutamos el comando power.t.test() indicando: 
+
+power.t.test(
+  n = n2,
+  delta = delta_observado, 
+  sd = sd_comun2, 
+  sig.level = 0.05, 
+  type = "two.sample")
+
+# De este resultado se puede ver que con este conjunto de datos se obtuvo una potencia de prueba de 0.999735, la cual es apropiada y similar a la de la prueba de potencia para varianzas diferentes.
+
+```
+
+```{r}
+
+# Se puede utilizar esta misma función para saber de cuánto es la muestra mínima para llegar a una potencia de 0.80. Se modifica la invocación de la siguiente forma:
+
+power.t.test(
+  power = 0.8, 
+  delta = delta_observado, 
+  sd = sd_comun2, 
+  sig.level = 0.05,
+  type = "two.sample")
+
+# El resultado muestra que para obtener una potencia de prueba de 0.80 que esté relacionada con el delta encontrado (1.083399) se necesitan al menos 22 observaciones para cada tamaño de paquete.
+
+```
+
+# 9. Análisis de resultados y conclusiones
+```{r}
+
+# En el análisis de la influencia de la distancia (corto vs. largo) sobre el tiempo de transferencia, se observa una diferencia media de 1.0834 ms a favor de los paquetes en distancias cortas. La prueba t de Welch (para varianzas desiguales) arrojó un t ≈ –6.910 con df ≈ 182 y p ≈ 6.14 × 10⁻⁸ (< 0.05), confirmando la significación estadística de la diferencia. El tamaño del efecto calculado por Cohen’s d = 0.8925 se clasifica como “grande”, indicando una diferencia práctica relevante. La potencia estimada con pwr.t2n.test() fue prácticamente 1.00, lo que garantiza alta sensibilidad del estudio; según power.t.test(), bastarían ≈ 17–23 observaciones por grupo para alcanzar potencia = 0.8, muy por debajo de los 167 y 83 muestras disponibles. En conjunto, estos resultados demuestran sólidamente que la distancia entre nodos sí incide en el tiempo de transferencia, con un efecto notable y perfectamente detectable con el tamaño de muestra actual.
+
+```

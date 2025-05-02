@@ -1,10 +1,10 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ecciadm\\Desktop\\PracticasETL\\PracticaETL1\\",
+  "WorkspaceRootPath": "C:\\Users\\brand\\OneDrive\\Documents\\ObsidianVault\\Folders\\Advanced Databases\\PracticaETL1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{0B46B754-2A6E-D3BD-8EA7-78BD6EC7705F}|PracticaETL1.dtproj|C:\\Users\\ecciadm\\Desktop\\PracticasETL\\PracticaETL1\\BrandonAWExtract.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
-      "RelativeMoniker": "D:0:0:{0B46B754-2A6E-D3BD-8EA7-78BD6EC7705F}|PracticaETL1.dtproj|solutionrelative:BrandonAWExtract.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\brand\\OneDrive\\Documents\\ObsidianVault\\Folders\\Advanced Databases\\PracticaETL1\\BrandonAWExtract.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:BrandonAWExtract.dtsx||{CC84AFBD-DA02-46F4-8623-9F07E5569EDB}|Design"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,19 +14,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "BrandonAWExtract.dtsx [Design]",
-              "DocumentMoniker": "C:\\Users\\ecciadm\\Desktop\\PracticasETL\\PracticaETL1\\BrandonAWExtract.dtsx",
+              "DocumentMoniker": "C:\\Users\\brand\\OneDrive\\Documents\\ObsidianVault\\Folders\\Advanced Databases\\PracticaETL1\\BrandonAWExtract.dtsx",
               "RelativeDocumentMoniker": "BrandonAWExtract.dtsx",
-              "ToolTip": "C:\\Users\\ecciadm\\Desktop\\PracticasETL\\PracticaETL1\\BrandonAWExtract.dtsx [Design]",
+              "ToolTip": "C:\\Users\\brand\\OneDrive\\Documents\\ObsidianVault\\Folders\\Advanced Databases\\PracticaETL1\\BrandonAWExtract.dtsx [Design]",
               "RelativeToolTip": "BrandonAWExtract.dtsx [Design]",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFTSURBVDhPY2QAgqUbD/8H0bjAu49fGG7fvZ8\u002BqTFrFlQIAv7/h\u002BgDGfDv71\u002BcePKi7f9NPZP/59VPSwNrQAJMUJogaK0pZDh\u002B6uxMdEOINqC6pR9MgwwBM6CABUqDQcWCa1AWA0NHghac//k9G0NcZAiYvWj5GjANAxgu\u002BC2rAcYwAGJz6NkxZEe7QUVQAYYBrI9vgDEMwPhffkEFsAFCsfDp\u002B9//D98jYgOqDQwIBiLI5vc/GBjefP/PwMLGARVFABQDQIEGwyCArPnNdwaGf1iSG85ARNb8\u002BhsDwweQAb\u002BBAmgAZyAia371lYHh7MnrDI9/yzA4hhQwlM29/J/BeCbYPSjpABT3MJvf//jP8BZoK4j95TfE7SD5hy\u002B\u002BMFy5846hCyyCZMDUpbugLFxABq75zPU3UDGoAaDchp7C0AHI6TDNyAaAszNRAOpnFHA2nREAjMTvHMVXB8cAAAAASUVORK5CYII=",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2025-04-26T05:32:00.366Z",
               "EditorCaption": " [Design]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
             }
           ]
         }

@@ -15,3 +15,6 @@ _Como parte de la clase asíncrona del día de hoy deben concluir el trabajo de 
 [[1-2025 PrácticaDirigidaETL.pdf]]
 
 # Solución
+[C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1](<file:///C:\Users\brand\OneDrive\Documents\ObsidianVault\Folders\Advanced Databases\PracticaETL1>)
+
+
