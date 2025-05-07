@@ -44,6 +44,8 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[Clase asincrónica AdvancedDB 04-Apr-2025]]
 [[Proyecto Data Warehouse]]
 [[Clase asincrónica AdvancedDB 25-Apr-2025]]
+[[Practica OLAP]]
+Prueba corta capítulo 3 y 4 -> _09-04-2025_ #UNI_TODO 
 
 # Books
 [[Data Warehouse Systems - Vaisman & Zimanyi]]

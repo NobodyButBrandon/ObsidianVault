@@ -55,6 +55,8 @@ __Presentations__
 [[3. CI0131 Análisis Exploratorio de Datos 2025.pdf]]
 [[4. CI0131 Experimentos comparativos simples 2025.pdf]]
 [[Peter Hoff Chap2.pdf]]
+[[CI0131. Precisión y exactitud.pdf]] 
+[[CI0131. ANOVA 1 VIA I-2025.pdf]]
 ___
 __Books__
 [[Design and analysis of experiments - Montgomery]]

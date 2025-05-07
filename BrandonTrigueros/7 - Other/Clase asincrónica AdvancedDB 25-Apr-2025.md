@@ -1,5 +1,5 @@
 # Info
-PracticaDirigidaETL -> _02-May-2025_ #UNI_TODO
+PracticaDirigidaETL -> _02-May-2025_
 
 En todas las actividades debe utilizar la máquina que tiene disponible en el siguiente listado, recuerde que por ningún motivo debe apagar o eliminar su máquina.
 

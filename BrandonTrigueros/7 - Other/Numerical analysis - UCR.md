@@ -20,6 +20,8 @@ Exam 1 -> _8-Apr-2025_
 Short test 2 -> _12-May-2025_ #UNI_DEADLINE
 Exam 2 -> _24-May-2025_ #UNI_DEADLINE
 Research presentation -> _23-Jun-2025_ #UNI_DEADLINE
+[[Rubrica_TrabFinal.pdf]]
+
 Short test 3 -> _23-Jun-2025_ #UNI_DEADLINE
 Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 
