@@ -52,6 +52,7 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 __Presentations__
 [[1. CI0131 Capas del diseño de investigación 2025.pdf]]
 [[2. CI0131 Introducción al diseño de experimentos 2025-03B.pdf]]
+[[Explicación de factores 2025.pdf]]
 [[3. CI0131 Análisis Exploratorio de Datos 2025.pdf]]
 [[4. CI0131 Experimentos comparativos simples 2025.pdf]]
 [[Peter Hoff Chap2.pdf]]

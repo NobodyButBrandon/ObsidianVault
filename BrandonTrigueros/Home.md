@@ -7,5 +7,3 @@
 
 ## University
 [[UCR 1-2025]]
-
-Ver bien y solo tema del proyecto de Diseño -> _04-May-2025_ #UNI_TODO

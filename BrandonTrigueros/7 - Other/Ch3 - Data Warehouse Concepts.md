@@ -26,7 +26,7 @@ Luego tenemos _miembros_, los cuales son instancias de una dimensión, cada miem
 Las dimensiones tienen además _atributos_ asociados a ellas que se usan para describirlas. Por ejemplo, la dimensión de producto puede tener los atributos NúmeroProducto y PrecioUnitario (no mostrado en la figura).
 ___
 ### Jerarquías
-Las _jerarquías_ son relaciones de de mapeo, una jerarquía mapea detalles finos en el nivel más bajo (hijo) a conceptos más generales en un nivel más alto (padre).
+Las _jerarquías_ son relaciones de mapeo, una jerarquía mapea detalles finos en el nivel más bajo (hijo) a conceptos más generales en un nivel más alto (padre).
 
 La estructura jerárquica de una dimensión se denomina el _esquema_ de la dimensión, mientras que una _instancia de dimensión_ comprende los miembros en todos niveles de una dimensión.
 #### <span style="color:7cd37c;">Ejemplo jerarquías</span>

@@ -21,14 +21,14 @@ Algunas de las variables del sistema son _controlables_, mientras que otras son 
 Los objetivos del experimento se pueden centrar en responder las siguientes preguntas:
 1. Determinar qué variables influyen más en la respuesta y.
 2. Determinar dónde fijar las x influyentes para que y esté casi siempre cerca del valor nominal deseado.
-3. 3. Determinar dónde fijar las x influyentes para que la variabilidad en y sea pequeña.
+3. Determinar dónde fijar las x influyentes para que la variabilidad en y sea pequeña.
 4. Determinar dónde fijar las x influyentes para que los efectos de las variables incontrolables z1, z2, … , zq se reduzcan al mínimo.
 
 #### <span style="color:7cd37c;">Ejemplo golfista:</span>
 
 Para ejemplificar algunas estrategias de experimentación, considere el ejemplo de un golfista que quiere bajar su puntuación sin entrenar ni hacer nada extra. 
 
-El golfista define que el experimento consta de 8 corridas donde cada corrida consiste en jugar los 18 hoyos, también identifica 4 factores relevantes que pueden afectar su puntuación (variable de salida):
+El golfista define que el experimento consta de 8 corridas donde cada corrida consiste en jugar los 18 hoyos, también identifica 4 factores relevantes que pueden afectar su **puntuación** (variable de salida):
 
 1. Palo de golf (oversized or regular sized).
 2. Bola (oversized or regular sized).
