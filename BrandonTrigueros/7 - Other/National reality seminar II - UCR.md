@@ -19,7 +19,7 @@ Office: PROIN (Consultations on Friday 14:00 to 15:00)
 **Deadlines**
 Forum 1 -> _08-Apr-2025_
 Movie Analysis -> _29-Apr-2025_
-Forum 2 -> _13-May-2025_ #UNI_DEADLINE
+Forum 2 -> _21-May-2025_ #UNI_DEADLINE
 Forum 3 -> _03-Jun-2025_ #UNI_DEADLINE
 Forum 4 -> _10-Jun-2025_ #UNI_DEADLINE
 Research presentation -> _10-Jun-2025_ #UNI_DEADLINE

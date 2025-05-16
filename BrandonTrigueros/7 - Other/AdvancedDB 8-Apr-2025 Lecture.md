@@ -25,9 +25,7 @@ En los almacenes de datos siempre vamos a tener llaves subyugadas
 Son 3 reglas que vienen en la pres
 
 #### **Homeworks:**
-Descripción de que es Apache Doris y un manual técnico de como lo montamos con bibliografía -> _11-Apr-2025_ #UNI_TODO 
 
 #### **Teacher notes:**
-Saberle a SQL -> _11-Apr-2025_ #UNI_TODO 
 
 #### **Mental notes:**

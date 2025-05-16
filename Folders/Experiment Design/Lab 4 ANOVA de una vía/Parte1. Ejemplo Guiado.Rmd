@@ -1,0 +1,211 @@
+
+```{r}
+
+# En este primer experimento se quiere determinar si tres programas de ejercicio diferentes tienen un impacto diferente en la pérdida de peso.
+
+#La variable independiente que se estamos estudiando es el programa de ejercicios y la variable de respuesta es la pérdida de peso (weight_loss), medida en libras.
+
+# Se va a realizar un ANOVA de una vía para determinar si existe una diferencia estadísticamente significativa entre la pérdida de peso resultante de los tres programas.
+
+# Se reclutaron 90 personas para que participen en un experimento en el que se asignan aleatoriamente a 30 personas para que sigan el programa A, 30 el programa B y 30 el programa C durante un mes.
+
+```
+
+
+```{r}
+
+# Cargue el archivo weight.csv en RStudio
+weight = (read.csv(file.choose(), header = T, encoding = "UTF-8"))
+attach(weight)
+
+# La conversión de la columna a factor (as.factor) facilita las operaciones posteriores, asegurando que la variable es considerada como un factor (variable categórica).
+weight$program <- as.factor(weight$program)
+
+# Revise las primeras 6 líneas del dataframe
+head(weight)
+
+# La primera columna del dataframe muestra el programa (A, B , C) en el que participó la persona durante un mes y la segunda columna muestra la pérdida de peso total que experimentó esa persona al final del programa, medida en libras.
+
+```
+
+```{r}
+
+# Antes de que se ajuste (fit) el modelo ANOVA unidireccional, podemos obtener una mejor comprensión de los datos al encontrar la media y la desviación estándar de la pérdida de peso para cada uno de los tres programas que utilizan el paquete dplyr:
+
+library(dplyr)
+weight %>% group_by(program) %>%
+summarise(mean = mean(weight_loss),sd = sd(weight_loss))
+
+# Puede verse que la media menor es para el grupo A, mientras que la media mayor corresponde al grupo C. Este patrón se repoite también para las desviaciones estándar: la menor es del grupo A y la mayor es la del grupo C.
+
+```
+
+```{r}
+
+# También creamos un diagrama de cajas para cada uno de los tres programas para visualizar la distribución de la pérdida de peso para cada programa:
+
+boxplot(weight_loss ~ program,
+  data = weight, # data2,
+  main = "Pérdida de peso por programa",
+  xlab = "Programa",
+  ylab = "Pérdida de peso",
+  col = "steelblue",
+  border = "black")
+
+# A partir de estos diagramas de caja podemos ver que la mediana de la pérdida de peso es más alta para los participantes en el Programa C y más baja para los participantes en el Programa A.
+
+# También podemos ver que el rango intercuartil (la "longitud" del diagrama de caja) para la pérdida de peso es más alta en el Programa C en comparación con los otros dos programas
+
+```
+
+```{r}
+
+# A continuación, ajustaremos el modelo ANOVA unidireccional a nuestros datos para ver si estas diferencias visuales son estadísticamente significativas.
+
+# Definiremos un nivel de significancia de 0.05 para este ANOVA y en general para todas las pruebas del experimento y usaremos el modelo de datos de los efectos.
+
+# La hipótesis nula indica que los 3 programas de ejercicios son iguales, mientras que la hipótesis alternativa indica que al menos dos medias son distintas.
+
+```
+
+```{r}
+
+# En este ejercicio, creamos el siguiente código para ajustar el modelo ANOVA unidireccional, usando la pérdida de peso como variable de respuesta y el programa como nuestra variable de predicción.
+model <- aov(weight_loss ~ program, data = weight)
+
+# Luego podemos usar la función summary() para ver el resultado de nuestro modelo:
+summary(model)
+
+# A partir de la salida del modelo, podemos ver que el programa de la variable predictora es estadísticamente significativo en el nivel de significancia de 0.05, dado que 7.55e-11 es menor que 0.05, por lo que se rechaza la hipótesis nula.
+
+# En otras palabras, los efectos de los programas de ejercicio no son iguales a 0 en los tres casos, por lo que sí existe una diferencia estadísticamente significativa entre la pérdida de peso promedio que resulta de los tres programas.
+
+```
+
+```{r}
+
+# Antes de continuar, debemos verificar que se cumplan los supuestos de nuestro modelo para que los resultados del modelo sean confiables. En particular, un ANOVA unidireccional asume:
+
+# 1. Independencia: las observaciones de cada grupo deben ser independientes entre sí. Dado que utilizamos un diseño aleatorio (es decir, asignamos a los participantes a los programas de ejercicios al azar), esta suposición debe cumplirse para que no tengamos que preocuparnos demasiado por esto. Esto puede verificar también con los residuales.
+
+# 2. Normalidad: los residuales del modelo deben tener una distribución aproximadamente normal para cada nivel de la variable predictora.
+
+# 3. Igualdad de varianzas: las varianzas de los residuales son iguales o aproximadamente iguales.
+
+```
+
+```{r}
+
+# Una forma de diagnosticar los supuestos de normalidad e igualdad de varianza es usar la función plot(), que produce cuatro gráficos sobre los residuales del modelo.
+
+plot(model)
+
+```
+
+```{r}
+
+# Se toman los residuales del modelo
+residuos <- residuals(model)
+
+# Se crea un gráfico de Residuales vs Tiempo (variable obs)
+plot(obs, residuos,
+  main = "Residuales vs Tiempo",
+  xlab = "Tiempo",
+  ylab = "Residuales",
+  pch = 20, # Tipo de punto
+  col = "blue") # Color de los puntos
+
+# Se añade una línea horizontal en y = 0 para facilitar la interpretación
+abline(h = 0, col = "red", lty = 2)
+
+# Se crea un gráfico de Residuales vs Tiempo (variable obs)
+plot(residuos,
+  main = "Residuales vs Tiempo",
+  xlab = "Tiempo",
+  ylab = "Residuales",
+  pch = 20, # Tipo de punto
+  col = "blue") # Color de los puntos
+
+```
+```{r}
+
+ # Para probar formalmente el supuesto de normalidad debemos ejecutar la prueba Shapiro Wilks sobre los residuales. Usamos el mismo razonamiento de hipótesis nula e hipótesis alternativa. En este caso la hipótesis nula es que los residuales siguen una distribución normal, mientr que la alternativa sería que los residuales no siguen una distribución normal.
+
+shapiro.test(model$residuals)
+
+# No se puede rechazar la hipótesis nula de que los residuales siguen una distribución normal, para un nivel de significancia de 0.05.
+
+```
+
+```{r}
+
+# También debemos probar formalmente la igualdad de varianzas. Podemos usar las pruebas de Levene o de Bartlett. La prueba de Bartlett es más poderosa si los datos son normalmente distribuidos, como en este caso.
+bartlett.test(weight_loss ~ program, data = weight)
+
+# También se puede usar la Prueba de Levene usando el paquete car:
+library(car)
+leveneTest(weight_loss ~ program, data = weight)
+
+# En ambos casos el valor p de la prueba es menor a 0.05, por lo que rechazaríamos la hipótesis nula de que las varianzas son iguales en los tres programas.
+
+```
+
+```{r}
+# Una vez que hayamos verificado que los supuestos del modelo se cumplen (o se cumplen razonablemente), volvemos a la conclusión del modelo ANOVA, que indicó que la variable predictora es estadísticamente significativo en el nivel de significancia de 0.05, dado que 7.55e-11 es menor que 0.05.
+
+# Es decir, se rechazó la hipótesis nula de que los efectos son todos 0, o lo que es equivalente, que las medias de los 3 tratamientos no son iguales dos a dos.
+```
+
+```{r}
+
+# Para determinar cuáles medias son distintas realizamos una prueba post hoc para determinar exactamente qué grupos de tratamiento difieren entre sí.
+# Para nuestra prueba post hoc, usaremos la función TukeyHSD() para realizar la prueba de Tukey para comparaciones múltiples:
+
+TukeyHSD(model, conf.level=.95)
+
+# Podemos ver en el resultado que los 3 valores son menores a 0.05, por lo que sí hay una diferencia estadísticamente significativa entre la pérdida de peso media si comparamos los programas dos a dos (B y A, C y A, C y B), en el nivel de significancia de 0.05.
+
+```
+
+```{r}
+
+# También podemos visualizar los intervalos de confianza del 95 % que resultan de la prueba de Tukey usando la función plot(TukeyHSD()) en R3
+plot(TukeyHSD(model, conf.level=.95))
+
+# En particular, podemos ver que ninguno de los intervalos de confianza para la pérdida media de peso entre programas contiene el valor cero, lo que indica que existe una diferencia estadísticamente significativa en la pérdida media entre los tres programas.
+
+```
+
+```{r}
+
+# El tamaño del efecto de un ANOVA, es el valor que permite medir cuanta varianza en la variable dependiente cuantitativa es resultado de la influencia die la variable cualitativa independiente, o lo que es lo mismo, cuanto afecta la variable independiente (factor) a la variable dependiente.
+
+library(lsr)
+etaSquared(model, anova=TRUE)
+
+# En este caso, puede verse que el efecto de la variable program es grande, reflejado en el eta.sq = 0.4147959.
+
+```
+
+```{r}
+
+# La función power.anova.test() del paquete stats realiza el cálculo de potencia para modelos de ANOVA equilibrados (mismo n para cada tratamiento).
+
+power.anova.test(groups = 3, n = 30, between.var = 98.92, within.var = 139.56, sig.level = 0.05)
+
+# En este caso, con n = 30 para cada grupo, y las varianzas identificadas entre grupos y dentro del grupo, la potencia de la prueba es 0.9999778, lo que es muy bueno.
+
+```
+
+```{r}
+
+# Para determinar el tamaño de n necesario (o suficiente) para una potencia de prueba específica, no se incluye el n = 30 y se agrega power = al valor deseado. Por ejemplo, si quiero encontrar el tamaño de n para una potencia de 0.80:
+
+power.anova.test(groups = 3, between.var = 98.92, within.var = 139.56, power = 0.8, sig.level = 0.05)
+
+# En este caso, hubiera bastado una muestra de n = 8 en cada grupo para identificar las diferencias significativas en una población con las varianzas identificadas entre grupos y dentro del grupo.
+
+```
+
+
+
