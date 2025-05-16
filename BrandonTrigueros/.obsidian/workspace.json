@@ -170,7 +170,7 @@
               "type": "task-timeline-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "Task Timeline"
+              "title": "Plugin no longer active"
             }
           },
           {
@@ -179,12 +179,22 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "SpacedRepIcon",
-              "title": "Notes Review Queue"
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "5116fcd2505512a0",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "a3758e9e4303ec45",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -194,7 +204,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 7
       }
     ],
     "direction": "horizontal",
@@ -217,7 +227,7 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "7bf45797083e3fae",
+  "active": "a3758e9e4303ec45",
   "lastOpenFiles": [
     "7 - Other/EDesign 4-Apr-2025 Lecture.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
