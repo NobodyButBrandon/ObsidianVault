@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d5ad13a1fb677caf",
+            "id": "d3101fefb1c3d0f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+                "file": "7 - Other/Experiment design - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Data Warehouse Systems - Vaisman & Zimanyi"
+              "title": "Experiment design - UCR"
             }
           }
         ]
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,21 +207,23 @@
       "translate:Open translation view": false
     }
   },
-  "active": "d5ad13a1fb677caf",
+  "active": "d3101fefb1c3d0f7",
   "lastOpenFiles": [
-    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/EDesign 15-May-2025 Lecture.md",
+    "7 - Other/Experiment design - UCR.md",
     "7 - Other/UCR 1-2025.md",
-    "Home.md",
+    "7 - Other/Numerical analysis - UCR.md",
     "7 - Other/Theatre appreciation - UCR.md",
+    "Home.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "7 - Other/AdvancedDB 16-May-2025 Lecture.md",
+    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
     "7 - Other/EDesign 4-Apr-2025 Lecture.md",
-    "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/Practica OLAP.md",
-    "7 - Other/Numerical analysis - UCR.md",
-    "7 - Other/Experiment design - UCR.md",
-    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Drop measure OLAP.md",
     "7 - Other/Roll-up OLAP.md",
@@ -234,11 +236,9 @@
     "6 - Attachments/Design and analysis of experiments.pdf",
     "7 - Other/Ejemplos de formación de bloques.md",
     "7 - Other/factores molestos.md",
-    "7 - Other/Error experimental.md",
     "6 - Attachments/Course_Program_MA1006.pdf",
     "6 - Attachments/Rubrica_TrabFinal.pdf",
     "6 - Attachments/Metodos_iterativos.pdf.crdownload",
-    "7 - Other/Computer architecture - UCR.md",
     "6 - Attachments/CI0131. ANOVA 1 VIA I-2025.pdf",
     "6 - Attachments/CI0131. ANOVA 1 VIA I-2025.pdf.crdownload",
     "6 - Attachments/CI0131. Precisión y exactitud.pdf",

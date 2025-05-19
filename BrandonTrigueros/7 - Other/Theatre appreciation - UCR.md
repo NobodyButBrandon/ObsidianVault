@@ -17,10 +17,16 @@ Office:  Theater [[professorship]] 200 (Consultations on Wednesday 19:00 to 21:5
 Round table 1 about "La Novia" -> _28-Mar-2025_
 Theater play "El profe" -> _06-Apr-2025_
 Round table 2 about "Romeo y Julieta" -> _02-May-2025_
-Round table 3 about "Jauría" -> _16-May-2025_ #UNI_DEADLINE
+Round table 3 about "Jauría" -> _16-May-2025_
 Theater tour -> _23-May-2025_ #UNI_DEADLINE
-Artistic expression -> _13-June-2025_ #UNI_DEADLINE
+
+Artistic expression -> _13-June-2025_ #UNI_DEADLINE 
+Comenzar con la expresión artística _30-May-2025_ #UNI_TODO 
+
 Group exhibitions -> From _13-Jun-2025_ #UNI_DEADLINE
+Comenzar a excribir sobre el teatro argentino _30-May-2025_ #UNI_TODO 
+
+
 Final activity -> _27-Jun-2025_ #UNI_DEADLINE
   
 **Evaluation**

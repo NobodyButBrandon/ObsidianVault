@@ -36,6 +36,7 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign 4-Apr-2025 Lecture]]
 [[EDesign 7-Apr-2025 Lecture]]
 [[EDesign 10-Apr-2025 Lecture]]
+[[EDesign 15-May-2025 Lecture]]
 
 # Assignments
 **Class Work & Homework**
