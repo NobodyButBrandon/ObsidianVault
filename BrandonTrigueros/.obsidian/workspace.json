@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e53edeba822f47b9",
+            "id": "d5ad13a1fb677caf",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
+                "file": "Home.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "AdvancedDB 8-Apr-2025 Lecture"
+              "title": "Home"
             }
           }
         ]
@@ -170,27 +170,7 @@
               "type": "task-timeline-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "33c1d118cd053ca4",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
-            }
-          },
-          {
-            "id": "5116fcd2505512a0",
-            "type": "leaf",
-            "state": {
-              "type": "review-queue-list-view",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Task Timeline"
             }
           },
           {
@@ -204,14 +184,15 @@
             }
           }
         ],
-        "currentTab": 7
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 348.5
+    "width": 403.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-task-timeline:Task Timeline": false,
       "audio-recorder:Start/stop recording": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
@@ -223,20 +204,21 @@
       "homepage:Open homepage": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "translate:Open translation view": false,
-      "obsidian-task-timeline:Task Timeline": false
+      "translate:Open translation view": false
     }
   },
-  "active": "a3758e9e4303ec45",
+  "active": "d5ad13a1fb677caf",
   "lastOpenFiles": [
-    "7 - Other/EDesign 4-Apr-2025 Lecture.md",
+    "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Scientific Computation Workshop.md",
+    "7 - Other/UCR 1-2025.md",
+    "Home.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
+    "7 - Other/EDesign 4-Apr-2025 Lecture.md",
     "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
-    "Home.md",
     "7 - Other/Practica OLAP.md",
-    "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/UCR 1-2025.md",
     "7 - Other/Numerical analysis - UCR.md",
     "7 - Other/Experiment design - UCR.md",
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
@@ -261,8 +243,6 @@
     "6 - Attachments/CI0131. ANOVA 1 VIA I-2025.pdf.crdownload",
     "6 - Attachments/CI0131. Precisión y exactitud.pdf",
     "6 - Attachments/CI0131. Precisión y exactitud.pdf.crdownload",
-    "7 - Other/Theatre appreciation - UCR.md",
-    "7 - Other/Clase asincrónica AdvancedDB 25-Apr-2025.md",
     "6 - Attachments/Practica OLAP 1-2025.pdf",
     "6 - Attachments/Lab 3. Prueba t de dos muestras 2025.pdf",
     "6 - Attachments/Pasted Image 20250412191548_591.png",
