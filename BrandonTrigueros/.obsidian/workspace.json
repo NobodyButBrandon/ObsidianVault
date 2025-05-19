@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Home.md",
+                "file": "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Home"
+              "title": "Data Warehouse Systems - Vaisman & Zimanyi"
             }
           }
         ]
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -207,13 +207,13 @@
       "translate:Open translation view": false
     }
   },
-  "active": "7bf45797083e3fae",
+  "active": "d5ad13a1fb677caf",
   "lastOpenFiles": [
-    "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/Scientific Computation Workshop.md",
     "7 - Other/AdvancedDB 8-Apr-2025 Lecture.md",
     "7 - Other/EDesign 4-Apr-2025 Lecture.md",
     "7 - Other/National reality seminar II - UCR.md",
