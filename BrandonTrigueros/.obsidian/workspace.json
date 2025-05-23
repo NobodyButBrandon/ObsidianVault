@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "Advanced databases - UCR"
             }
+          },
+          {
+            "id": "df471bd0d8660a03",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -184,7 +209,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -207,10 +232,10 @@
       "translate:Open translation view": false
     }
   },
-  "active": "6850d8d631e89eec",
+  "active": "df471bd0d8660a03",
   "lastOpenFiles": [
-    "7 - Other/AdvancedDB 20-May-2025 Lecture.md",
     "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/AdvancedDB 20-May-2025 Lecture.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
     "6 - Attachments/Don’t Get Stuck in the “Con” Game.pdf",
