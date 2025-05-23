@@ -1,16 +1,16 @@
 ## 1. Roadmap General
 
-|Orden|Asignatura|Por qué iniciar aquí|
-|---|---|---|
-|1|**Programación**|Te dota de la mentalidad de codificar y de conceptos esenciales (recursión, abstracción) [Teach Yourself Computer Science](https://teachyourselfcs.com/?utm_source=chatgpt.com)|
-|2|**Matemáticas para CS**|Provee rigor lógico y herramientas para análisis algorítmico [Reddit](https://www.reddit.com/r/math/comments/17hhxhs/math_for_computer_science_roadmap_everything_you/?utm_source=chatgpt.com)|
-|3|**Algoritmos y Estructuras de Datos**|Se apoyan en la programación y matemáticas para resolver problemas complejos [Reddit](https://www.reddit.com/r/learnprogramming/comments/gsansp/my_55step_selftaught_cs_curriculum_updated/?utm_source=chatgpt.com)|
-|4|**Arquitectura de Computadores**|Consolida cómo el hardware ejecuta tu código [Teach Yourself Computer Science](https://teachyourselfcs.com/?utm_source=chatgpt.com)|
-|5|**Sistemas Operativos**|Entiende la gestión de procesos, memoria y concurrencia [Reddit](https://www.reddit.com/r/learnprogramming/comments/gsansp/my_55step_selftaught_cs_curriculum_updated/?utm_source=chatgpt.com)|
-|6|**Redes de Computadoras**|Abarca protocolos y análisis de tráfico, fundamental para apps distribuidas [roadmap.sh](https://roadmap.sh/computer-science?utm_source=chatgpt.com)|
-|7|**Bases de Datos**|Manejo eficiente del almacenamiento y las transacciones [GitHub](https://github.com/ossu/computer-science?utm_source=chatgpt.com)|
-|8|**Lenguajes y Compiladores**|Mejora tu comprensión de cómo los lenguajes y herramientas traducen tu código [Tamerlan](https://tamerlan.dev/best-resources-to-teach-yourself-computer-science/?utm_source=chatgpt.com)|
-|9|**Sistemas Distribuidos**|Diseña sistemas escalables y tolerantes a fallos [Teach Yourself Computer Science](https://teachyourselfcs.com/?utm_source=chatgpt.com)|
+| Orden | Asignatura                            | Por qué iniciar aquí                                                                                                                                                                                                |
+| ----- | ------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| 1     | **Programación**                      | Te dota de la mentalidad de codificar y de conceptos esenciales (recursión, abstracción) [Teach Yourself Computer Science](https://teachyourselfcs.com/?utm_source=chatgpt.com)                                     |
+| 2     | **Matemáticas para CS**               | Provee rigor lógico y herramientas para análisis algorítmico [Reddit](https://www.reddit.com/r/math/comments/17hhxhs/math_for_computer_science_roadmap_everything_you/?utm_source=chatgpt.com)                      |
+| 3     | **Algoritmos y Estructuras de Datos** | Se apoyan en la programación y matemáticas para resolver problemas complejos [Reddit](https://www.reddit.com/r/learnprogramming/comments/gsansp/my_55step_selftaught_cs_curriculum_updated/?utm_source=chatgpt.com) |
+| 4     | **Arquitectura de Computadores**      | Consolida cómo el hardware ejecuta tu código [Teach Yourself Computer Science](https://teachyourselfcs.com/?utm_source=chatgpt.com)                                                                                 |
+| 5     | **Sistemas Operativos**               | Entiende la gestión de procesos, memoria y concurrencia [Reddit](https://www.reddit.com/r/learnprogramming/comments/gsansp/my_55step_selftaught_cs_curriculum_updated/?utm_source=chatgpt.com)                      |
+| 6     | **Redes de Computadoras**             | Abarca protocolos y análisis de tráfico, fundamental para apps distribuidas [roadmap.sh](https://roadmap.sh/computer-science?utm_source=chatgpt.com)                                                                |
+| 7     | **Bases de Datos**                    | Manejo eficiente del almacenamiento y las transacciones [GitHub](https://github.com/ossu/computer-science?utm_source=chatgpt.com)                                                                                   |
+| 8     | **Lenguajes y Compiladores**          | Mejora tu comprensión de cómo los lenguajes y herramientas traducen tu código [Tamerlan](https://tamerlan.dev/best-resources-to-teach-yourself-computer-science/?utm_source=chatgpt.com)                            |
+| 9     | **Sistemas Distribuidos**             | Diseña sistemas escalables y tolerantes a fallos [Teach Yourself Computer Science](https://teachyourselfcs.com/?utm_source=chatgpt.com)                                                                             |
 
 ---
 

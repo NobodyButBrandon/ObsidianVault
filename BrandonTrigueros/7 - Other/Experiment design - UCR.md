@@ -37,6 +37,7 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign 7-Apr-2025 Lecture]]
 [[EDesign 10-Apr-2025 Lecture]]
 [[EDesign 15-May-2025 Lecture]]
+[[EDesign 19-May-2025 Lecture]]
 
 # Assignments
 **Class Work & Homework**
@@ -48,6 +49,8 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign. Laboratorio RStudio Básico]]
 [[EDesign. Análisis Exploratorio de Datos y Gráficos en R]]
 [[EDesign. Laboratorio T-test]]
+[[EDesign. Laboratorio ANOVA de una vía]]
+[[EDesign. Laboratorio ANOVA de dos vías]]
 
 # Materials
 __Presentations__
@@ -59,6 +62,7 @@ __Presentations__
 [[Peter Hoff Chap2.pdf]]
 [[CI0131. Precisión y exactitud.pdf]] 
 [[CI0131. ANOVA 1 VIA I-2025.pdf]]
+[[CI0131. 08. ANOVA de dos vías - I-2025.pdf]]
 ___
 __Books__
 [[Design and analysis of experiments - Montgomery]]

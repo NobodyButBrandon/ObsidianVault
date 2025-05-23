@@ -1,26 +1,186 @@
-# Paso 1
-
+# Paso 1 Carga del archivo
 ```{r}
 
-db_server = (read.csv(file.choose(), header=T, encoding = "UTF-8"))
+# Cargamos el dataset en R
+db_server = (read.csv("bd_server.csv", header=T, encoding = "UTF-8"))
 attach(db_server)
 
+# Convertimos la columna de motor en un factor
 db_server$motor <- as.factor(db_server$motor)
+
+# Obtenemos un resumen de los datos
 summary(db_server)
+
+```
+# Paso 2 Revisar el dataframe
+```{r}
+
+# Revisamos las primeras 6 líneas del dataframe
+head(db_server)
+
+# La primera columna del dataset muestra el motor de bases de datos utilizado y la segunda muestra el tiempo de ejecucion en milisegundos de cada solicitud.
 
 ```
 
 
-# Paso 2
-# Paso 3
-# Paso 4
-# Paso 5
-# Paso 6
-# Paso 7
-# Paso 8
-# Paso 9
-# Paso 10
-# Paso 11
-# Paso 12
-# Paso 13
-# Paso14
+# Paso 3 Calcular media y desviación estándar
+```{r}
+library(dplyr)
+
+# Calculamos la media y la desviación estándar para obtener un mejor entendimiento de los datos
+db_server %>% group_by(motor) %>% 
+  summarise(mean = mean(respuesta),sd = sd(respuesta))
+
+# Observamos que la menor media del tiempo de respuesta lo obtiene Redis y la mayor media es para MongoDB. Por otro lado, la mayor desviación estándar la tiene PostgreSQL mientras que la menor es para Redis nuevamente.
+
+```
+
+# Paso 4 Diagrama de cajas
+```{r}
+
+# Creamos un diagrama de cajas para cada uno de los motores para visualizar la distribución de la respuesta para cada motor
+
+boxplot(respuesta ~ motor,
+  data = db_server, # data2,
+  main = "Tiempo de ejecución por motor",
+  xlab = "Tiempo de ejecución",
+  ylab = "Motor",
+  col = "steelblue",
+  border = "black")
+
+# A partir de estos diagramas de caja podemos ver que la mediana del tiempo de respuesta es más alta para las solicitudes con el motor MongoDB y más baja para aquellas que usan Redis.
+
+# También podemos ver que el rango intercuartil (la "longitud" del diagrama de caja) para el tiempo de ejecución es más alta en el motor MySQL en comparación con los otros tres motores.
+
+```
+
+# Paso 5 Hipotesis nula
+```{r}
+
+# H₀: Las medias de tiempo de respuesta de los cuatro motores son iguales.
+# H₁: Al menos un par de medias difieren.
+
+```
+
+# Paso 6 ANOVA
+```{r}
+
+model2 <- aov(respuesta ~ motor, data = db_server)
+summary(model2)
+
+# El ANOVA de una vía mostró un efecto significativo del factor motor sobre el tiempo de respuesta (F(3, 44) = 7.929, p = 0.000246).
+
+```
+
+# Paso 7 Comprobación de los supuestos del modelo
+```{r}
+
+par(mfrow=c(2,2))
+plot(model2)
+par(mfrow=c(1,1))
+
+```
+
+# Paso 8 Prueba de Shapiro
+
+```{r}
+
+shapiro.test(residuals(model2))
+
+# La prueba de normalidad de Shapiro–Wilk no rechazó la normalidad de los residuales (W = 0.9606, p = 0.1072).
+
+```
+
+# Paso 9 Análisis de las diferencias del tratamiento
+```{r}
+
+# Paso 9a: Bartlett (sensible si normalidad)
+bartlett.test(respuesta ~ motor, data = db_server)
+
+# Paso 9b: Levene (más robusta)
+library(car)
+leveneTest(respuesta ~ motor, data = db_server)
+
+# Tanto Bartlett (p = 0.739) como Levene (p = 0.838) indicaron homogeneidad de varianzas.
+
+```
+
+# Paso 10 Intervalos de confianza
+```{r}
+
+tukey2 <- TukeyHSD(model2, conf.level = 0.95)
+old_par <- par(no.readonly = TRUE)
+par(mar = c(5, 12, 4, 2))  
+plot(tukey2,
+     las      = 1,
+     cex.axis = 0.8)
+par(old_par)
+
+# Comparaciones significativas (intervalos totalmente a la izquierda de 0):
+# MySQL – MongoDB (≈ –1 778 ms, IC [–3 312, –243])
+# PostgreSQL – MongoDB (≈ –1 986 ms, IC [–3 520, –451])
+# Redis – MongoDB (≈ –2 691 ms, IC [–4 226, –1 156])
+# En estos tres casos el intervalo no cruza cero, por lo que MySQL, PostgreSQL y Redis tienen tiempos de respuesta significativamente menores (más rápidos) que MongoDB.
+
+# Comparaciones no significativas (intervalos que sí incluyen el 0):
+# PostgreSQL – MySQL (IC aprox. [–1 743, 1 327])
+# Redis – MySQL (IC aprox. [–2 448, 621])
+# Redis – PostgreSQL (IC aprox. [–2 240, 829])
+# Aquí el cero está dentro del intervalo, lo que indica que no hay evidencia estadística de diferencia de velocidad entre MySQL, PostgreSQL y Redis entre sí.
+
+# Conclusión: MongoDB es el más lento con una diferencia media de ~1.8–2.7 s frente a cada uno de los otros motores, mientras que MySQL, PostgreSQL y Redis no difieren significativamente entre ellos.
+
+```
+
+# Paso 11 Reportando los resultados de una ANOVA de una vía
+```{r}
+# Se realizó un ANOVA de una vía para evaluar si existían diferencias en el tiempo medio de respuesta (ms) entre los cuatro motores de bases de datos (MongoDB, MySQL, PostgreSQL y Redis).
+# El análisis reveló una diferencia estadísticamente significativa entre los motores (F(3, 44) = 7.93, p = 0.00025).
+
+```
+
+# Paso 12 Tamaño de efecto
+```{r}
+
+library(lsr)
+etaSquared(model2, anova = TRUE)
+
+# El tamaño del efecto fue η² = 0.351, lo que se sitúa claramente en el rango “grande” (> 0.14).
+
+```
+
+# Paso 13 Determinar la potencia
+```{r}
+
+anova2 <- anova(model2)
+between.var2 <- anova2["motor", "Sum Sq"]
+within.var2  <- anova2["Residuals", "Sum Sq"]
+
+power.anova.test(
+  groups    = 4,
+  n         = 12,
+  between.var = between.var2,
+  within.var  = within.var2,
+  sig.level = 0.05
+)
+
+# La potencia con n=12 por grupo es 0.957, muy superior al mínimo deseado de 0.85. 
+
+```
+
+# Paso 14 Calcular n
+```{r}
+
+# Paso 14: calcular n necesario
+power.anova.test(
+  groups    = 4,
+  between.var = between.var2,
+  within.var  = within.var2,
+  power     = 0.85,
+  sig.level = 0.05
+)
+
+# Para alcanzar exactamente 0.85 bastaría con n ≈ 8.6 por grupo.
+
+```
+

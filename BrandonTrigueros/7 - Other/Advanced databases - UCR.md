@@ -38,6 +38,7 @@ Short tests & Lab works -> One every 2 or 3 weeks
 [[AdvancedDB 8-Apr-2025 Lecture]]
 [[AdvancedDB 22-Apr-2025 Lecture]]
 [[AdvancedDB 16-May-2025 Lecture]]
+[[AdvancedDB 20-May-2025 Lecture]]
 
 # Activities
 [[Trabajo de laboratorio - Historia de Datos y Power BI]]

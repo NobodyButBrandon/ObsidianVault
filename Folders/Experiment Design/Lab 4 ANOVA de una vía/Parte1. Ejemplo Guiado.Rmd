@@ -15,7 +15,7 @@
 ```{r}
 
 # Cargue el archivo weight.csv en RStudio
-weight = (read.csv(file.choose(), header = T, encoding = "UTF-8"))
+weight = (read.csv("weight.csv", header = T, encoding = "UTF-8"))
 attach(weight)
 
 # La conversión de la columna a factor (as.factor) facilita las operaciones posteriores, asegurando que la variable es considerada como un factor (variable categórica).

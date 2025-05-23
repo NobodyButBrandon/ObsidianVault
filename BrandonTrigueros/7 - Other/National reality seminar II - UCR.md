@@ -24,7 +24,6 @@ Forum 3 -> _03-Jun-2025_ #UNI_DEADLINE
 Forum 4 -> _10-Jun-2025_ #UNI_DEADLINE
 
 Research presentation -> _10-Jun-2025_ #UNI_DEADLINE
-Escribir a personas para las entrevistas _19-May-2025_ #UNI_TODO
 
 Forum 5 -> _24-Jun-2025_ #UNI_DEADLINE
 Final Essay -> _08-Jul-2025_ #UNI_DEADLINE

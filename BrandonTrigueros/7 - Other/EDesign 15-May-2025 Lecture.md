@@ -6,7 +6,7 @@ ___
 #### **Lecture contents:**
 
 #### **Homeworks:**
-Hacer lab ANOVA de una vía _22-May-2025_ #UNI_TODO 
+Hacer lab ANOVA de una vía _22-May-2025_
 
 #### **Teacher notes:**
 

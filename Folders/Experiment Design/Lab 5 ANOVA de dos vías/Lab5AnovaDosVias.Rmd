@@ -1,0 +1,174 @@
+
+```{r}
+
+# Cargar los datos del archivo IDE2025.csv
+
+library(tidyverse)
+
+IDE = (read.csv("IDE2025.csv", header=T, encoding = "UTF-8"))
+attach(IDE)
+
+```
+
+```{r}
+
+# Verificar la estructura
+
+str(IDE)
+
+```
+
+```{r}
+
+# Convertir Experiencia como factor y recodificar los niveles como "Novato", "Intermedio", "Avanzado" (Etiquetas Nov, Int, Ava)
+
+IDE$Experiencia <- factor (IDE$Experiencia,
+  levels = c(0.5, 1, 2),
+  labels = c("Nov", " Int", " Ava"))
+
+# Validamos el cambio en la variable
+
+str(IDE)
+
+```
+
+```{r}
+
+# Tabla de Frecuencias
+
+table(IDE$Herramienta, IDE$Experiencia)
+
+# Q1 ¿Qué información obtenemos de la tabla anterior?
+# R1 La tabla anterior nos dice que por cada tratamiento tenemos la misma cantidad de observaciones (10).
+
+```
+
+```{r}
+
+# Calculamos algunas estadísticas generales de las variables como la media, la varianza y la desviación estándar por grupos
+
+group_by(IDE, Experiencia) %>%
+  summarise(
+      count = n(),
+      mean = mean(Duracion, na.rm = TRUE),
+      var = var(Duracion, na.rm = TRUE),
+      sd = sd(Duracion, na.rm = TRUE)
+  )
+
+```
+
+```{r}
+
+# Q2. Similar al anterior, escriba el código R que presente en filas y columnas la media, varianza y desviación estándar del factor “Herramienta”. Muestre el código y el resultado obtenido.
+
+# R2
+group_by(IDE, Herramienta) %>%
+  summarise(
+    count = n(),
+    mean = mean(Duracion, na.rm = TRUE),
+    var = var(Duracion, na.rm = TRUE),
+    sd = sd(Duracion, na.rm = TRUE),
+  )
+
+```
+
+```{r}
+
+# Ahora veamos el detalle agrupando tanto “Herramienta” como “Experiencia”:
+
+group_by(IDE, Herramienta, Experiencia) %>%
+  summarise(
+    count = n(),
+    mean = mean(Duracion, na.rm = TRUE),
+    var = var(Duracion, na.rm = TRUE),
+    sd = sd(Duracion, na.rm = TRUE)
+  )
+
+```
+
+```{r}
+
+# Tiempo en codificación por Herramienta usada
+
+boxplot(Duracion ~ Herramienta, data=IDE, frame = FALSE,
+  col = c("#00AFBB", "#E7B800"), ylab=" Duracion")
+
+# Q3 ¿Qué parece indicar el boxplot anterior viendo las medianas y la variabilidad?
+# R3 Basándonos únicamente en la Herramienta, el gráfico parece indicar que la mediana no varia mucho entre ambos niveles, también podemos observar que se solapan las cajas por lo que se apota aún mas que n hay diferencia significativa en las medianas. Sin embargo, la variabilidad en el caso de IntelliJ es mucho mayor que VSCode por lo que debemos comprobar el supuesto.
+
+```
+
+```{r}
+
+# Tiempo en codificación por Experiencia del programador
+
+# Q4 Cree un diagrama similar al anterior para la variable “Experiencia”. Presente el código y el gráfico resultante.
+
+# R4
+boxplot(Duracion ~ Experiencia, data=IDE, frame = FALSE,
+  col = c("#00AFBB", "#E7B800"), ylab=" Duracion")
+
+# Q5 ¿Qué parece indicar el boxplot anterior viendo las medianas y la variabilidad?
+# R5 A primera vista, pareciera que no hay mucha diferencia entre los novatos y los intermedios. Sin embargo, el tiempo de los desarrolladores avanzados si baja bastante.
+
+```
+
+```{r boxplot, fig.height=6, fig.width=8}
+
+# Duración en horas por combinación de Herramienta y Experiencia
+
+par(
+  mar = c(8, 8, 4, 2) + 0.1,  # abajo, izquierda, arriba, derecha
+  las = 2                     # gira labels eje X verticales
+)
+
+# Dibuja el boxplot SIN etiqueta X y con título arriba
+boxplot(
+  Duracion ~ Herramienta * Experiencia,
+  data     = IDE,
+  frame    = FALSE,
+  col      = c("#00AFBB", "#E7B800"),
+  main     = "Comparación de Duraciones por Herramienta y Experiencia",
+  xlab     = "",                     # quita "Experiencia Herramienta"
+  ylab     = "Duración (segundos)",
+  cex.axis = 0.8,
+  cex.lab  = 0.9
+)
+
+# Restaura orientación por defecto
+par(las = 0)
+
+```
+
+```{r boxplot, fig.height=6, fig.width=8}
+
+# Invirtiendo las variables independientes
+
+par(
+  mar = c(8, 8, 4, 2) + 0.1,  # abajo, izquierda, arriba, derecha
+  las = 2                     # labels eje X verticales
+)
+
+boxplot(
+  Duracion ~ Experiencia * Herramienta,
+  data     = IDE,
+  frame    = FALSE,
+  col      = c("#00AFBB", "#E7B800"),
+  main     = "Comparación de Duraciones por Experiencia y Herramienta",
+  xlab     = "",                     # elimina etiqueta X
+  ylab     = "Duración (segundos)",
+  cex.axis = 0.8,
+  cex.lab  = 0.9
+)
+
+par(las = 0)  # restaura orientación
+
+```
+
+```{r}
+
+# Q6 ¿Hay información adicional que pueda extraer de los dos boxplots anteriores?
+# R1 Del primer boxplot podemos ver que la diferencia comienza a ser significativa a partir de los devs intermedios
+
+```
+
