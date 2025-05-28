@@ -30,8 +30,33 @@
               "icon": "lucide-file",
               "title": "National reality seminar II - UCR"
             }
+          },
+          {
+            "id": "ee6fb1f22fb29039",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -207,8 +232,9 @@
       "translate:Open translation view": false
     }
   },
-  "active": "10363f8a35e2883a",
+  "active": "7bf45797083e3fae",
   "lastOpenFiles": [
+    "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
     "7 - Other/Numerical analysis - UCR.md",
@@ -222,7 +248,6 @@
     "7 - Other/Advanced databases - UCR.md",
     "6 - Attachments/Don’t Get Stuck in the “Con” Game.pdf",
     "6 - Attachments/Principles of distributed database systems.pdf",
-    "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/EDesign. Laboratorio ANOVA de dos vías.md",
     "6 - Attachments/CI0131. Enunciado Laboratorio ANOVA de 2 vías I-2025.pdf",
     "6 - Attachments/Course_Program_MA1006.pdf",
