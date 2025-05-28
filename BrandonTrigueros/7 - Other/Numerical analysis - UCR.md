@@ -18,10 +18,8 @@ Office: CIMPA 319  (Consultations on Thursday 9:00 to 11:00)
 Short test 1 -> _1-Apr-2025_
 Exam 1 -> _8-Apr-2025_
 Short test 2 -> _16-May-2025_
-
-Exam 2 -> _24-May-2025_ #UNI_DEADLINE
-Estudiar para examen 2 _21-May-2025_ #UNI_TODO 
-
+Exam 2 -> _24-May-2025_
+Estudiar para examen 2 _21-May-2025_
 Research presentation -> _23-Jun-2025_ #UNI_DEADLINE
 [[Rubrica_TrabFinal.pdf]]
 Short test 3 -> _23-Jun-2025_ #UNI_DEADLINE

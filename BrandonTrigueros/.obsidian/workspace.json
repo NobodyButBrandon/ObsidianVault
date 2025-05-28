@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "df471bd0d8660a03",
+            "id": "10363f8a35e2883a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Numerical analysis - UCR.md",
+                "file": "7 - Other/National reality seminar II - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Numerical analysis - UCR"
+              "title": "National reality seminar II - UCR"
             }
           }
         ]
@@ -184,7 +184,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -207,20 +207,22 @@
       "translate:Open translation view": false
     }
   },
-  "active": "df471bd0d8660a03",
+  "active": "10363f8a35e2883a",
   "lastOpenFiles": [
-    "6 - Attachments/P06_Resolucion_Sistemas_2.pdf",
-    "7 - Other/Numerical analysis - UCR.md",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
-    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "6 - Attachments/P08_Integracion.pdf",
     "7 - Other/AdvancedDB 20-May-2025 Lecture.md",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "7 - Other/Theatre appreciation - UCR.md",
+    "7 - Other/AdvancedDB 16-May-2025 Lecture.md",
+    "6 - Attachments/P06_Resolucion_Sistemas_2.pdf",
+    "7 - Other/Advanced databases - UCR.md",
     "6 - Attachments/Don’t Get Stuck in the “Con” Game.pdf",
     "6 - Attachments/Principles of distributed database systems.pdf",
     "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Computer architecture - UCR.md",
-    "7 - Other/AdvancedDB 16-May-2025 Lecture.md",
-    "7 - Other/Experiment design - UCR.md",
     "7 - Other/EDesign. Laboratorio ANOVA de dos vías.md",
     "6 - Attachments/CI0131. Enunciado Laboratorio ANOVA de 2 vías I-2025.pdf",
     "6 - Attachments/Course_Program_MA1006.pdf",
@@ -230,9 +232,7 @@
     "7 - Other/EDesign. Laboratorio ANOVA de una vía.md",
     "6 - Attachments/CI0131. Laboratorio. ANOVA de 1 vía I - 2025.pdf",
     "6 - Attachments/spanner-osdi2012.pdf",
-    "6 - Attachments/CI0131. 08. ANOVA de dos vías - I-2025.pdf",
     "7 - Other/EDesign 19-May-2025 Lecture.md",
-    "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "7 - Other/AdvancedDB 28-Mar-2025 Lecture.md",
     "7 - Other/Scientific Computation Workshop.md",
