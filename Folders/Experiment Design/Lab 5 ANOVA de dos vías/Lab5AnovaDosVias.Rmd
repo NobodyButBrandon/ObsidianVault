@@ -8,12 +8,7 @@ library(tidyverse)
 IDE = (read.csv("IDE2025.csv", header=T, encoding = "UTF-8"))
 attach(IDE)
 
-```
-
-```{r}
-
 # Verificar la estructura
-
 str(IDE)
 
 ```
@@ -94,6 +89,7 @@ boxplot(Duracion ~ Herramienta, data=IDE, frame = FALSE,
   col = c("#00AFBB", "#E7B800"), ylab=" Duracion")
 
 # Q3 ¿Qué parece indicar el boxplot anterior viendo las medianas y la variabilidad?
+
 # R3 Basándonos únicamente en la Herramienta, el gráfico parece indicar que la mediana no varia mucho entre ambos niveles, también podemos observar que se solapan las cajas por lo que se apota aún mas que n hay diferencia significativa en las medianas. Sin embargo, la variabilidad en el caso de IntelliJ es mucho mayor que VSCode por lo que debemos comprobar el supuesto.
 
 ```
@@ -118,8 +114,8 @@ boxplot(Duracion ~ Experiencia, data=IDE, frame = FALSE,
 # Duración en horas por combinación de Herramienta y Experiencia
 
 par(
-  mar = c(8, 8, 4, 2) + 0.1,  # abajo, izquierda, arriba, derecha
-  las = 2                     # gira labels eje X verticales
+  mar = c(8, 8, 4, 2) + 0.1,
+  las = 2
 )
 
 # Dibuja el boxplot SIN etiqueta X y con título arriba
@@ -129,7 +125,7 @@ boxplot(
   frame    = FALSE,
   col      = c("#00AFBB", "#E7B800"),
   main     = "Comparación de Duraciones por Herramienta y Experiencia",
-  xlab     = "",                     # quita "Experiencia Herramienta"
+  xlab     = "",
   ylab     = "Duración (segundos)",
   cex.axis = 0.8,
   cex.lab  = 0.9
@@ -168,7 +164,270 @@ par(las = 0)  # restaura orientación
 ```{r}
 
 # Q6 ¿Hay información adicional que pueda extraer de los dos boxplots anteriores?
-# R1 Del primer boxplot podemos ver que la diferencia comienza a ser significativa a partir de los devs intermedios
+
+# R6 Del primer boxplot podemos ver que la diferencia en medias es significativa cuando comparamos a los desarrolladores avanzados con el resto. En cuanto a variabilidad no se puede apreciar alguna tendencia clara con solo ver los gráficos.
+
+```
+
+```{r}
+
+# Construimos gráficos para visualizar posibles interacciones de las variables de diseño.
+
+IDE %>%
+  ggplot() +
+  aes(x = Herramienta, color = Experiencia, group = Experiencia, y = Duracion) +
+  stat_summary(fun = mean, geom = "point") +
+  stat_summary(fun = mean, geom = "line")
+
+```
+
+```{r}
+
+#Q7 Cree un diagrama similar al anterior pero agrupando por la variable “Herramienta”. Presente el código y el gráfico resultante.
+# R7
+
+IDE %>%
+  ggplot() +
+  aes(x = Experiencia, color = Herramienta, group = Herramienta, y = Duracion) +
+  stat_summary(fun = mean, geom = "point") +
+  stat_summary(fun = mean, geom = "line")
+
+```
+
+```{r}
+
+# Q8 ¿Qué puede deducir de los gráficos anteriores? ¿Existe interacción entre las variables para alguno de los niveles de los factores?
+
+# R8 Los gráficos anteriores nos presentan la misma información de dos maneras distintas. De ellos podemos deducir que si existe interacción entre los factores, más específicamente cuando tratamos ambos niveles de Herramienta entre los niveles Principiante e Intermedio del factor de Experiencia. Esa interacción no existe cuando la exeriencia es Avanzado.
+
+```
+
+```{r}
+
+# Otra herramienta para crear estos gráficos es interaction.plot()
+
+interaction.plot(x.factor = IDE$Experiencia, trace.factor = Herramienta,
+  response = IDE$Duracion, fun = mean,
+  type = "b", legend = TRUE,
+  xlab = "Experiencia", ylab="Duración en horas",
+  pch=c(1,19), col = c("#00AFBB", "#E7B800"))
+
+```
+
+```{r}
+
+# Q9. Construya un gráfico equivalente para ver las interacciones donde el factor x es de la variable “Herramienta” y el factor de trace es la varible “Experiencia”. Muestre el código y el gráfico resultante.
+
+interaction.plot(x.factor = Herramienta, trace.factor = IDE$Experiencia,
+  response = IDE$Duracion, fun = mean,
+  type = "b", legend = TRUE,
+  xlab = "Experiencia", ylab="Duración en horas",
+  pch=c(1,19), col = c("#00AFBB", "#E7B800"))
+
+```
+
+```{r}
+
+# Usamos la función aov () para saber si la duración en horas depende del Herramienta y la Experiencia. La función summary.aov () se utiliza para resumir el modelo de análisis de varianza. También puede Vamos a establecer un nivel de significación (Alpha) de 0.05 para todas las pruebas Anova que se presentan seguidamente.
+
+#ANOVA de dos vías sin interacción de las variables independientes (signo +)
+
+res.aov <- aov(Duracion ~ Herramienta + Experiencia, data = IDE)
+summary(res.aov)
+
+# Q10 ¿Qué información nos da esta prueba ANOVA sin interacción? ¿Depende la duración en horas del Herramienta y/o de la Experiencia?
+
+# R10 
+# El p value de Herramienta es 0.161 > 0.05, el p value de la Experiencia es 3.9×10⁻¹⁰ < 0.001. Por lo tanto, bajo este modelo sin interacción, la duración en horas depende del factor Experiencia pero no depende de la Herramienta (al nivel de significación α=0.05).
+
+```
+
+```{r}
+
+# ANOVA de dos vías con interacción de las variables independientes (signo *)
+
+# Estas dos llamadas son equivalentes
+
+# metodo 1
+res.aov_inter <- aov(Duracion ~ Herramienta * Experiencia, data = IDE)
+summary(res.aov_inter)
+
+# metodo 2
+res.aov_inter2 <- aov(Duracion ~ Herramienta + Experiencia + Herramienta:Experiencia, data = IDE)
+summary(res.aov_inter2)
+
+# Q11 ¿Qué información nos da esta prueba ANOVA con interacción? ¿Depende la duración en horas del Herramienta y/o la Experiencia? ¿Hay interacción entre Experiencia y Herramienta?
+
+# R11
+# La duración depende fuertemente de la Experiencia, pero no de la Herramienta como efecto principal aislado. Sin embargo, sí hay interacción entre Herramienta y Experiencia: el beneficio (o desventaja) de usar VSCode vs IntelliJ depende del nivel de experiencia del programador.
+
+```
+
+```{r}
+
+# Dado que el ANOVA sí encontró interacción entre variables, utilizaremos el modelo que sí incluye la interacción de los factores (res.aov_inter).
+
+# La prueba la podemos realizar indicando que se quiere comparar solo los niveles del factor “Experiencia”.
+
+TukeyHSD(res.aov_inter , which = "Experiencia")
+
+# El gráfico de intervalos de confianza para la variable Experiencia sería:
+
+par(mar = c(2, 6, 2, 2))
+plot(TukeyHSD(res.aov, conf.level=.95, which = "Experiencia"), las = 1)
+
+# Q12 ¿Qué se puede deducir del Tukey anterior sobre el factor Experiencia?
+
+# R12
+# Del análisis post-hoc de Tukey se deduce que solo el nivel “Ava” se diferencia significativamente de los otros dos; en cambio, no existe diferencia significativa entre “Nov” e “Int”.
+
+```
+
+```{r}
+
+# También realizamos múltiples comparaciones para los niveles de “Herramienta” (que solo son 2
+
+TukeyHSD(res.aov_inter, which = "Herramienta")
+
+#Q13 ¿Tiene sentido analizar las comparaciones múltiples de “Herramienta”?
+
+# R13
+# Dado que el factor Herramienta solo tiene dos niveles, la comparación múltiple de Tukey no aporta información nueva: la única comparación obtenida (VSCode vs IntelliJ) es equivalente a un contraste t o al término F del ANOVA
+
+```
+
+```{r}
+
+# Realizamos comparaciones Tukey para el modelo con interacción. Estas comparaciones múltiples incluyen las pruebas recién hechas para “Experiencia” y “Herramienta” y además agregan la información de las combinaciones de Experiencia y Herramienta.
+
+TukeyHSD(res.aov_inter)
+
+# Q14 Presenta la parte de los resultados con las combinaciones Hertamienta:Experiencia, señalando en cuáles comparaciones de tratamientos sí hay diferencia significativa.
+
+#R14
+# El factor Experiencia —y en particular el nivel “Avanzado”— es el que realmente distingue los tiempos de codificación, y que la interacción muestra que ese efecto varía levemente según la herramienta pero siempre a favor de los más experimentados.
+
+```
+
+```{r}
+
+# Verificación de supuestos
+
+# Normalidad
+
+# Para verificar la normalidad de los residuales construiremos un gráfico de histograma y un gráfico QQ.
+
+hist(res.aov_inter$residuals)
+
+qqnorm(res.aov_inter$residuals)
+qqline(res.aov_inter$residuals)
+
+# Q15 ¿Qué puede deducir de los gráficos anteriores? ¿Parecen seguir una distribución normal?
+
+# R15
+# Del histograma se aprecia una distribución de los residuales aproximadamente simétrica en torno a cero y con forma de “campana”, sin sesgos evidentes. En el Q-Q plot, la mayoría de los puntos caen muy cerca de la línea recta, indicando que los cuantiles empíricos de los residuales coinciden bien con los cuantiles teóricos de una normal. Solo en los extremos hay ligeras desviaciones, pero no suficientes para rechazar la normalidad. En conjunto, los residuales parecen seguir razonablemente una distribución normal.
+
+```
+
+```{r}
+
+# También se ejecuta una prueba Shapiro Wilks
+
+shapiro.test(res.aov_inter$residuals)
+
+# Q16 ¿Siguen los residuales una distribución normal? Justifique su respuesta.
+
+# R16
+# El estadístico de Shapiro–Wilk arroja W = 0.9805 con p-valor = 0.4497. Como este p-valor es mayor que α = 0.05, no rechazamos la hipótesis nula de normalidad. Por lo tanto, podemos concluir que no hay evidencia suficiente para afirmar que los residuales no sigan una distribución normal; es razonable asumir normalidad.
+
+```
+
+```{r}
+
+# Independencia
+# Puede graficar los residuales para ver si se presentan patrones. También puede usar el hecho de que las observaciones fueron correctamente aleatorizadas.
+
+plot(res.aov_inter$residuals)
+
+#Q17 ¿Dado el gráfico anterior podría intuir que son independientes?
+
+# R17
+# Del diagrama de residuales frente al índice se observa un patrón aleatorio: los puntos se dispersan sin formar tendencia ascendente, descendente ni agrupamientos sistemáticos a lo largo de las observaciones. Esto sugiere que no hay dependencia temporal u ordenada entre residuales, por lo que podemos intuir independencia de las observaciones.
+
+```
+
+```{r}
+
+# Homogeneidad de varianzas
+
+# Se grafican los residuales versus los valores ajustados (fitted). Se puede ejecutar el comando en R plot ( ), que genera 4 gráficos, o señalar específicamente cuál gráfico desplegar (en este caso el 1).
+
+plot(res.aov_inter, 1)
+
+# Q18 ¿Dado el gráfico anterior se podría intuir que las varianzas son homogéneas?
+
+# R18
+# En el gráfico de residuales vs. valores ajustados no se aprecia un patrón de “embudo” (no hay aumento o disminución sistemática de la dispersión de los residuales a lo largo de los fitted). Los puntos se distribuyen en una banda horizontal de manera más o menos uniforme, sin que las varianzas locales parezcan diferir notablemente.
+
+```
+
+```{r}
+
+# También se ejecuta la prueba de Bartlett, dado que ya se probó normalidad. 
+
+inter <- interaction(IDE$Experiencia, IDE$Herramienta)
+bartlett.test(Duracion ~ inter, data = IDE)
+
+# Q19 ¿Se puede afirmar que las varianzas de los residuales son homogéneas? Explique.
+
+# R19
+# Como este p-valor es mayor que α = 0.05, no rechazamos la hipótesis nula de varianzas iguales entre los grupos (combinaciones de Experiencia × Herramienta). Por tanto, podemos afirmar que no hay evidencia de heterogeneidad de varianzas y que se cumple el supuesto de homocedasticidad.
+
+```
+
+```{r}
+
+# Calculamos ahora el tamaño del efecto. Se puede calcular como SS entre grupos / ( SS total + SS error ) o usar la función etaSquared del paquete lsr.
+
+library(lsr)
+
+etaSquared(res.aov_inter, anova = TRUE)
+
+# Q20 ¿Qué puede decir del tamaño del efecto de cada factor? ¿Y la interacción? Debe usar el valor eta.sq.part, que hace el ajuste cuando son varios factores.
+
+# R20
+# El factor Experiencia tiene con mucho el mayor tamaño de efecto, confirmando que es el principal determinante del tiempo de codificación. La interacción también contribuye de forma notable, mostrando que parte de la varianza se debe a cómo varía el efecto de la herramienta según el nivel de experiencia. El efecto de Herramienta, sin embargo, es pequeño.
+
+```
+
+```{r}
+# Ahora calculamos la potencia de la prubea
+
+library(pwr2)
+
+# Valores de η².part obtenidos con etaSquared()
+etaA <- 0.03892452  # Herramienta
+etaB <- 0.56817880  # Experiencia
+
+# Convertir a f de Cohen:
+fA <- sqrt( etaA / (1 - etaA) )
+fB <- sqrt( etaB / (1 - etaB) )
+
+print(fA)  # ≈ 0.20
+print(fB)  # ≈ 1.15
+
+# Finalmente podemos calcular la potencia de la prueba:
+potencia <- pwr.2way(
+  a = 2, b = 3, alpha = 0.05,
+  size.A = 30, size.B = 20,
+  f.A = fA, f.B = fB
+)
+potencia # 0.77
+
+# Q21 ¿Qué potencia se obtuvo dados los datos de la muestra? ¿Es un valor apropiado para un experimento? 
+
+# R21
+# El experimento tiene potencia adecuada para evaluar el gran efecto de la Experiencia, pero ligeramente insuficiente para evaluar el efecto más pequeño de la Herramienta. Si se quiere reforzar la capacidad de detectar diferencias entre entornos de programación, convendría aumentar el tamaño muestral.
 
 ```
 
