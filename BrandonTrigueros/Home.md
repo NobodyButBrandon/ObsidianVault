@@ -1,6 +1,6 @@
 # te amo c: Brandon Trigueros Vault
 
-## Course of Action
+## Course of Actionm
 [[Course of Action (March24 - July5)]]
 [[CS Roadmap]]
 
