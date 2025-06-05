@@ -15,8 +15,7 @@ Email: ignacio.diazoreiro@ucr.ac.cr
 Office: Annex Building 6-5 (Consultations on Monday 8:00 to 10:00, Thursday 8:00 to 9:00)
 
 **Deadlines**
-Project [[proposal]]. View details in [[EDesign - Project Docs]]
- -> _8-May-2025_
+Project [[proposal]]. View details in [[EDesign - Project Docs]]-> _8-May-2025_
 Project advance -> _5-Jun-2025_  #UNI_DEADLINE 
 Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 
@@ -51,6 +50,9 @@ Project final presentation -> _4-Jul-2025_  #UNI_DEADLINE
 [[EDesign. Laboratorio T-test]]
 [[EDesign. Laboratorio ANOVA de una vía]]
 [[EDesign. Laboratorio ANOVA de dos vías]]
+
+**Project**
+[[CI0131. Proyecto Parte 2 - Avance.pdf]]
 
 # Materials
 __Presentations__

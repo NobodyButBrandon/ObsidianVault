@@ -6,9 +6,9 @@ ___
 #### **Lecture contents:**
 
 #### **Homeworks:**
-Hacer presentación sobre el articulo [[spanner-osdi2012.pdf]] _30-May-2025_ #UNI_TODO Hay que ponerle atención a paxos.
+Hacer presentación sobre el articulo [[spanner-osdi2012.pdf]] _30-May-2025_ Hay que ponerle atención a paxos.
 
-Tarea de Lakehouse y Datalake _30-May-2025_ #UNI_TODO 
+Tarea de Lakehouse y Datalake _30-May-2025_
 
 #### **Teacher notes:**
 
