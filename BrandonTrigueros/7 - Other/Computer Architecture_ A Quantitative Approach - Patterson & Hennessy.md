@@ -4,6 +4,5 @@ Tags: [[computer architecture]]
 # Computer Architecture_ A Quantitative Approach - Patterson & Hennessy
 
 ## Reference
-[[Computer Architecture_ A Quantitative Approach.pdf]]
 ___
 # Syllabus
