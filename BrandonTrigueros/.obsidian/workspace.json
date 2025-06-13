@@ -54,9 +54,19 @@
               "icon": "lucide-file",
               "title": "Home"
             }
+          },
+          {
+            "id": "0ef1acbd7e432520",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -232,12 +242,12 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "0cf51306289d64d1",
+  "active": "0ef1acbd7e432520",
   "lastOpenFiles": [
+    "Home.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/Computer architecture - UCR.md",
-    "Home.md",
     "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
     "7 - Other/UCR 1-2025.md",
     "7 - Other/Experiment design - UCR.md",
