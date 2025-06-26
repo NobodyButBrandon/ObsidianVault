@@ -20,13 +20,8 @@ Round table 2 about "Romeo y Julieta" -> _02-May-2025_
 Round table 3 about "Jauría" -> _16-May-2025_
 Theater tour -> _23-May-2025_
 Artistic expression -> _6-Jun-2025_
-Comenzar con la expresión artística _4-Jun-2025_
-
-Group exhibitions -> From _13-Jun-2025_ #UNI_DEADLINE
-Comenzar a excribir sobre el teatro argentino _12-Jun-2025_ #UNI_TODO
-
-
-Final activity -> _27-Jun-2025_ #UNI_DEADLINE
+Group exhibitions -> From _13-Jun-2025_
+Final activity -> _27-Jun-2025_
   
 **Evaluation**
 

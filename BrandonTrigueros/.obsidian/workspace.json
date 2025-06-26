@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "99828d172e2994f2",
+        "id": "baad291335b79a88",
         "type": "tabs",
         "children": [
           {
-            "id": "4320ef720ebe03e8",
+            "id": "e2b9a6be3041cbe5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "7 - Other/Theatre appreciation - UCR.md",
+                "file": "7 - Other/Experiment design - UCR.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,45 +28,10 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "Theatre appreciation - UCR"
-            }
-          },
-          {
-            "id": "683b5778c7c6c7d9",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "0ef1acbd7e432520",
-            "type": "leaf",
-            "state": {
-              "type": "empty",
-              "state": {},
-              "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Experiment design - UCR"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,11 +184,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 354.5
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -242,19 +207,21 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "0cf51306289d64d1",
+  "active": "e2b9a6be3041cbe5",
   "lastOpenFiles": [
+    "7 - Other/Computer architecture - UCR.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/UCR 1-2025.md",
     "Home.md",
     "7 - Other/Theatre appreciation - UCR.md",
-    "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Computer architecture - UCR.md",
+    "6 - Attachments/Course_Program_SR-0011.pdf",
     "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
-    "7 - Other/UCR 1-2025.md",
-    "7 - Other/Experiment design - UCR.md",
     "7 - Other/Trabajo en Clase.md",
     "6 - Attachments/Cache.bak",
     "6 - Attachments/Course_Program_MA1006.pdf",
-    "7 - Other/Numerical analysis - UCR.md",
     "6 - Attachments/Cache.circ",
     "6 - Attachments/PowerBankaChat.circ",
     "6 - Attachments/CI0131. Proyecto Parte 2 - Avance.pdf",
@@ -266,8 +233,6 @@
     "7 - Other/EDesign. Laboratorio ANOVA de dos vías.md",
     "7 - Other/AdvancedDB 16-May-2025 Lecture.md",
     "6 - Attachments/P06_Resolucion_Sistemas_2.pdf",
-    "7 - Other/Advanced databases - UCR.md",
-    "6 - Attachments/Don’t Get Stuck in the “Con” Game.pdf",
     "7 - Other/EDesign 15-May-2025 Lecture.md",
     "7 - Other/EDesign. Laboratorio ANOVA de una vía.md",
     "7 - Other/EDesign 19-May-2025 Lecture.md",
@@ -279,7 +244,6 @@
     "7 - Other/Practica OLAP.md",
     "7 - Other/Ch3 - Data Warehouse Concepts.md",
     "7 - Other/Drop measure OLAP.md",
-    "7 - Other/Roll-up OLAP.md",
     "6 - Attachments/Pasted Image 20250412191548_591.png",
     "6 - Attachments/Pasted Image 20250412191315_301.png",
     "6 - Attachments/Pasted Image 20250412191119_359.png",
