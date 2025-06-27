@@ -30,8 +30,57 @@
               "icon": "lucide-file",
               "title": "Experiment design - UCR"
             }
+          },
+          {
+            "id": "268ec66d1a8403d4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/Computer architecture - UCR.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Computer architecture - UCR"
+            }
+          },
+          {
+            "id": "fc462001838c7c0a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Home.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Home"
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -184,7 +233,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -207,20 +256,20 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "e2b9a6be3041cbe5",
+  "active": "fc462001838c7c0a",
   "lastOpenFiles": [
     "7 - Other/Computer architecture - UCR.md",
-    "7 - Other/National reality seminar II - UCR.md",
-    "7 - Other/Numerical analysis - UCR.md",
-    "7 - Other/Experiment design - UCR.md",
-    "7 - Other/Advanced databases - UCR.md",
+    "6 - Attachments/Cache.bak",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "7 - Other/Experiment design - UCR.md",
+    "7 - Other/National reality seminar II - UCR.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Theatre appreciation - UCR.md",
     "6 - Attachments/Course_Program_SR-0011.pdf",
     "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
     "7 - Other/Trabajo en Clase.md",
-    "6 - Attachments/Cache.bak",
     "6 - Attachments/Course_Program_MA1006.pdf",
     "6 - Attachments/Cache.circ",
     "6 - Attachments/PowerBankaChat.circ",
