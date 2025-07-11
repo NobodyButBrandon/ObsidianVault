@@ -8,55 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e2b9a6be3041cbe5",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Experiment design - UCR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Experiment design - UCR"
-            }
-          },
-          {
-            "id": "268ec66d1a8403d4",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Computer architecture - UCR.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Computer architecture - UCR"
-            }
-          },
-          {
-            "id": "fc462001838c7c0a",
+            "id": "77087b041dbf6fe4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -80,7 +32,7 @@
             }
           },
           {
-            "id": "7f576716c0bf8c9b",
+            "id": "9010a66838749c65",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -104,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -280,14 +232,17 @@
       "obsidian-task-timeline:Task Timeline": false
     }
   },
-  "active": "7f576716c0bf8c9b",
+  "active": "0cf51306289d64d1",
   "lastOpenFiles": [
     "7 - Other/Numerical analysis - UCR.md",
+    "6 - Attachments/P08_Integracion.pdf",
     "7 - Other/UCR 1-2025.md",
     "Home.md",
+    "6 - Attachments/Course_Program_CI-0120.pdf",
     "7 - Other/Computer architecture - UCR.md",
-    "6 - Attachments/Cache.bak",
     "7 - Other/Experiment design - UCR.md",
+    "6 - Attachments/Course_Program_CI0131.pdf",
+    "6 - Attachments/Cache.bak",
     "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/Advanced databases - UCR.md",
     "7 - Other/Theatre appreciation - UCR.md",
@@ -300,12 +255,9 @@
     "6 - Attachments/CI0131. Proyecto Parte 2 - Avance.pdf",
     "7 - Other/AdvancedDB 20-May-2025 Lecture.md",
     "6 - Attachments/Spanner.pdf",
-    "6 - Attachments/P08_Integracion.pdf",
     "7 - Other/Spanner Google’s Globally-Distributed Database.md",
-    "6 - Attachments/spanner-osdi2012.pdf",
     "7 - Other/EDesign. Laboratorio ANOVA de dos vías.md",
     "7 - Other/AdvancedDB 16-May-2025 Lecture.md",
-    "6 - Attachments/P06_Resolucion_Sistemas_2.pdf",
     "7 - Other/EDesign 15-May-2025 Lecture.md",
     "7 - Other/EDesign. Laboratorio ANOVA de una vía.md",
     "7 - Other/EDesign 19-May-2025 Lecture.md",
