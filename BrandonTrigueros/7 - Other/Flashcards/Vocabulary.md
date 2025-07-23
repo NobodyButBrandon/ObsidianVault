@@ -15,3 +15,5 @@
 [[Completeness]]
 [[gauge]]
 [[forfeit]]
+[[chiefly]]
+[[wherein]]
