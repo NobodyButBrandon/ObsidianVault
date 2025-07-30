@@ -1,10 +1,25 @@
 @echo off
+echo Starting Obsidian with git sync...
+
 REM Ejecuta el script de apertura
-"C:\Program Files\Git\bin\bash.exe" --login -i "C:\Users\Brandon\Documents\ObsidianVault\obsidianopen.sh"
+echo Running git pull...
+"C:\Program Files\Git\bin\bash.exe" "C:\Users\brand\Documents\ObsidianVault\obsidianopen.sh"
+if %ERRORLEVEL% neq 0 (
+    echo Warning: Git pull failed or had issues
+    pause
+)
 
 REM Inicia Obsidian y espera a que se cierre
-start /wait "" "C:\Users\Brandon\AppData\Local\Programs\Obsidian\Obsidian.exe"
+echo Starting Obsidian...
+start /wait "" "C:\Users\brand\AppData\Local\Programs\Obsidian\Obsidian.exe"
 
 REM Ejecuta el script de cierre
-"C:\Program Files\Git\bin\bash.exe" --login -i "C:\Users\Brandon\Documents\ObsidianVault\obsidianclose.sh"
+echo Running git commit and push...
+"C:\Program Files\Git\bin\bash.exe" "C:\Users\brand\Documents\ObsidianVault\obsidianclose.sh"
+if %ERRORLEVEL% neq 0 (
+    echo Warning: Git commit/push failed or had issues
+    pause
+)
+
+echo Done!
 exit
