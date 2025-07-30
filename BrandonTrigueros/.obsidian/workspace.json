@@ -219,11 +219,21 @@
               "type": "task-timeline-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "Task Timeline"
+              "title": "Plugin no longer active"
             }
           },
           {
             "id": "0cf51306289d64d1",
+            "type": "leaf",
+            "state": {
+              "type": "review-queue-list-view",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "Plugin no longer active"
+            }
+          },
+          {
+            "id": "76c2f25287b2bbc5",
             "type": "leaf",
             "state": {
               "type": "review-queue-list-view",
@@ -233,7 +243,7 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -253,8 +263,7 @@
       "homepage:Open homepage": false,
       "obsidian-spaced-repetition:Review flashcards": false,
       "obsidian-excalidraw-plugin:New drawing": false,
-      "translate:Open translation view": false,
-      "obsidian-task-timeline:Task Timeline": false
+      "translate:Open translation view": false
     }
   },
   "active": "9c8e82e0830821f0",

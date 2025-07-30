@@ -1,6 +1,9 @@
 @echo off
 echo Starting Obsidian with git sync...
 
+REM Change to the vault directory
+cd /d "C:\Users\brand\Documents\ObsidianVault"
+
 REM Ejecuta el script de apertura
 echo Running git pull...
 "C:\Program Files\Git\bin\bash.exe" "C:\Users\brand\Documents\ObsidianVault\obsidianopen.sh"
