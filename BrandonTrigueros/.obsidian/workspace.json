@@ -4,83 +4,20 @@
     "type": "split",
     "children": [
       {
-        "id": "baad291335b79a88",
+        "id": "f1bd0f2f2b7bed3f",
         "type": "tabs",
         "children": [
           {
-            "id": "510e23a5a6b9d77f",
+            "id": "465644c98dbff776",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Structure and Interpretation of Computer Programs.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "Structure and Interpretation of Computer Programs"
-            }
-          },
-          {
-            "id": "53568ab05453a48d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Building Abstractions with Procedures.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Building Abstractions with Procedures"
-            }
-          },
-          {
-            "id": "9c8e82e0830821f0",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Home"
+              "title": "New tab"
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -219,7 +156,7 @@
               "type": "task-timeline-view",
               "state": {},
               "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "title": "Task Timeline"
             }
           },
           {
@@ -228,8 +165,8 @@
             "state": {
               "type": "review-queue-list-view",
               "state": {},
-              "icon": "lucide-file",
-              "title": "Plugin no longer active"
+              "icon": "SpacedRepIcon",
+              "title": "Notes Review Queue"
             }
           },
           {
@@ -243,15 +180,15 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 353.5,
-    "collapsed": true
+    "width": 353.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-task-timeline:Task Timeline": false,
       "audio-recorder:Start/stop recording": true,
       "switcher:Open quick switcher": true,
       "graph:Open graph view": true,
@@ -266,15 +203,15 @@
       "translate:Open translation view": false
     }
   },
-  "active": "9c8e82e0830821f0",
+  "active": "465644c98dbff776",
   "lastOpenFiles": [
+    "7 - Other/Structure and Interpretation of Computer Programs.md",
     "7 - Other/Building Abstractions with Procedures.md",
+    "Home.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/wherein.md",
     "7 - Other/chiefly.md",
-    "7 - Other/Structure and Interpretation of Computer Programs.md",
     "3 - Tags/programming.md",
-    "Home.md",
     "7 - Other/Programming.md",
     "7 - Other/CS Roadmap.md",
     "7 - Other/Numerical analysis - UCR.md",
