@@ -43,9 +43,19 @@ Short tests & Lab works -> One every 2 or 3 weeks
 # Activities
 [[Trabajo de laboratorio - Historia de Datos y Power BI]]
 [[Clase asincrónica AdvancedDB 04-Apr-2025]]
-[[Proyecto Data Warehouse]]
 [[Clase asincrónica AdvancedDB 25-Apr-2025]]
 [[Practica OLAP]]
+[[Práctica Introducción a ETL]]
+[[Tablas dinámicas]]
+# Presentations
+[[I-2025 ImportanciaDeLosDatos.pdf]]
+[[I-2025 Historia de los Sistemas de Bases de Datos.pdf]]
+[[I-2025 DW - Introducción.pdf]]
+[[I-2025 ETL.pdf]]
+[[DW - Modelo Conceptual.pdf]]
+[[DW - Metodología para el diseño.pdf]]
+[[BasesDatosDistribuidas.pdf]]
+[[DW - Mapeo al modelo relacional.pdf]]
 
 # Books
 [[Data Warehouse Systems - Vaisman & Zimanyi]]
@@ -55,12 +65,5 @@ Short tests & Lab works -> One every 2 or 3 weeks
 # Materials
 [[ACID]]
 [Business Intelligence: Multidimensional Analysis](https://www.youtube.com/watch?v=IhFkNmVmwn4)
+[[Don’t Get Stuck in the “Con” Game.pdf]]
 
-# Presentations
-[[I-2025 ImportanciaDeLosDatos.pdf]]
-[[I-2025 Historia de los Sistemas de Bases de Datos.pdf]]
-[[I-2025 DW - Introducción.pdf]]
-[[I-2025 ETL.pdf]]
-[[DW - Modelo Conceptual.pdf]]
-[[DW - Metodología para el diseño.pdf]]
-[[BasesDatosDistribuidas.pdf]]
