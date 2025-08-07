@@ -36,6 +36,7 @@ Final activity -> _27-Jun-2025_
 | Group exhibitions                         | 30%        |
 | Final Activity                            | 5%         |
 
-# Lecture notes
-
-# Materials
+[[expresion creativa.jpeg]]
+[[Teatro Latinoamerícano.pdf]]
+[[Comentario sincero sobre el curso.txt]]
+[[instructivo_exposicion_grupal_2025_09.docx]]

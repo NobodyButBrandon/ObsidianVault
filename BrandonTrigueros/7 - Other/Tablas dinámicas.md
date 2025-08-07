@@ -6,3 +6,4 @@ Además debe documentar si logró realizar lo correspondiente a la sección "Usa
 El archivo debe tener como nombre el carnet y el nombre del estudiante.
 
 # Solución
+[Tablas dinámicas](<file:///C:\Users\brand\Documents\ObsidianVault\Folders\Advanced Databases\Tablas dinámicas>)

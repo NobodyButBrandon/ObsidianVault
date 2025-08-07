@@ -1,0 +1,35 @@
+ALTER DATABASE BACKUP CONTROLFILE TO 'C:\app\ecciadm\product\21c\oradata\XE\ctrl_copy.ctl';
+
+ALTER SESSION SET CONTAINER = XEPDB1;
+
+CREATE USER lab_user IDENTIFIED BY lab_user_pass
+    DEFAULT TABLESPACE USERS
+    TEMPORARY TABLESPACE TEMP;
+    
+GRANT CREATE SESSION,
+    CREATE TABLE,
+    CREATE VIEW,
+    CREATE TRIGGER
+TO lab_user;
+
+ALTER USER lab_user QUOTA UNLIMITED ON USERS;
+
+SHOW USER;
+SHOW CON_NAME;
+
+-- cambio
+
+CREATE OR REPLACE DIRECTORY dpump_dir AS 'C:\app\ecciadm\product\21c\oradata\XE\dpump';
+GRANT READ, WRITE ON DIRECTORY dpump_dir TO SYSTEM;
+
+-- cambio
+
+SELECT current_scn FROM v$database;
+-- 2860895
+
+FLASHBACK TABLE employees TO SCN 2860708;
+COMMIT;
+
+
+
+

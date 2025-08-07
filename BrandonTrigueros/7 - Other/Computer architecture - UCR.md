@@ -31,14 +31,13 @@ Final exam -> _03-Jul-2025_
 | Final Exam        | 20%        |
 # Lecture notes
 [[CArchitecture 31-Mar-2025 Lecture]]
+
 # Homeworks
 [[Homework 1 - CPU 4 bits]]
 [[Homework 2 - CPU 8 bits]]
-
-Tarea 4 [[Cache.circ]] _08-Jun-2025_
+[[Cache.circ]]
 
 # Materials
-
 **Textbooks**
 1. [[Computer Architecture_ A Quantitative Approach - Patterson & Hennessy]] _Main_
 2. [[Digital Design and Computer Architecture - Sara Harris]]

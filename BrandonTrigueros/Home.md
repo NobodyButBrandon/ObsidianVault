@@ -6,5 +6,5 @@
 
 [[Structure and Interpretation of Computer Programs]]
 
-## University
+## UCR
 [[UCR 1-2025]]

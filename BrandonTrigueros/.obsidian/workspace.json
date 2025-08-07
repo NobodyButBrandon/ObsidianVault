@@ -8,55 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "521812d296635bda",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Home.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Home"
-            }
-          },
-          {
-            "id": "4fe7914c8161e98b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "7 - Other/Tablas dinámicas.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "Tablas dinámicas"
-            }
-          },
-          {
-            "id": "465644c98dbff776",
+            "id": "86a06dfb3febd241",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -242,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -266,53 +218,53 @@
       "translate:Open translation view": false
     }
   },
-  "active": "521812d296635bda",
+  "active": "86a06dfb3febd241",
   "lastOpenFiles": [
-    "7 - Other/Tablas dinámicas.md",
-    "7 - Other/CS Roadmap.md",
-    "7 - Other/Advanced databases - UCR.md",
-    "7 - Other/Práctica Introducción a ETL.md",
-    "7 - Other/Practica OLAP.md",
-    "7 - Other/Clase asincrónica AdvancedDB 04-Apr-2025.md",
-    "7 - Other/Trabajo de laboratorio - Historia de Datos y Power BI.md",
     "Home.md",
-    "7 - Other/Proyecto Data Warehouse.md",
-    "6 - Attachments/Don’t Get Stuck in the “Con” Game (1).pdf",
-    "6 - Attachments/Don’t Get Stuck in the “Con” Game (1).pdf.crdownload",
-    "6 - Attachments/DW - Mapeo al modelo relacional.pdf",
-    "6 - Attachments/DW - Mapeo al modelo relacional.pdf.crdownload",
     "7 - Other/UCR 1-2025.md",
-    "obsidian_silent.vbs",
-    "7 - Other/Structure and Interpretation of Computer Programs.md",
-    "7 - Other/Building Abstractions with Procedures.md",
-    "7 - Other/Flashcards/Vocabulary.md",
-    "7 - Other/wherein.md",
-    "7 - Other/chiefly.md",
-    "3 - Tags/programming.md",
-    "7 - Other/Programming.md",
-    "7 - Other/Numerical analysis - UCR.md",
-    "7 - Other/Computer architecture - UCR.md",
-    "6 - Attachments/P08_Integracion.pdf",
-    "6 - Attachments/Course_Program_CI-0120.pdf",
-    "7 - Other/Experiment design - UCR.md",
-    "6 - Attachments/Course_Program_CI0131.pdf",
-    "6 - Attachments/Cache.bak",
-    "7 - Other/National reality seminar II - UCR.md",
     "7 - Other/Theatre appreciation - UCR.md",
-    "6 - Attachments/Course_Program_SR-0011.pdf",
-    "7 - Other/Computer Architecture_ A Quantitative Approach - Patterson & Hennessy.md",
+    "6 - Attachments/instructivo_exposicion_grupal_2025_09.docx",
+    "6 - Attachments/Comentario sincero sobre el curso.txt",
+    "6 - Attachments/Teatro Latinoamerícano.pdf",
+    "6 - Attachments/expresion creativa.jpeg",
+    "6 - Attachments/WhatsApp Image 2025-06-07 at 3.40.40 PM.jpeg",
+    "7 - Other/National reality seminar II - UCR.md",
+    "7 - Other/EDesign Classwork 2.md",
+    "7 - Other/Numerical analysis - UCR.md",
+    "6 - Attachments/PuntoFijo_Newton_Secante.pdf",
+    "6 - Attachments/Rubrica_TrabFinal.pdf",
+    "7 - Other/CS Roadmap.md",
+    "7 - Other/Computer architecture - UCR.md",
+    "6 - Attachments/Sol_Quiz1.pdf",
+    "7 - Other/Experiment design - UCR.md",
+    "6 - Attachments/CI0131. Etica y Recolección de Datos 2025.pdf",
+    "6 - Attachments/CI0131. Etica y Recolección de Datos 2025.pdf.crdownload",
+    "6 - Attachments/CI0131. 12. Diseños 2k 2025.pdf",
+    "6 - Attachments/CI0131. 12. Diseños 2k 2025.pdf.crdownload",
+    "7 - Other/CI0131. Lab 7. Regresión Lineal.md",
     "7 - Other/Trabajo en Clase.md",
-    "7 - Other/AdvancedDB 20-May-2025 Lecture.md",
-    "7 - Other/Spanner Google’s Globally-Distributed Database.md",
+    "7 - Other/EDesign. Laboratorio T-test.md",
+    "7 - Other/Advanced databases - UCR.md",
+    "7 - Other/Laboratorio de Redis.md",
+    "7 - Other/Proyecto Data Warehouse.md",
+    "3 - Tags/scientific computation.md",
+    "4 - Templates/Class Lecture Note.md",
     "6 - Attachments/Pasted Image 20250412191548_591.png",
-    "6 - Attachments/Pasted Image 20250412191315_301.png",
-    "6 - Attachments/Pasted Image 20250412191119_359.png",
-    "6 - Attachments/Pasted Image 20250412191010_079.png",
     "6 - Attachments/Pasted Image 20250412190835_295.png",
-    "6 - Attachments/Pasted Image 20250412185850_862.png",
+    "6 - Attachments/Pasted Image 20250412191119_359.png",
     "6 - Attachments/Pasted image 20250410095342.png",
-    "6 - Attachments/Pasted image 20250318090530.png",
-    "6 - Attachments/Pasted image 20250318090416.png",
-    "6 - Attachments/Pasted image 20250318085945.png"
+    "6 - Attachments/Pasted Image 20250412191315_301.png",
+    "6 - Attachments/Pasted Image 20250412191010_079.png",
+    "7 - Other/Proyecto 1-2025.md",
+    "6 - Attachments/Pasted Image 20250412185850_862.png",
+    "7 - Other/EDesign. Análisis Exploratorio de Datos y Gráficos en R.md",
+    "7 - Other/Nota final.md",
+    "7 - Other/CI0131. Proyecto Parte 1 - Propuesta.pdf.md",
+    "7 - Other/EDesign Classwork 1.md",
+    "7 - Other/EDesign. Laboratorio RStudio Básico.md",
+    "7 - Other/Laboratorio Cassandra.md",
+    "7 - Other/Laboratorio MongoDB.md",
+    "Tarea corta sobre Edge/Fog Computing.md",
+    "6 - Attachments/Pasted image 20250318090530.png"
   ]
 }

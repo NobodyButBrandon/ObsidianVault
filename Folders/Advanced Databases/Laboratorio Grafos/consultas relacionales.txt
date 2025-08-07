@@ -1,0 +1,14 @@
+Consulta e: Obtener todas las personas que escribieron películas.
+
+SELECT DISTINCT p.name
+FROM Person p
+JOIN Wrote w ON p.id = w.person_id;
+
+
+Consulta g: Obtener todas las personas que dirigieron una película y también actuaron en ella.
+
+SELECT DISTINCT p.name
+FROM Person p
+JOIN Directed d ON p.id = d.person_id
+JOIN ActedIn a ON p.id = a.person_id
+WHERE d.movie_id = a.movie_id;

@@ -23,7 +23,7 @@ Estudiar para examen 2 _21-May-2025_
 Research presentation -> _23-Jun-2025_
 
 Quiz 3 -> _27-Jun-2025_
-Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
+Exam 3 -> _05-Jul-2025_
 
 **Evaluation**
 
@@ -34,6 +34,7 @@ Exam 3 -> _05-Jul-2025 #UNI_DEADLINE
 | Exam 3            | 25%        |
 | Research work     | 10%        |
 | Short tests       | 15%        |
+|                   |            |
 
 #  Lecture notes
 [[MATLAB exercises - 18-Mar-2025]]
@@ -58,6 +59,7 @@ ___
 	[[Solución numérica de ecuaciones no lineales.pdf]]
 	[[PuntoFijo_Newton_Secante_RegulaFalsi_Orden.pdf]]
 	[[Metodos_iterativos.pdf]]
+	[[PuntoFijo_Newton_Secante.pdf]]
 ___
 **M de León Presentations**
 	[[P01.pdf]]
@@ -75,3 +77,8 @@ ___
 	[[Métodos numéricos con Matlab.pdf]]
 	[[Mario de León folleto MA1006.pdf]]
 	[[ApuntesMatlab_Echeverria.pdf]]
+
+ **Others**
+ [[Sol_Quiz1.pdf]]
+ [[Rubrica_TrabFinal.pdf]]
+ [[Apuntes_Consulta_03-04-2025.pdf]]
