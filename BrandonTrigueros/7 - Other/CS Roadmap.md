@@ -30,9 +30,7 @@
 - **Recursos**:
     
     - MIT 6.042J _Mathematics for Computer Science_ (notas y videos OCW) [Reddit](https://www.reddit.com/r/math/comments/17hhxhs/math_for_computer_science_roadmap_everything_you/?utm_source=chatgpt.com)
-        
     - Tutoriales en GeeksforGeeks de Discrete Math para CS [GeeksforGeeks](https://www.geeksforgeeks.org/discrete-mathematics-tutorial/?utm_source=chatgpt.com)
-        
 
 > **Por qué no empezar sólo con matemáticas**: sin práctica de código, la abstracción matemática carece de contexto práctico; la programación brinda esa aplicación inmediata. [GitHub](https://github.com/ossu/computer-science?utm_source=chatgpt.com)
 
@@ -52,12 +50,11 @@ Cada bloque incluye **libro**, **videos** y **proyecto**:
     
     - MIT 6.042J notas + OCW videos [Reddit](https://www.reddit.com/r/math/comments/17hhxhs/math_for_computer_science_roadmap_everything_you/?utm_source=chatgpt.com)
         
-    - **Proyecto**: implementar algoritmos de grafos (BFS/DFS, Dijkstra) y probar combinatoria con código.
+    - **Proyecto**: implementar algoritmos de grafos (BFS/DFS, Dijkstra) y probar combinatoria con código. Conocer varios tipos de pruebas
         
 3. **Algoritmos y Estructuras de Datos**
     
     - _The Algorithm Design Manual_ (Skiena) + Coursera de Roughgarden [Reddit](https://www.reddit.com/r/learnprogramming/comments/gsansp/my_55step_selftaught_cs_curriculum_updated/?utm_source=chatgpt.com)
-        
     - **Proyecto**: 100 ejercicios en LeetCode y desarrollo de librería propia de estructuras.
         
 4. **Arquitectura de Computadores**

@@ -11,10 +11,24 @@
             "id": "465644c98dbff776",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "7 - Other/CS Roadmap.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "CS Roadmap"
             }
           }
         ]
@@ -180,7 +194,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -205,9 +219,10 @@
   },
   "active": "465644c98dbff776",
   "lastOpenFiles": [
+    "obsidian_silent.vbs",
+    "Home.md",
     "7 - Other/Structure and Interpretation of Computer Programs.md",
     "7 - Other/Building Abstractions with Procedures.md",
-    "Home.md",
     "7 - Other/Flashcards/Vocabulary.md",
     "7 - Other/wherein.md",
     "7 - Other/chiefly.md",
@@ -240,7 +255,6 @@
     "7 - Other/EDesign 15-May-2025 Lecture.md",
     "7 - Other/EDesign. Laboratorio ANOVA de una vía.md",
     "7 - Other/EDesign 19-May-2025 Lecture.md",
-    "7 - Other/Data Warehouse Systems - Vaisman & Zimanyi.md",
     "6 - Attachments/Pasted Image 20250412191548_591.png",
     "6 - Attachments/Pasted Image 20250412191315_301.png",
     "6 - Attachments/Pasted Image 20250412191119_359.png",
